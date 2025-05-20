@@ -13,6 +13,7 @@ The site is designed for users who want a thought-provoking yet entertaining way
 - [User Goals](#user-goals)
 - [User Stories](#user-stories)
 - [Website Goals & Objectives](#website-goals--objectives)
+- [Wireframes](#)
 - [Design Choices](#)
   - [Typography](#)
   - [Colour Scheme](#)
