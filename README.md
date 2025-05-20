@@ -12,7 +12,7 @@ The site is designed for users who want a thought-provoking yet entertaining way
 ### [Contents](#)
 - [User Goals](#user-goals)
 - [User Stories](#user-stories)
-- [Website Goals & Objectives](#)
+- [Website Goals & Objectives](#website-goals--objectives)
 - [Design Choices](#)
   - [Typography](#)
   - [Colour Scheme](#)
@@ -60,3 +60,19 @@ The site is designed for users who want a thought-provoking yet entertaining way
 - As a user, I want the site to prompt reflection on my relationship with technology and authority so I can analyse my own reliance from a new perspective in a *light-hearted way*. 
 - As a user, I want use the site as a creative teaching or research tool so I can explain or explore *1984* in a different format.
 - As a user, I want the design to include thoughtful visuals so I can see how design enhances storytelling and concept delivery.
+
+## Website Goals & Objectives
+**Primary Goals:**
+  - Create a responsive, accessible, and user-friendly experience.
+  - Design consistent layout and reusable components across muliple pages and/or sections.
+  - Ensure performance, usability, and mobile responsiveness.
+  - Engage users with thought-provoking content and creative visuals.
+  - Present Orwellian themes through a modern, satirical lens.
+  - Encourage light-hearted reflection on surveillance, censorship, and digital obedience.
+  - Showcase front-end development and UX storytelling skills.
+
+**Secondary Goals:**
+  - Maintain a tone that educates whilst entertains.
+  - Support use in educational or classroom settings.
+  - Create a project that demonstrates narrative and technical skills.
+  - Keep the site scalable for future additions (e.g. new sections or interactive features).
