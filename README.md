@@ -11,7 +11,7 @@ The site is designed for users who want a thought-provoking yet entertaining way
 
 ### [Contents](#)
 - [User Goals](#user-goals)
-- [User Stories](#)
+- [User Stories](#user-stories)
 - [Website Goals & Objectives](#)
 - [Design Choices](#)
   - [Typography](#)
@@ -51,3 +51,12 @@ The site is designed for users who want a thought-provoking yet entertaining way
 - Reflect on their own and society's relationship with technology and authority through satire.
 - Use the site as a resource for teaching, learning, research, or creative inspiration.
 - Appreciate thoughtful design that enhances storytelling and concept delivery.
+
+## User Stories
+- As a user, I want to navigate the site with ease so that I can find content without friction or confusion.
+- As a user, I want the background to be clean and minimal so I can focus on the content without distractions.
+- As a user, I want to understand how Orwell's themes relate to today's society so I can make meaningful connections between fiction and reality.
+- As a user, I want to explore Orwell's themes in a humorous and engaging way so that learning feels enjoyable. 
+- As a user, I want the site to prompt reflection on my relationship with technology and authority so I can analyse my own reliance from a new perspective in a *light-hearted way*. 
+- As a user, I want use the site as a creative teaching or research tool so I can explain or explore *1984* in a different format.
+- As a user, I want the design to include thoughtful visuals so I can see how design enhances storytelling and concept delivery.
