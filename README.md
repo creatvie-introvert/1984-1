@@ -10,7 +10,7 @@ The site is designed for users who want a thought-provoking yet entertaining way
 > _add a screenshot of the site showing desktop, tablet and mobile views_
 
 ### [Contents](#)
-- [User Goals](#)
+- [User Goals](#user-goals)
 - [User Stories](#)
 - [Website Goals & Objectives](#)
 - [Design Choices](#)
@@ -42,3 +42,12 @@ The site is designed for users who want a thought-provoking yet entertaining way
   - [How to Fork the Project](#)
   - [How to clone the Project](#)
 - [Credits](#)
+
+## User Goals
+- Navigate the site easily with user-friendly, intuitive structure.
+- Engage with content against a clean, non-distracting background.
+- Understand Orwellian concepts of surveillance, censorship, and misinformation, and how they relate to today's society.
+- Explore Orwellian themes in a creative, humourous, and engaging format.
+- Reflect on their own and society's relationship with technology and authority through satire.
+- Use the site as a resource for teaching, learning, research, or creative inspiration.
+- Appreciate thoughtful design that enhances storytelling and concept delivery.
