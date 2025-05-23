@@ -86,3 +86,28 @@ The site is designed for users who want a thought-provoking yet entertaining way
   [Tablet wireframes](assets/docs/tablet-wf.png)
 
   [Laptop wireframes](assets/docs/desktop-wf.png)
+
+  ## Design Choices
+  The design 1984.1 was guided by the project's satirica tone and its central theme: a modern dystopia rooted in everyday London. Each visual choice - from colours and typography to layout and imagery - was made to reinforce the atmosphere of institutional control, passive surveillance, and curated obedience, while ensuring readability and responsive ness across aall devices.
+
+  These choices reflect the design intent at the start of development and may be refined further based on how they perform on the live site.
+
+  ### Typography
+  **Headings:** Unioca One - chosen for its rigid, institutiona;l feel
+  **Body Text:** Inter - clean, modern, and supports long critical copy
+
+  The typography choices made are to evoke state-issued documents and public sector websites.
+
+  ### Colour SCheme
+  A limited 5-colour palette was used to create a stark, modernist aesthetic. The colours were chosen to reflect both the physical urban environment of London and the emotional tone of passive control.
+
+  ### Responsiveness
+  To ensure the site worked effectively across all devices, I followed a **mobile-first approach**, starting with wireframes for small screens and scaling up to tablet and desktop.
+
+  I used **Relume's layout library for inspiration** for designing my wireframes. All layouts were custom built and adapted to fit the tone, content, and style of 1984.1
+
+  ### Images
+  > _add image design choices_
+  
+
+
