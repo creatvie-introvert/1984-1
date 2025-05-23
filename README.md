@@ -19,30 +19,30 @@ The site is designed for users who want a thought-provoking yet entertaining way
   - [Colour Scheme](#colour-scheme)
   - [Responsiveness](#responsiveness)
   - [Images](#images)
-- [Features](#)
-  - [Navigation](#)
-  - [Footer](#)
+- [Features](#features)
+  - [Navigation](#navigation)
+  - [Footer](#footer)
   - > _add more features here_
-- [Technologies Used](#)
-  - [Languages](#)
-  - [Libraries & Frameworks](#)
-  - [Tools](#)
-- [Testing](#)
-  - [Bugs Fixed](#)
-  - [Responsiveness Tests](#)
-  - [Code Validation](#)
-    - [HTML](#)
-    - [CSS](#)
-  - [User Story Testing](#)
-  - [Feature Testing](#)
-  - [Accessibility Testing](#)
-  - [Lighthouse Testing](#)
-  - [Browser Testing](#)
-- [Deployment](#)
-  - [How to Deploy the Project](#)
-  - [How to Fork the Project](#)
-  - [How to clone the Project](#)
-- [Credits](#)
+- [Technologies Used](#technologies-used)
+  - [Languages](#languages)
+  - [Libraries & Frameworks](#libraries-&-frameworks)
+  - [Tools](#tools)
+- [Testing](#testing)
+  - [Bugs Fixed](#bugs-fixed)
+  - [Responsiveness Tests](#responsiveness-tests)
+  - [Code Validation](#code-validation)
+    - [HTML](#html)
+    - [CSS](#css)
+  - [User Story Testing](#user-story-testing)
+  - [Feature Testing](#feature-testing)
+  - [Accessibility Testing](#accessibility-testing)
+  - [Lighthouse Testing](#lighthouse-testing)
+  - [Browser Testing](#browser-testing)
+- [Deployment](#deployment)
+  - [How to Deploy the Project](#how-to-deploy-the-project)
+  - [How to Fork the Project](#how-to-fork-the-project)
+  - [How to clone the Project](#how-to-clone-the-project)
+- [Credits](#credits)
 
 ## User Goals
 - Navigate the site easily with user-friendly, intuitive structure.
@@ -114,5 +114,30 @@ The site is designed for users who want a thought-provoking yet entertaining way
   ### Images
   > _add image design choices_
 
+## Features
+### Navigation
+### Footer
 
+> _add more features here_
 
+## Technologies Used
+### Languages
+### Libraries & Frameworks
+### Tools
+
+## Testing
+### Bugs Fixed
+### Responsiveness Tests
+### Code Validation
+#### HTML
+#### CSS
+### User Story Testing
+#### Feature Testing
+#### Accessibility Testing
+#### Lighthouse Testing
+#### Browser Testing
+### Deployment
+#### How to Deploy the Project
+#### How to Fork the Project
+#### How to clone the Project
+## Credits
