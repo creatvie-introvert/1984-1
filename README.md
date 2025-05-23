@@ -77,3 +77,7 @@ The site is designed for users who want a thought-provoking yet entertaining way
   - Support use in educational or classroom settings.
   - Create a project that demonstrates narrative and technical skills.
   - Keep the site scalable for future additions (e.g. new sections or interactive features).
+
+  ## Wireframes
+  To plan the structure and layout of the site, I created fow-fidelity wireframes using **Figma**. My process began with a **mobile-first design**, ensuring responsiveness and usability on smaller screeens before scaling up. I then adapted the layouts for **tablet** and finally for **laptop/desktop** viewports, making design choices that preserve visual hierachy and accessibility across all devices.
+  
