@@ -17,8 +17,8 @@ The site is designed for users who want a thought-provoking yet entertaining way
 - [Design Choices](#)
   - [Typography](#)
   - [Colour Scheme](#)
-  - [Images](#)
   - [Responsiveness](#)
+  - [Images](#)
 - [Features](#)
   - [Navigation](#)
   - [Footer](#)
@@ -98,8 +98,13 @@ The site is designed for users who want a thought-provoking yet entertaining way
 
   The typography choices made are to evoke state-issued documents and public sector websites.
 
-  ### Colour SCheme
-  A limited 5-colour palette was used to create a stark, modernist aesthetic. The colours were chosen to reflect both the physical urban environment of London and the emotional tone of passive control.
+  ![Typography Styles](assets/docs/typography.png)
+
+  ### Colour Scheme
+  A limited 5-colour palette was used to create a stark, modernist aesthetic. The colours were chosen to reflect both the physical urban environment of London and the emotional tone of passive control. I used [Coolers](https://coolors.co/) to explore combinations and define a cohesive colour palette.
+
+  ![Colour Scheme](assets/docs/colours.png)
+
 
   ### Responsiveness
   To ensure the site worked effectively across all devices, I followed a **mobile-first approach**, starting with wireframes for small screens and scaling up to tablet and desktop.
@@ -108,6 +113,6 @@ The site is designed for users who want a thought-provoking yet entertaining way
 
   ### Images
   > _add image design choices_
-  
+
 
 
