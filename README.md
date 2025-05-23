@@ -80,4 +80,9 @@ The site is designed for users who want a thought-provoking yet entertaining way
 
   ## Wireframes
   To plan the structure and layout of the site, I created fow-fidelity wireframes using **Figma**. My process began with a **mobile-first design**, ensuring responsiveness and usability on smaller screeens before scaling up. I then adapted the layouts for **tablet** and finally for **laptop/desktop** viewports, making design choices that preserve visual hierachy and accessibility across all devices.
-  
+
+  [Mobile wireframes](assets/docs/mobile-wf.png)
+
+  [Tablet wireframes](assets/docs/tablet-wf.png)
+
+  [Laptop wireframes](assets/docs/desktop-wf.png)
