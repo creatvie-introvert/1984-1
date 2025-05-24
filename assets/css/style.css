@@ -26,6 +26,7 @@ h3 {
 /* Custom buttons */
 .primary-cta {
     background-color: var(--ctas-highlights);
+    border-radius: 0;
     color: var(--cta-text);
     font-weight: 700;
 }
@@ -37,7 +38,15 @@ h3 {
 }
 
 /* Nav bar styles */
+#navbar {
+    background-color: var(--page-bg);
+}
+
 .logo {
     width: 4.8rem;
     height: 4.8rem;
+}
+
+#navbar .navbar-toggler {
+    border-radius: 0;
 }
