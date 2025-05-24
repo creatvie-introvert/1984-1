@@ -92,6 +92,10 @@ footer p {
     margin-right: 1rem;
 }
 
+.social-links a:hover {
+    color: var(--link-text);
+}
+
 .footer-nav li {
     margin-bottom: 0.8rem;
 }
