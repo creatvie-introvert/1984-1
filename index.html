@@ -41,7 +41,7 @@
 
 </head>
 
-<body>
+<body class="d-flex flex-column min-vh-100">
     <!-- Navigation bar -->
     <nav id="navbar" class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
         <div class="container-fluid mx-lg-5">
@@ -78,11 +78,34 @@
         </div>
     </nav>
 
-    <header></header>
+    <header id="header" class="hero bg-dark text-light py-5 ">
+        <div class="container px-3 px-lg-5">
+            <div class="row align-items-center">
+                <!-- Text column -->
+                <div class="col-12 col-lg-6 text-start mb-5 mb-lg-0">
+                    <!-- Heading -->
+                    <h1 class="fw-bold mb-3">Welcome to 1984.1<br>
+                        Your Favourite Dystopia —<br>
+                        <small class="h4">Now With Targeted Ads!</small>
+                    </h1>
+                    <p class="lead mb-4">Big Brother’s watching. So is your phone, fridge, and probably your nan’s
+                        toaster.<br>
+                        This is satire for the surveillance age — a London-flavoured deep dive into Orwell’s 1984.<br>
+                        Laugh. Learn. Obey.</p>
+                    <!-- Button full width on mobile -->
+                    <a href="#" class="btn primary-cta btn-lg w-100 w-md-auto">Welcome to London</a>
+                </div>
+
+                <div class="col-12 col-lg-6">
+                    <img src="assets/images/london-skyline.png" alt="London skyline" class="image-fluid">
+                </div>
+            </div>
+        </div>
+    </header>
 
     <main></main>
 
-    <footer class="mt-auto bg-dark py-4">
+    <footer id="footer" class="mt-auto bg-dark py-4">
         <div class="container mx-lg-5">
             <div class="container-md">
                 <div class="row align-items-center">
@@ -132,18 +155,18 @@
                     <hr class="border-black my-4">
 
                     <div>
-                    <ul class="legal-links small d-md-flex flex-md-row list-unstyled gap-3 justify-content-end">
-                        <li><a href="#">Terms of Obedience</a></li>
-                        <li><a href="#">Personal Data Surrender Policy</a></li>
-                        <li><a href="#">Cookie Awareness Notice</a></li>
-                    </ul>
+                        <ul class="legal-links small d-md-flex flex-md-row list-unstyled gap-3 justify-content-end">
+                            <li><a href="#">Terms of Obedience</a></li>
+                            <li><a href="#">Personal Data Surrender Policy</a></li>
+                            <li><a href="#">Cookie Awareness Notice</a></li>
+                        </ul>
 
-                    <p class="small">© 2025 Ministry of Truth. All loyalties reserved.</p>
+                        <p class="small">© 2025 Ministry of Truth. All loyalties reserved.</p>
 
-                    <p class="small">This website is a fictional project inspired by the novel 1984 by George
-                        Orwell. It is intended for educational and satirical purposes only. This project is not
-                        affiliated with or endorsed by the Orwell estate, publishers, or any official organisations.
-                    </p>
+                        <p class="small">This website is a fictional project inspired by the novel 1984 by George
+                            Orwell. It is intended for educational and satirical purposes only. This project is not
+                            affiliated with or endorsed by the Orwell estate, publishers, or any official organisations.
+                        </p>
                     </div>
                 </div>
             </div>

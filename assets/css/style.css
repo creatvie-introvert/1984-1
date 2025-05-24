@@ -15,6 +15,7 @@
 /* Font styles */
 body {
     font-family: var(--primary-font);
+    /* background-color: var(--page-bg); */
 }
 
 h1,
@@ -37,6 +38,12 @@ ul {
     padding-left: 0;
 }
 
+.section {
+    background-color: var(--page-bg);
+    color: var(--primary-text);
+    padding: 24px;
+}
+
 /* Custom buttons */
 .primary-cta {
     background-color: var(--ctas-highlights);
@@ -53,7 +60,7 @@ ul {
 
 /* Nav bar styles */
 #navbar {
-    background-color: var(--page-bg);   /* match bg-color to page colour */
+    background-color: var(--page-bg) !important;   /* set bg-color */
 }
 
 .logo {
@@ -78,6 +85,9 @@ ul {
 }
 
 /* Footer styles */
+#footer {
+    background-color: var(--page-bg) !important;
+}
 footer p {
     color: var(--primary-text);
 }
