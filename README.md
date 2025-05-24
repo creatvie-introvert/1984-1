@@ -93,12 +93,18 @@ The site is designed for users who want a thought-provoking yet entertaining way
   These choices reflect the design intent at the start of development and may be refined further based on how they perform on the live site.
 
   ### Typography
-  **Headings:** Unioca One - chosen for its rigid, institutiona;l feel
-  **Body Text:** Inter - clean, modern, and supports long critical copy
+  **Headings:** *Unioca One* - chosen for its rigid, institutional feel, evoking the aesthetic of public notices and government-issued warnings.
 
-  The typography choices made are to evoke state-issued documents and public sector websites.
+  **Body Text:** *Inter* - selected for its clean, modern readability and versatility across devices, supporting long-form critical copy without distraction.
+
+  The typography aims to reflect the visual language of public sector communication, reinforcing the site's satirical tone.
+
+  To optimise performance:
+  - Fonts are loaded using a `<link>` in the HTML `<head>` instead of `@import`, which improves page rendering speed.
+  - Added `rel="Preconnect"` directives for Google Fonts domains to reduce DNS lookup time nd latency during font loading.
 
   ![Typography Styles](assets/docs/typography.png)
+
 
   ### Colour Scheme
   A limited 5-colour palette was used to create a stark, modernist aesthetic. The colours were chosen to reflect both the physical urban environment of London and the emotional tone of passive control. I used [Coolers](https://coolors.co/) to explore combinations and define a cohesive colour palette.
@@ -135,6 +141,11 @@ The site is designed for users who want a thought-provoking yet entertaining way
 #### Feature Testing
 #### Accessibility Testing
 #### Lighthouse Testing
+Performance testing was carried out using Lighthouse in Chrome DevTools.
+
+**Performance Testing Summary:**
+- **Fonts loaded using `<link>` in `<head>`** instead of `@import`, improving initial render speed.
+- **Preconnect hints added** for Google Fonts.
 #### Browser Testing
 ### Deployment
 #### How to Deploy the Project
