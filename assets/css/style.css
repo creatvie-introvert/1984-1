@@ -27,7 +27,7 @@ h3 {
 .primary-cta {
     background-color: var(--ctas-highlights);
     border-radius: 0;
-    color: var(--cta-text);
+    color: var(--cta-text) !important; /* add important so it isnt overridden */
     font-weight: 700;
 }
 
@@ -39,7 +39,7 @@ h3 {
 
 /* Nav bar styles */
 #navbar {
-    background-color: var(--page-bg);
+    background-color: var(--page-bg);   /* match bg-color to page colour */
 }
 
 .logo {
@@ -48,5 +48,17 @@ h3 {
 }
 
 #navbar .navbar-toggler {
-    border-radius: 0;
+    border-radius: 0;   /* remove Bootstraps default border-radius */
+}
+
+#navbar .nav-link {
+    color: var(--primary-text);
+}
+
+#navbar .nav-link:hover {
+    color: var(--ctas-highlights);
+}
+
+#navbar .active {
+    text-decoration: underline;
 }
