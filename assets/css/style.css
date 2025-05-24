@@ -4,8 +4,8 @@
 
     --page-bg: #1E1E1E; 
     --primary-text: #EAEAEA;
-    --link-text: #2F80ED;
-    --alerts: #B11226;
+    --link-text: #5FAFFF;
+    --alerts: #cf382a;
     --cta-text: #000;
     --ctas-highlights: #FFDD2D;
 }
@@ -79,7 +79,7 @@ ul {
 
 /* Footer styles */
 footer p {
-    color: var(--alerts);
+    color: var(--primary-text);
 }
 
 .social-links {
