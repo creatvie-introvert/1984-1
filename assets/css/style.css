@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Unica+One&display=swap');
-
 :root {
     --primary-font: 'Inter', sans-serif;  /* use for main text */
     --secondary-font: 'Unica One', sans-serif;  /* use for header text */
