@@ -26,10 +26,15 @@ h3 {
 /* Base a styles */
 a {
     color: var(--link-text);
+    text-decoration: none;
 }
 
 a:hover {
     color: var(--ctas-highlights);
+}
+
+ul {
+    padding-left: 0;
 }
 
 /* Custom buttons */
@@ -70,4 +75,27 @@ a:hover {
 
 #navbar .active {
     text-decoration: underline;
+}
+
+/* Footer styles */
+footer p {
+    color: var(--alerts);
+}
+
+.social-links {
+    margin-bottom: 1rem;
+}
+
+.social-links a {
+    color: var(--alerts);
+    font-size: 2rem;
+    margin-right: 1rem;
+}
+
+.footer-nav li {
+    margin-bottom: 0.8rem;
+}
+
+.border-black {
+    border-color: var(--cta-text) !important;
 }
