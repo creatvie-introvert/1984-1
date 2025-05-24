@@ -1,28 +1,39 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Unica+One&display=swap');
 
 :root {
-    --page-bg: #1E1E1E;
+    --primary-font: 'Inter', sans-serif;  /* use for main text */
+    --secondary-font: 'Unica One', sans-serif;  /* use for header text */
+
+    --page-bg: #1E1E1E; 
     --primary-text: #EAEAEA;
     --link-text: #2F80ED;
     --alerts: #B11226;
     --cta-text: #000;
     --ctas-highlights: #FFDD2D;
 }
+
 /* General Styles */
 body {
-    font-family: 'Inter', sans-serif;
+    font-family: var(--primary-font);
 }
 
 h1,
 h2,
 h3 {
-    font-family: 'Unica One', sans-serif;
+    font-family: var(--secondary-font);
 }
 
+/* Custom buttons */
 .primary-cta {
     background-color: var(--ctas-highlights);
     color: var(--cta-text);
     font-weight: 700;
+}
+
+.primary-cta:hover {
+    background-color: transparent;
+    color: var(--ctas-highlights);
+    border: 1px solid var(--ctas-highlights);
 }
 
 /* Nav bar styles */
