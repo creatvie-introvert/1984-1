@@ -143,9 +143,12 @@ The site is designed for users who want a thought-provoking yet entertaining way
 #### Lighthouse Testing
 Performance testing was carried out using Lighthouse in Chrome DevTools.
 
-**Performance Testing Summary:**
-- **Fonts loaded using `<link>` in `<head>`** instead of `@import`, improving initial render speed.
-- **Preconnect hints added** for Google Fonts.
+**Lighthouse Issue Tracker:**
+|Issue Identified          |Solution Implemented                                                        |
+|--------------------------|----------------------------------------------------------------------------|
+|Fonts loaded via `@import`|Switched to `<link>` in head for faster loading and added `Preconnect` links|
+|Image not properly sized(logo)|Resized logo to 154px, compressed with squoosh.app, and updated image source|
+
 #### Browser Testing
 ### Deployment
 #### How to Deploy the Project
