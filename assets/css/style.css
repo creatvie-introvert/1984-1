@@ -33,7 +33,7 @@ h3 {
 
 .primary-cta:hover {
     background-color: transparent;
-    color: var(--ctas-highlights);
+    color: var(--ctas-highlights) !important;  /* add important to force rule */
     border: 1px solid var(--ctas-highlights);
 }
 
