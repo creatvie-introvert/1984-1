@@ -1,5 +1,10 @@
+:root {
+    --ctas-highlights: #FFDD2D;
+}
 /* General Styles */
-body {
+.primary-cta {
+    background-color: var(--ctas-highlights);
+    color: black;
 }
 
 /* Nav bar styles */
