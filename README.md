@@ -101,7 +101,7 @@ The site is designed for users who want a thought-provoking yet entertaining way
 
   To optimise performance:
   - Fonts are loaded using a `<link>` in the HTML `<head>` instead of `@import`, which improves page rendering speed.
-  - Added `rel="Preconnect"` directives for Google Fonts domains to reduce DNS lookup time nd latency during font loading.
+  - Added `rel="Preconnect"` directives for Google Fonts domains to reduce DNS lookup time and latency during font loading.
 
   ![Typography Styles](assets/docs/typography.png)
 
@@ -122,6 +122,12 @@ The site is designed for users who want a thought-provoking yet entertaining way
 
 ## Features
 ### Navigation
+- Designed a responsive dark mode navigation bar using Bootstrap.
+- Navigation bar includes, site logo, navigation links, and a CTA button.
+- Uses keyboard-friendly markup for accessibility (`tab` and `enter` supported).
+- Full link functionality will be completed during development.
+![Mobile Navigation Bar](assets/images/mobile-navbar.png)
+![Desktop Navigation Bar](assets/images/desktop-navbar.png)
 ### Footer
 
 > _add more features here_

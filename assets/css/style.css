@@ -11,6 +11,8 @@
 }
 
 /* General Styles */
+
+/* Font styles */
 body {
     font-family: var(--primary-font);
 }
@@ -19,6 +21,15 @@ h1,
 h2,
 h3 {
     font-family: var(--secondary-font);
+}
+
+/* Base a styles */
+a {
+    color: var(--link-text);
+}
+
+a:hover {
+    color: var(--ctas-highlights);
 }
 
 /* Custom buttons */
