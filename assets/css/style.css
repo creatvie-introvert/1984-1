@@ -135,12 +135,18 @@ footer p {
 
 @media (min-width: 577px) {
     .bg-card-img {
-        height: 364px;
+        width: 100%;
+        height: auto;
+        aspect-ratio: 3 / 2;
+        object-fit: cover;
     }
 }
 
 @media (min-width: 992px) {
     .bg-card-img {
-        height: 370px;
+        width: 100%;
+        height: auto;
+        aspect-ratio: 3 / 2;
+        object-fit: cover;
     }
 }
