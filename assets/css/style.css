@@ -62,7 +62,7 @@ ul {
 .section {
     background-color: var(--page-bg) !important;
     color: var(--primary-text) !important;
-    padding: 24px;
+    padding: 4rem 24px;
 }
 
 .custom-card {
