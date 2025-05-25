@@ -254,13 +254,41 @@
                     <form id="signup-form" class="mb-3">
                         <div class="mb-3">
                             <label for="exampleInputEmail1" class="form-label" hidden>Email address</label>
-                            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter your email"
-                                aria-describedby="emailHelp">
+                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                placeholder="Enter your email" aria-describedby="emailHelp">
                             <div id="emailHelp" class="form-text">By clicking Sign Up you're confirming that you agree
                                 to be informed, entertained, and quietly indoctrinated.</div>
                         </div>
 
-                        <button type="submit" class="btn primary-cta">Sign up</button>
+                        <button type="submit" class="btn primary-cta" data-bs-toggle="modal"
+                            data-bs-target="#exampleModal">Join the Broadcast</button>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                            aria-hidden="true" data-bs-theme="dark">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h1 class="modal-title fs-5" id="exampleModalLabel">MINISTRY NOTICE</h1>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p>Your subscription has been approved.<br>
+                                            Surveillance level increased.<br>
+                                            Loyalty score adjusted.<br>
+                                            You will now receive irregular bursts of state-approved satire directly to
+                                            your inbox.<br>
+                                            <br>
+                                            Please read with compliance and a hot beverage.</p>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn primary-cta"
+                                            data-bs-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </form>
                 </div>
             </div>
