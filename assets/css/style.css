@@ -164,7 +164,7 @@ footer p {
     }
     .bg-card-img {
         width: 100%;
-        height: auto;
+        height: 300px;
         aspect-ratio: 3 / 2;
         object-fit: cover;
     }
