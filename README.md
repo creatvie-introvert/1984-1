@@ -199,6 +199,34 @@ The site is designed for users who want a thought-provoking yet entertaining way
 
 ![Desktop Citizen Briefing](assets/docs/desktop-cbd.png)
 </details>
+
+### Indoctrination Tiles Grid
+- A responsive 4-card grid built with Bootstrap's grid system.
+- Displays satirical content categories: **Surveillance, Housing, Community,** and **Room 101** - each with themed icons, humour-infused descriptions, and custom call-to-action links.
+- Layout adjusts based on screen size:
+  - Full width on mobile
+  - Two-column on tablets
+  - Four-column on desktops
+- Cards are styled with high-contrast black/yellow colour palette and consistent typefaces to reflect the Orwellian theme.
+- Fully keyboard navigable, with accessible colour contrast and sematic heading structure.
+
+<details>
+<summary>Mobile Indoctrination Tiles Grid</summary>
+
+![Mobile Indoctrination Tiles Grid](assets/docs/mobile-nav-tiles.png)
+</details>
+
+<details>
+<summary>Tablet Indoctrination Tiles Grid</summary>
+
+![Tablet Indoctrination Tiles Grid](assets/docs/tablet-nav-tiles.png)
+</details>
+
+<details>
+<summary>Desktop Indoctrination Tiles Grid</summary>
+
+![Desktop Indoctrination Tiles Grid](assets/docs/desktop-nav-tiles.png)
+</details>
 > _add more features here_
 
 ## Technologies Used
