@@ -202,6 +202,7 @@ The site is designed for users who want a thought-provoking yet entertaining way
 | Social icons stacked vertically                 | Implemented flex layout with gap to align social icons horizontally.                 |
 | Font import blocking render                     | Replaced CSS `@import` with HTML `<link>` and added `preconnect` hints.              |
 | Contrast accessibility issues                   | Changed text and link colors to meet WCAG 2.1 contrast ratio standards.              |
+|Eliminate render-blocking resources|Optimised Google Fonts Loading, defer all script loading, preload Bootstrap CSS file and custom CSS file|
 ### Responsiveness Tests
 ### Code Validation
 #### HTML
