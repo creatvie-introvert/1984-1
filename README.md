@@ -158,6 +158,26 @@ The site is designed for users who want a thought-provoking yet entertaining way
 ![Desktop Footer](assets/docs/desktop-footer.png)
 </details>
 
+### Hero Section
+- The hero section introduces the site's satirical tone and central theme with a bold multi-line heading, subheading, lead paragraph, and prominent CTA button.
+- Designed using Bootstrap's grid system with a mobile-first layout that stacks content vertically, and transitions to a two-column layout (lg and up) with text on the left and imagery on the right.
+- The CTA bullon is full-width on mobile, and auto-width on larger screens for responsiveness and accessibility.
+- The featured image (London skyline) is diplayed responsively using `.img-fluid` and has been optimised in both file format and resolution:
+  - Converted to WebP to reduce load time
+  - Served at 2x the display size to ensure sharp rendering on retina/high DPI displays
+- All elements are accessible via keyboard navigation, maintain semantic structure, and meet Loghthouse's colour contrast and responsive image requirements.
+
+<details>
+<summary>Mobile Hero Section</summary>
+
+![Mobile Hero Section](assets/docs/mobile-hero.png)
+</details>
+
+<details>
+<summary>Desktop Hero Section</summary>
+
+![Desktop Hero Section](assets/docs/desktop-hero.png)
+</details>
 > _add more features here_
 
 ## Technologies Used
