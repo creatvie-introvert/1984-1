@@ -175,6 +175,31 @@ footer p {
     background-color: var(--cta-text);
 }
 
+/* newsletter signup styles */
+#newsletter-signup .card {
+    border: 1px solid var(--ctas-highlights);
+    color: var(--ctas-highlights);
+}
+
+#emailHelp {
+    color: var(--ctas-highlights);
+}
+
+.form-control {
+    border: 1px solid var(--ctas-highlights);
+    border-radius: 0;
+    background-color: var(--cta-text);
+}
+
+.form-control::placeholder {
+    color: var(--primary-text);
+}
+
+.form-control:focus {
+    background-color: var(--page-bg);
+    color: var(--primary-text);
+}
+
 /* Media Queries */
 
 @media (min-width: 577px) {
