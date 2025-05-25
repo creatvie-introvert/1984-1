@@ -178,6 +178,27 @@ The site is designed for users who want a thought-provoking yet entertaining way
 
 ![Desktop Hero Section](assets/docs/desktop-hero.png)
 </details>
+
+### Citizen Briefing Document Section
+- Introduces the purpose of the website using a bold visual and narrative hook.
+- Built using a **Bootstrap card component** with a full-width **background image** and **centred text overlay**.
+- Text is **vertically and horizontally centred** using Flexbox.
+- Overlay includes stylised heading, paragraph content, and a closing message.
+- Background image is responsive and optimised for performance using `object-fit: cover` and `aspect-ration` via media queries.
+- Designed to be fully accessible with appropiate `alt` text and responsive padding for mobile and tablet.
+- Section layout scales fluidly across breakpoints to maintain visual clarity without losing tone or content structure.
+
+<details>
+<summary>Mobile Citizen Briefing Document</summary>
+
+![Mobile Citizen Briefing](assets/docs/mobile-cbd.png)
+</details>
+
+<details>
+<summary>Desktop Citizen Briefing Document</summary>
+
+![Desktop Citizen Briefing](assets/docs/desktop-cbd.png)
+</details>
 > _add more features here_
 
 ## Technologies Used
