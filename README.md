@@ -227,6 +227,25 @@ The site is designed for users who want a thought-provoking yet entertaining way
 
 ![Desktop Indoctrination Tiles Grid](assets/docs/desktop-nav-tiles.png)
 </details>
+
+### Testimonials Carousel
+- A satirical testimonial section built using the **Bootstrap 5 carousel component**.
+- Displays rotating citizen "quotes" that reflect the tone of **state-approved praise**, parodying dystopian propaganda.
+- Carousel include **three rotating testimonials**, each housed in a centred `<blockquote>` with contrasting styling.
+- The responsive design adapts the carousel layout and spacing across screen izes using Bootstrap's grid classes and utility spacing.
+- Typography and colours align with the dystopian branding, and testimonial metadata is styled as a **mock citizen ID**
+
+<details>
+<summary>Mobile Testimonial Carousel</summary>
+
+![Mobile Testimonial Carousel](assets/docs/mobile-testimonials.png)
+</details>
+
+<details>
+<summary>Desktop Testimonial Carousel</summary>
+
+![Desktop Testimonial Carousel](assets/docs/desktop-testimonials.png)
+</details>
 > _add more features here_
 
 ## Technologies Used
