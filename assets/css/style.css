@@ -18,6 +18,10 @@ body {
     background-color: var(--page-bg);
 }
 
+.text-colour {
+    color: var(--primary-text) !important;
+}
+
 h1,
 h2,
 h3 {
