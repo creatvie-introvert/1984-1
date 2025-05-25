@@ -65,6 +65,11 @@ ul {
     padding: 24px;
 }
 
+.custom-card {
+    background-color: var(--cta-text) !important;
+    color: var(--primary-text);
+}
+
 /* Custom buttons */
 .primary-cta {
     background-color: var(--ctas-highlights);
@@ -154,8 +159,6 @@ footer p {
 
 /* Nav tiles grid section */
 .card {
-    background-color: var(--cta-text);
-    color: var(--primary-text);
     border-radius: 0;
 }
 

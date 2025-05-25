@@ -253,6 +253,7 @@ The site is designed for users who want a thought-provoking yet entertaining way
 | Contrast accessibility issues                   | Changed text and link colors to meet WCAG 2.1 contrast ratio standards.              |
 |Eliminate render-blocking resources|Optimised Google Fonts Loading, defer all script loading, preload Bootstrap CSS file and custom CSS file|
 |Properly size images|Applied `img-fluid w-100`, and updated sizes, width, and height attributes to allow responsive scaling|
+|Carousel buttons not scrolling|Updated the `data-bs-target` on the button to ensure they matched the `id` 
 
 ### Responsiveness Tests
 ### Code Validation
