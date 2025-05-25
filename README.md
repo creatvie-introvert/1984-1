@@ -126,9 +126,37 @@ The site is designed for users who want a thought-provoking yet entertaining way
 - Navigation bar includes, site logo, navigation links, and a CTA button.
 - Uses keyboard-friendly markup for accessibility (`tab` and `enter` supported).
 - Full link functionality will be completed during development.
-![Mobile Navigation Bar](assets/images/mobile-navbar.png)
-![Desktop Navigation Bar](assets/images/desktop-navbar.png)
+
+<details>
+<summary>Mobile Navigation Bar</summary>
+
+![Mobile Navigation Bar](assets/docs/mobile-navbar.png)
+</details>
+
+<details>
+<summary>Desktop Navigation Bar</summary>
+
+![Desktop Navigation Bar](assets/docs/desktop-navbar.png)
+</details>
+
 ### Footer
+- A fully responsive dark footer was designed using Bootstrap to adapt seamlessly across mobile, tablet, and desktop devices.
+- The footer includes key site element: the 1984.1 logo, a compliance themed message, accessible social media links, and main navigation links.
+- Leagal links(Terms of Obedience, Data Surrender Policy, Cookie Notice) are presented inline on larger screens for ease of access and staack vertically on smaller devices for clarity.
+- The layout transitions from a single-column structure on mobile to a two-column grid on desktop, maintaining readability and alignment.
+- All elements follow accessibility best practices, including sematic HTML, keyboard navigation, and compliant colour contrast ratios.
+
+<details>
+<summary>Mobile Footer</summary>
+
+![Mobile Footer](assets/docs/mobile-footer.png)
+</details>
+
+<details>
+<summary>Desktop Footer</summary>
+
+![Desktop Footer](assets/docs/desktop-footer.png)
+</details>
 
 > _add more features here_
 
