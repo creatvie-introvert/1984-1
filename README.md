@@ -184,9 +184,24 @@ The site is designed for users who want a thought-provoking yet entertaining way
 ### Languages
 ### Libraries & Frameworks
 ### Tools
+- Visual Studio: deveopment
+- Sora: for image generation
+- ChatGPT: for content creation
+- Squoosh: for image optimisation
 
 ## Testing
 ### Bugs Fixed
+
+| Bug Description                                  | Solution Implemented                                                                 |
+|--------------------------------------------------|----------------------------------------------------------------------------------------|
+| Logo displayed twice in navbar                  | Removed duplicate markup causing the second logo to appear.                          |
+| Mobile navigation layout broken                 | Adjusted Bootstrap grid and spacing to stack elements correctly on small screens.    |
+| Improper image aspect ratio (Lighthouse error)  | Added `aspect-ratio` and `object-fit` via media queries to maintain proportions.     |
+| Low-resolution image served                     | Re-exported hero image in WebP format at a higher resolution (1200x800).             |
+| Footer links misaligned on medium screens       | Used responsive columns and alignment utilities to correct layout.                   |
+| Social icons stacked vertically                 | Implemented flex layout with gap to align social icons horizontally.                 |
+| Font import blocking render                     | Replaced CSS `@import` with HTML `<link>` and added `preconnect` hints.              |
+| Contrast accessibility issues                   | Changed text and link colors to meet WCAG 2.1 contrast ratio standards.              |
 ### Responsiveness Tests
 ### Code Validation
 #### HTML
@@ -196,12 +211,6 @@ The site is designed for users who want a thought-provoking yet entertaining way
 #### Accessibility Testing
 #### Lighthouse Testing
 Performance testing was carried out using Lighthouse in Chrome DevTools.
-
-**Lighthouse Issue Tracker:**
-|Issue Identified          |Solution Implemented                                                        |
-|--------------------------|----------------------------------------------------------------------------|
-|Fonts loaded via `@import`|Switched to `<link>` in head for faster loading and added `Preconnect` links|
-|Image not properly sized(logo)|Resized logo to 154px, compressed with squoosh.app, and updated image source|
 
 #### Browser Testing
 ### Deployment
