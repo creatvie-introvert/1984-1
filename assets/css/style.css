@@ -185,19 +185,20 @@ footer p {
     color: var(--ctas-highlights);
 }
 
-.form-control {
-    border: 1px solid var(--ctas-highlights);
+#signup-form input.form-control {
+    border: 1px solid var(--ctas-highlights) !important;
     border-radius: 0;
-    background-color: var(--cta-text);
+    background-color: var(--cta-text) !important;
 }
 
-.form-control::placeholder {
-    color: var(--ctas-highlights);
+#signup-form input.form-control::placeholder {
+    color: var(--primary-text) !important;
+    opacity: 1 !important;
 }
 
 .form-control:focus {
-    background-color: var(--page-bg);
-    color: var(--primary-text);
+    background-color: var(--page-bg) !important;
+    color: var(--primary-text) !important;
 }
 
 /* Media Queries */
