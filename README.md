@@ -203,6 +203,7 @@ The site is designed for users who want a thought-provoking yet entertaining way
 | Font import blocking render                     | Replaced CSS `@import` with HTML `<link>` and added `preconnect` hints.              |
 | Contrast accessibility issues                   | Changed text and link colors to meet WCAG 2.1 contrast ratio standards.              |
 |Eliminate render-blocking resources|Optimised Google Fonts Loading, defer all script loading, preload Bootstrap CSS file and custom CSS file|
+|Properly size images|Implement responsive images using `srcset`|
 ### Responsiveness Tests
 ### Code Validation
 #### HTML
