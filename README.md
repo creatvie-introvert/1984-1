@@ -246,6 +246,29 @@ The site is designed for users who want a thought-provoking yet entertaining way
 
 ![Desktop Testimonial Carousel](assets/docs/desktop-testimonials.png)
 </details>
+
+### Newsletter Signup Form
+- A custom **newsletter subscription card** styled to match the site's dystopian theme using a high-contrast black and yellow palette.
+- Includes a satirical prompt reminding users that "we promise not to sell your data to *more* corporations than necessary."
+- Uses a standard **Bootstrap form** layout with accessibility enhancements:
+  - Hidden `<label>` for screen readers
+  - Custom `aria-describedby` help text
+  - Responsive spacing and full-width layout on mobile
+- Placeholder text and instructional copy reinforce the site's theme of compliance and indoctrination.
+- Input field, help text, and submit button are custom-styled for brand consistency.
+- The form is currently frontend-only (no backend integration) and serves as a design element rather than a functioning data collector.
+
+<details>
+<summary>Mobile Newsletter Signup Form</summary>
+
+![Mobile Newsletter Signup Form](assets/docs/mobile-newsletter-signup.png)
+</details>
+
+<details>
+<summary>Desktop Newsletter Signup Form</summary>
+
+![Desktop Newsletter Signup Form](assets/docs/desktop-newsletter-signup.png)
+</details>
 > _add more features here_
 
 ## Technologies Used
