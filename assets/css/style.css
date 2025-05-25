@@ -15,7 +15,7 @@
 /* Font styles */
 body {
     font-family: var(--primary-font);
-    /* background-color: var(--page-bg); */
+    background-color: var(--page-bg);
 }
 
 h1,
@@ -31,6 +31,14 @@ h2 {
 .card-headings {
     font-family: var(--secondary-font);
     font-size: 20px;
+}
+
+.card-title {
+    font-family: var(--secondary-font);
+}
+
+.card-text {
+    font-family: var(--primary-font);
 }
 
 /* Base a styles */
@@ -138,6 +146,21 @@ footer p {
 
 .bg-card-img {
     height: 430px;
+}
+
+/* Nav tiles grid section */
+.card {
+    background-color: var(--cta-text);
+    color: var(--primary-text);
+    border-radius: 0;
+}
+
+#nav-tiles .card {
+    border: 1px solid var(--ctas-highlights);
+}
+
+#nav-tiles i {
+    color: var(--ctas-highlights);
 }
 
 /* Media Queries */
