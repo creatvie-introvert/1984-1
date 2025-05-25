@@ -122,6 +122,15 @@ footer p {
 .border-black {
     border-color: var(--cta-text) !important;
 }
+
+/* Hero styles */
+.hero-image {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+
 .card {
     height: 100%;
     min-height: 300px;
@@ -142,7 +151,17 @@ footer p {
     }
 }
 
+@media (min-width: 768px) {
+    .hero-image {
+        width: 100%;
+    }
+}
+
 @media (min-width: 992px) {
+    .hero-image{
+        width: 100%; 
+        min-height: 400px; 
+    }
     .bg-card-img {
         width: 100%;
         height: auto;
