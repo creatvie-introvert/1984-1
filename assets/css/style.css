@@ -163,6 +163,11 @@ footer p {
     color: var(--ctas-highlights);
 }
 
+/* Testimonial styles */
+#testimonial-carousel {
+    background-color: var(--cta-text);
+}
+
 /* Media Queries */
 
 @media (min-width: 577px) {
