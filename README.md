@@ -269,6 +269,28 @@ The site is designed for users who want a thought-provoking yet entertaining way
 
 ![Desktop Newsletter Signup Form](assets/docs/desktop-newsletter-signup.png)
 </details>
+
+### Mailing List Confirmation Modal
+- **Purpose**: Confirms successful newsletter signup with satirical flair.
+- **Trigger**: Activated when a user submits their email through the newsletter form.
+
+- **Design**:
+  - Dark Bootstrap modal matching the site's theme.
+  - Contains a parody "Ministry Notice" confirming the user's increased loyalty and subscription success.
+  - Reinforces brand tone with lines like "Please read with compliance and a hot beverage."
+
+- **Accessibility**:
+  - Includes aria-labelledby and aria-hidden for screen reader compatibility.
+  - Uses Bootstrap's accessible modal structure.
+
+- **Close Options**:
+  - Includes both a top-right dismiss (X) and a "Close" button with the site's CTA style.
+
+<details>
+<summary>Join the Broadcast Modal</summary>
+
+![Join the Broadcast Modal](assets/docs/modal.png)
+</details>
 > _add more features here_
 
 ## Technologies Used
