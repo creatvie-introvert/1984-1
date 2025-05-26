@@ -22,7 +22,13 @@ The site is designed for users who want a thought-provoking yet entertaining way
 - [Features](#features)
   - [Navigation](#navigation)
   - [Footer](#footer)
-  - > _add more features here_
+  - [Hero Section](#hero-section)
+  - [Webite Intro](#website-intro)
+  - [Main Navigation Grid](#main-navigation-grid)
+  - [Testimonials Carousel](#testimonials-carousel)
+  - [Newsletter Signup Form](#newsletter-signup-form)
+- [Additional Pages](#)
+  - [Surveillance Page](#)
 - [Technologies Used](#technologies-used)
   - [Languages](#languages)
   - [Libraries & Frameworks](#libraries-&-frameworks)
@@ -179,7 +185,7 @@ The site is designed for users who want a thought-provoking yet entertaining way
 ![Desktop Hero Section](assets/docs/desktop-hero.png)
 </details>
 
-### Citizen Briefing Document Section
+### Website Intro
 - Introduces the purpose of the website using a bold visual and narrative hook.
 - Built using a **Bootstrap card component** with a full-width **background image** and **centred text overlay**.
 - Text is **vertically and horizontally centred** using Flexbox.
@@ -200,7 +206,7 @@ The site is designed for users who want a thought-provoking yet entertaining way
 ![Desktop Citizen Briefing](assets/docs/desktop-cbd.png)
 </details>
 
-### Indoctrination Tiles Grid
+### Main Navigation Grid
 - A responsive 4-card grid built with Bootstrap's grid system.
 - Displays satirical content categories: **Surveillance, Housing, Community,** and **Room 101** - each with themed icons, humour-infused descriptions, and custom call-to-action links.
 - Layout adjusts based on screen size:
@@ -291,7 +297,46 @@ The site is designed for users who want a thought-provoking yet entertaining way
 
 ![Join the Broadcast Modal](assets/docs/modal.png)
 </details>
-> _add more features here_
+
+## Additional Pages
+### Surveillance Page
+The surveillance page explores the theme of digital monitoring in modern London, using satire to highlight the parrallels between 
+Orwell's 1984 and our everyday tech habits.
+
+**Key Features**
+
+- **Hero Section with Custom Background**
+
+  A full-width header built using custom CSS background styling wth a dark overlay for contrast and accessibility. Replaces the Bootstrap card used on the homepage intro for improved performance and Largest Contentful Paint (LCP) optimisation.
+
+- **Responsive Content Blocks**
+
+  A series of satirical content sections styled with Bootstrap's grid system. Each block features humourous observations on smart devices, location tracking, and voice assistants. Layout stacks on mobile and displays as two columns on tablet and desktop.
+
+- **Custom Blockquote Styling**
+
+  Includes a citizen "quote" styled with `<blockquote>`, Font Awesome icons for oversized quotation marks, and custom CSS for drop shadows, colour, and position. Adds a layer of visual interest and brand tone.
+
+- **Closing Satirical Paragraph**
+
+  Ends the page with a paragraph styled over a CSS background image (street-level CCTV view) and high-contrast text. Delivered as a parody of official messaging, it reflects on public surveillance with humour and unease.
+
+- **Mobile-First Responsive Design**
+
+  The entire page adapts fluidly across devices. All elements follow semantic HTML, meet WCAG contrast guidelines, and are optimised for performance and accessibility.
+
+[View the Surveillance Page](https://creatvie-introvert.github.io/1984-1/surveillance.html)
+<details>
+<summary>Mobile View</summary>
+
+![Mobile view - Surveillance Page](assets/docs/surveillance-pg-mobile.png)
+</details>
+
+<details>
+<summary>Desktop View</summary>
+
+![Desktop view - Surveillance Page](assets/docs/surveillance-pg-desktop.png)
+</details>
 
 ## Technologies Used
 ### Languages
@@ -317,7 +362,8 @@ The site is designed for users who want a thought-provoking yet entertaining way
 | Contrast accessibility issues                   | Changed text and link colors to meet WCAG 2.1 contrast ratio standards.              |
 |Eliminate render-blocking resources|Optimised Google Fonts Loading, defer all script loading, preload Bootstrap CSS file and custom CSS file|
 |Properly size images|Applied `img-fluid w-100`, and updated sizes, width, and height attributes to allow responsive scaling|
-|Carousel buttons not scrolling|Updated the `data-bs-target` on the button to ensure they matched the `id` 
+|Carousel buttons not scrolling|Updated the `data-bs-target` on the button to ensure they matched the `id`|
+ 
 
 ### Responsiveness Tests
 ### Code Validation
