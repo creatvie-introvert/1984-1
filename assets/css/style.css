@@ -245,6 +245,16 @@ footer p {
     .hero-image {
         width: 100%;
     }
+
+    /* Page banners */
+    .banner-card-img {
+        height: 380px;
+        object-fit: cover;
+    }
+
+    .card-img-overlay {
+        padding: 2rem;
+    }
 }
 
 @media (min-width: 992px) {
