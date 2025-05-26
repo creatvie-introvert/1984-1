@@ -269,4 +269,9 @@ footer p {
         aspect-ratio: 3 / 2;
         object-fit: cover;
     }
+
+    #everyday-surveillance img {
+        height: 400px;
+        object-fit: cover;
+    }
 }
