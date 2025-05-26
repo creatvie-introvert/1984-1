@@ -231,8 +231,37 @@ footer p {
     z-index: 1;
 }
 
+.quote-card {
+  border: 1px solid var(--ctas-highlights);
+  background-color: var(--cta-text);
+  color: var(--primary-text);
+  position: relative;
+  padding-top: 2.5rem;
+}
+
 figure {
     border: 1px solid var(--ctas-highlights);
+}
+
+.quote-mark {
+    position: absolute;
+    top: -2.25rem;
+    left: -1.25rem;
+    z-index: 2;
+}
+
+.quote-mark i {
+    font-size: 4rem;
+    color: var(--ctas-highlights);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+}
+
+blockquote::before {
+    content: none;
+}
+
+blockquote {
+    position: relative;
 }
 
 /* Media Queries */
