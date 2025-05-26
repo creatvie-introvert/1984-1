@@ -231,6 +231,10 @@ footer p {
     z-index: 1;
 }
 
+figure {
+    border: 1px solid var(--ctas-highlights);
+}
+
 /* Media Queries */
 
 @media (min-width: 577px) {
