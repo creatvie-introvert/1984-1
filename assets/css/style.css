@@ -201,6 +201,17 @@ footer p {
     color: var(--primary-text) !important;
 }
 
+/* Sub-page headers */
+.heading-small {
+    font-family: var(--primary-font);
+    font-size: 14px;
+    color: var(--primary-text);
+}
+
+.banner-card-img {
+    height: 570px;
+}
+
 /* Media Queries */
 
 @media (min-width: 577px) {
