@@ -264,6 +264,13 @@ blockquote {
     position: relative;
 }
 
+#surveillance-close {
+    background: url(../images/surveillance-bg.webp) no-repeat center center fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
 /* Media Queries */
 
 @media (min-width: 577px) {
