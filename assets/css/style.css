@@ -264,11 +264,37 @@ blockquote {
     position: relative;
 }
 
+#surveillance-intro {
+    background: url(../images/cctv-room.webp) no-repeat center center fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: relative;
+}
+
+#surveillance-intro::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 1;
+}
+
+#surveillance-intro > * {
+    position: relative;
+    z-index: 2;
+}
+
 #surveillance-close {
+    position: relative;
     background: url(../images/surveillance-bg.webp) no-repeat center center fixed;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    color: var(--primary-text);
+    z-index: 0;
+    overflow: hidden;
 }
 
 /* Media Queries */
