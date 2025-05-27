@@ -340,7 +340,43 @@ Orwell's 1984 and our everyday tech habits.
 </details>
 
 ### Housing Page
+The Housing page exposes the satirical horros of Londonn's rental market, parodying the bleak realities of overpriced, under-maintained living conditions with an Orwellian twist.
 
+**Key Features**:
+
+- **Hero Section with Custom Background**
+
+  Background image added via custom CSS with a dark overlay to maintain contrast and focus on the text. This section introduces the tone with: "Where Rent Is High and Morals Are Low."
+
+- **"Comfort, Cost, and Dignity Don't Coexist" Section**
+
+  This section features a centred heading and subheading, highlighting the impossible trade-offs of renting in London. This is followed by a **4-card grid** satirising various housing struggles:
+    - *Your Landlord Is Not You Friend*
+    - *Ownership? Good One*
+    - *Living Conditions: Rustic Misery*
+    - *Renting: A Subscription to Exist*
+  Each card includes a humourous image in sepia-toned graphic style with accompanying text and alt attributes for accessibility. The grid layout adapts resposively for mobile, tablet, and desktop using Bootstrap's grid system.
+
+- **Closing Statement**
+
+  A styised concluding paragraph with dry wit, and a background image with dark overlay, styled with custom CSS.
+
+- **Accessibility & Responsiveness**
+  - Fully mobile-first responsive, created using Bootstrap.
+  - Semantic HTML, ARIA attributes, and descriptive `alt` text included.
+  - Colour contrast and image scaling test acrss screen sizes.
+
+<details>
+<summary>Mobile View</summary>
+
+![Mobile view - Housing Page](assets/docs/housing-pg-mobile.png)
+</details>
+
+<details>
+<summary>Desktop View</summary>
+
+![Desktop view - Housing Page](assets/docs/housing-pg-desktop.png)
+</details>
 
 ## Technologies Used
 ### Languages
