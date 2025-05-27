@@ -323,6 +323,17 @@ blockquote {
     z-index: 2;
 }
 
+#housing-close {
+    position: relative;
+    background: url(../images/crowded-flat.webp) no-repeat center center fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: var(--primary-text);
+    z-index: 0;
+    overflow: hidden;
+}
+
 /* Media Queries */
 
 @media (min-width: 577px) {
