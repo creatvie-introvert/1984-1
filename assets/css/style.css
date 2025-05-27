@@ -201,7 +201,7 @@ footer p {
     color: var(--primary-text) !important;
 }
 
-/* Sub-page headers */
+/* Surveillance page styles */
 .heading-small {
     font-family: var(--primary-font);
     font-size: 14px;
@@ -295,6 +295,31 @@ blockquote {
     color: var(--primary-text);
     z-index: 0;
     overflow: hidden;
+}
+
+/* Housing page styles */
+
+/* Intro banner */
+#housing-intro {
+    position: relative;
+    background: url(../images/housing-bg.webp) no-repeat center center fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+#housing-intro::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 1;
+}
+
+#housing-intro > * {
+    position: relative;
+    z-index: 2;
 }
 
 /* Media Queries */
