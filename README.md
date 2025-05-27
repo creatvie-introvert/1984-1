@@ -27,8 +27,9 @@ The site is designed for users who want a thought-provoking yet entertaining way
   - [Main Navigation Grid](#main-navigation-grid)
   - [Testimonials Carousel](#testimonials-carousel)
   - [Newsletter Signup Form](#newsletter-signup-form)
-- [Additional Pages](#)
-  - [Surveillance Page](#)
+- [Additional Pages](#additional-pages)
+  - [Surveillance Page](#surveillance-page)
+  - [Housing Page](#)
 - [Technologies Used](#technologies-used)
   - [Languages](#languages)
   - [Libraries & Frameworks](#libraries-&-frameworks)
@@ -337,6 +338,9 @@ Orwell's 1984 and our everyday tech habits.
 
 ![Desktop view - Surveillance Page](assets/docs/surveillance-pg-desktop.png)
 </details>
+
+### Housing Page
+
 
 ## Technologies Used
 ### Languages
