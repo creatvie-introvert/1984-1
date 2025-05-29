@@ -357,9 +357,25 @@ blockquote {
     z-index: 2;
 }
 
-/* hide image */
-.community-image-center {
-    display: none;
+#community-close {
+    position: relative;
+    background: url(assets/images/crowded-london.webp) no-repeat center center fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#community-close::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 1;
+}
+
+#community-close > * {
+    position: relative;
+    z-index: 2;
 }
 
 /* Media Queries */
