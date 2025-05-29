@@ -168,7 +168,8 @@ footer p {
     border: 1px solid var(--ctas-highlights);
 }
 
-#nav-tiles i {
+#nav-tiles i,
+#lost-community i {
     color: var(--ctas-highlights);
 }
 
@@ -356,6 +357,11 @@ blockquote {
     z-index: 2;
 }
 
+/* hide image */
+.community-image-center {
+    display: none;
+}
+
 /* Media Queries */
 
 @media (min-width: 577px) {
@@ -398,5 +404,14 @@ blockquote {
     #everyday-surveillance img {
         height: 400px;
         object-fit: cover;
+    }
+
+    .community-image-center {
+        display: flex;
+        margin: auto;
+    }
+
+    .community-img-bottom {
+        display: none;
     }
 }
