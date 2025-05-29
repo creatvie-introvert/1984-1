@@ -163,7 +163,8 @@ footer p {
 }
 
 #nav-tiles .card,
-#housing-crisis .card {
+#housing-crisis .card,
+#lost-community .card {
     border: 1px solid var(--ctas-highlights);
 }
 
@@ -307,7 +308,6 @@ blockquote {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-color: rgba(0, 0, 0, 0.5);
 }
 
 #housing-intro::before {
@@ -332,6 +332,28 @@ blockquote {
     color: var(--primary-text);
     z-index: 0;
     overflow: hidden;
+}
+
+/* Community page */
+#community-intro {
+    position: relative;
+    background: url(../images/single-living.webp) no-repeat center center fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#community-intro::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 1;
+}
+
+#community-intro > * {
+    position: relative;
+    z-index: 2;
 }
 
 /* Media Queries */
