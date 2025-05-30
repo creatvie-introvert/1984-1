@@ -379,6 +379,31 @@ blockquote {
 }
 
 /* Room 101 page styles */
+#room-101-intro {
+    position: relative;
+    background: url(../images/anxiety-room.webp) no-repeat center center fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#room-101-intro::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 1;
+}
+
+#room-101-intro > * {
+    position: relative;
+    z-index: 2;
+}
+
+#room-101-intro h1 {
+    font-size: 10rem;
+}
+
 
 
 /* Media Queries */
@@ -432,5 +457,10 @@ blockquote {
 
     .community-img-bottom {
         display: none;
+    }
+
+    header .room-101-intro {
+        display: flex;
+        justify-content: space-between;
     }
 }
