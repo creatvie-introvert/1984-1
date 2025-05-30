@@ -406,7 +406,7 @@ blockquote {
 
 .bullet-points {
     display: grid;
-    grid-template-columns: repeat(2, max-content);
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
     gap: 0.5rem 1rem;
     align-items: center;
 }
@@ -468,5 +468,13 @@ blockquote {
     header .room-101-intro {
         display: flex;
         justify-content: space-between;
+    }
+
+    .bullet-points {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .bullet-points small {
+        font-size: 16px;
     }
 }
