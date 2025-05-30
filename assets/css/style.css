@@ -411,6 +411,25 @@ blockquote {
     align-items: center;
 }
 
+#room101-close {
+    position: relative;
+    background: url(../images/dystopian-london.webp) no-repeat center center fixed;
+    background-size: cover;
+}
+
+#room101-close::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 1;
+}
+
+#room101-close > * {
+    position: relative;
+    z-index: 2;
+}
+
 
 /* Media Queries */
 
