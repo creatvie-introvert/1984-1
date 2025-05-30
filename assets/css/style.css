@@ -401,9 +401,15 @@ blockquote {
 }
 
 #room-101-intro h1 {
-    font-size: 10rem;
+    font-size: 5rem;
 }
 
+.bullet-points {
+    display: grid;
+    grid-template-columns: repeat(2, max-content);
+    gap: 0.5rem 1rem;
+    align-items: center;
+}
 
 
 /* Media Queries */
