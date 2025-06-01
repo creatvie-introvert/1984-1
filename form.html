@@ -96,45 +96,58 @@
         <section id="report-a-violation-form" class="section">
             <form action="#">
                 <label for="violation">Describe the violation:</label>
-                <textarea name="violation" id="violation" aria-describedby="violation-help" required></textarea>
-                <small id="violation-help" class="form-text helper-text">
+                <textarea name="violation" id="violation" aria-describedby="violation-help" class="form-control mb-1" required></textarea>
+                <small id="violation-help" class="form-text helper-text mb-3">
                     A short but emotionally charged summary of what happened.
                 </small>
 
                 <label for="location">Where did it occur?</label>
-                <input type="text" name="location" id="location" aria-describedby="location-helper" required>
+                <input type="text" name="location" id="location" aria-describedby="location-helper" class="form-control mb-1" required>
                 <small id="location-helper" class="form-text helper-text">
                     Be as specific or vague as the trauma demands.
                 </small>
 
                 <label for="offenders">Offender(s):</label>
-                <input type="text" name="offenders" id="offenders" aria-describedby="offenders-helper" required>
+                <input type="text" name="offenders" id="offenders" aria-describedby="offenders-helper" class="form-control mb-1" required>
                 <small id="offenders-helper" class="form-text helper-text">
                     Name the individual, corporation, or abstract concept responsible.
                 </small>
 
-                <fieldset aria-describedby="impact-helper">
-                    <legend>Impact Level:</legend>
+                <fieldset aria-describedby="impact-helper" class="mb-3">
+                    <legend class="mb-2">Impact Level:</legend>
 
-                    <label for="low"><input type="radio" name="impact-level" id="low" value="Low" required>Low</label>
+                    <div class="form-check form-check-inline">
+                        <input type="radio" name="impact-level" id="low" value="Low" class="form-check-input" required>
+                        <label for="low" class="form-check-label">Low</label>
+                    </div>
 
-                    <label for="medium"><input type="radio" name="impact-level" id="medium" value="Medium">Medium</label>
+                    <div class="form-check form-check-inline">
+                        <input type="radio" name="impact-level" id="medium" value="Medium" class="form-check-input" required>
+                        <label for="medium" class="form-check-label">Medium</label>
+                    </div>
 
-                    <label for="high"><input type="radio" name="impact-level" id="high" value="High">High</label>
+                    <div class="form-check form-check-inline">
+                        <input type="radio" name="impact-level" id="high" value="High" class="form-check-input" required>
+                        <label for="high" class="form-check-label">High</label>
+                    </div>
 
-                    <small id="impact-helper" class="form-text helper-text">
-                        Select level of disruption to your mental, social, or financial wellbeing.
-                    </small>
+                    <p>
+                        <small id="impact-helper" class="form-text helper-text mt-2">
+                            Select level of disruption to your mental, social, or financial wellbeing.
+                        </small>
+                    </p>
                 </fieldset>
 
                 <label for="email">Email (optional):</label>
-                <input type="email" name="email" id="email" aria-describedby="email-helper">
+                <input type="email" name="email" id="email" aria-describedby="email-helper" class="form-control mb-1">
                 <small id="email-helper" class="form-text helper-text">
                     Optional. Used only if we decide to retaliate - we mean, follow up.
                 </small>
 
-                <button type="submit">Report Now</button>
-                <button type="reset">Clear Form</button>
+                <div class="form-btns">
+                    <button type="submit">Report Now</button>
+                    <button type="reset">Clear Form</button>
+                </div>
             </form>
         </section>
     </main>
