@@ -92,7 +92,52 @@
         </p>
     </header>
 
-    <main></main>
+    <main>
+        <section id="report-a-violation-form" class="section">
+            <form action="#">
+                <label for="violation">Describe the violation:</label>
+                <textarea name="violation" id="violation" aria-describedby="violation-help" required></textarea>
+                <small id="violation-help" class="form-text helper-text">
+                    A short but emotionally charged summary of what happened.
+                </small>
+
+                <label for="location">Where did it occur?</label>
+                <input type="text" name="location" id="location" aria-describedby="location-helper" required>
+                <small id="location-helper" class="form-text helper-text">
+                    Be as specific or vague as the trauma demands.
+                </small>
+
+                <label for="offenders">Offender(s):</label>
+                <input type="text" name="offenders" id="offenders" aria-describedby="offenders-helper" required>
+                <small id="offenders-helper" class="form-text helper-text">
+                    Name the individual, corporation, or abstract concept responsible.
+                </small>
+
+                <fieldset aria-describedby="impact-helper">
+                    <legend>Impact Level:</legend>
+
+                    <label for="low"><input type="radio" name="impact-level" id="low" value="Low" required>Low</label>
+
+                    <label for="medium"><input type="radio" name="impact-level" id="medium" value="Medium">Medium</label>
+
+                    <label for="high"><input type="radio" name="impact-level" id="high" value="High">High</label>
+
+                    <small id="impact-helper" class="form-text helper-text">
+                        Select level of disruption to your mental, social, or financial wellbeing.
+                    </small>
+                </fieldset>
+
+                <label for="email">Email (optional):</label>
+                <input type="email" name="email" id="email" aria-describedby="email-helper">
+                <small id="email-helper" class="form-text helper-text">
+                    Optional. Used only if we decide to retaliate - we mean, follow up.
+                </small>
+
+                <button type="submit">Report Now</button>
+                <button type="reset">Clear Form</button>
+            </form>
+        </section>
+    </main>
 
     <footer id="footer" class="mt-auto bg-dark py-4">
         <div class="container mx-lg-5">

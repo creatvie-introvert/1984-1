@@ -430,6 +430,11 @@ blockquote {
     z-index: 2;
 }
 
+/* Report a violation styles */
+.helper-text {
+    color: var(--alerts);
+}
+
 
 /* Media Queries */
 
