@@ -84,6 +84,18 @@ ul {
     border: 1px solid var(--ctas-highlights);
 }
 
+.secondary-cta {
+    background-color: var(--cta-text);
+    border-radius: 0;
+    color: var(--ctas-highlights);
+    border: 1px solid var(--ctas-highlights);
+}
+
+.secondary-cta:hover {
+    background-color: var(--ctas-highlights);
+    color: var(--cta-text);
+}
+
 /* Nav bar styles */
 #navbar {
     background-color: var(--page-bg) !important;   /* set bg-color */
@@ -435,6 +447,18 @@ blockquote {
     color: var(--alerts);
 }
 
+.form-control {
+    display: block;
+    width: 100%;
+    background-color: var(--cta-text);
+    color: var(--primary-text);
+    border: 1px solid var(--ctas-highlights);
+    border-radius: 0;
+}
+
+form input[type="radio"] {
+    accent-color: #FFDD2D !important;
+}
 
 /* Media Queries */
 
