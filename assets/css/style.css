@@ -456,8 +456,24 @@ blockquote {
     border-radius: 0;
 }
 
-form input[type="radio"] {
-    accent-color: #FFDD2D !important;
+.image-column {
+    display: flex;
+    align-items: stretch;
+}
+
+.image-column img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    max-width: none;
+}
+
+#eport-a-violation-form .row {
+    min-height: 100%;
+}
+
+form label {
+    display: block;
 }
 
 /* Media Queries */
