@@ -197,6 +197,12 @@ h4 { font-size: 1.125rem; }       /* 18px */
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);    /* Glow for visibility */
 }
 
+/* Section specific icon styles */
+#nav-tiles i,
+#lost-community i {
+    color: var(--ctas-highlights);
+}
+
 /* Remove default quote styling */
 blockquote {
     position: relative;
@@ -391,45 +397,11 @@ footer p {
     color: var(--ctas-highlights);
 }
 
-
-
-
-/* Nav bar styles */
-
-
-
-
-
-
-
-
-
-
-/* Footer styles */
-
-
-
-
-
-
-
-
-#nav-tiles i,
-#lost-community i {
-    color: var(--ctas-highlights);
-}
-
-/* Testimonial styles */
-#testimonial-carousel {
-    background-color: var(--cta-text);
-}
-
-/* newsletter signup styles */
+/* ===== Newsletter Signup Section Styles */
 #newsletter-signup .card {
     border: 1px solid var(--ctas-highlights);
     color: var(--ctas-highlights);
 }
-
 
 
 
