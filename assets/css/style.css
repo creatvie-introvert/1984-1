@@ -66,6 +66,11 @@ h2 { font-size: 2rem; }         /* 32px */
 h3 { font-size: 1.25rem; }      /* 20px */
 h4 { font-size: 1.125rem; }       /* 18px */
 
+/* Layout utility class for consistent section spacing */
+.section {
+    padding: 2rem 24px;
+}
+
 /* ===== Button & CTA styles ===== */
 
 /* Primary CTA button (e.g., hero section, key actions) */
@@ -386,11 +391,7 @@ footer p {
     color: var(--ctas-highlights);
 }
 
-.section {
-    background-color: var(--page-bg) !important;
-    color: var(--primary-text) !important;
-    padding: 4rem 24px;
-}
+
 
 
 /* Nav bar styles */
