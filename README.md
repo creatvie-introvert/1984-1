@@ -188,25 +188,26 @@ The site is designed for users who want a thought-provoking yet entertaining way
 ![Desktop Hero Section](assets/docs/hero-desktop.png)
 </details>
 
-### Website Intro
-- Introduces the purpose of the website using a bold visual and narrative hook.
-- Built using a **Bootstrap card component** with a full-width **background image** and **centred text overlay**.
-- Text is **vertically and horizontally centred** using Flexbox.
-- Overlay includes stylised heading, paragraph content, and a closing message.
-- Background image is responsive and optimised for performance using `object-fit: cover` and `aspect-ration` via media queries.
-- Designed to be fully accessible with appropiate `alt` text and responsive padding for mobile and tablet.
-- Section layout scales fluidly across breakpoints to maintain visual clarity without losing tone or content structure.
+### Website Intro - Citizen Briefing Document
+- Presents the website'z satirical premise with a strong narrative hook and dystopian visual.
+- Built with a full-width **Bootstrap card** and a `.card-img-overlay` layout.
+- Features a stylised heading, structured prargraphs, and a strong closing message - all centrally aligned using Flexbox.
+- Background image (WebP) is in a graphic novel style, and fully responsive using `object-fit: cover;` - scales appropiately via media queries.
+- Padding and text alignment are optimised across breakpoints for readability and emphasis.
+- Semantic HTML structure enhances accessibility, with descriptive aria-label set on the card for screen readers.
+- Visual and typographic consistency maintained with the rest of the homepage to preseve tone.
+- Designed to retail both legibility and narrative impact across devices without introducing layout shifts.
 
 <details>
 <summary>Mobile Citizen Briefing Document</summary>
 
-![Mobile Citizen Briefing](assets/docs/mobile-cbd.png)
+![Mobile Citizen Briefing](assets/docs/citizen-briefing-mobile.png)
 </details>
 
 <details>
 <summary>Desktop Citizen Briefing Document</summary>
 
-![Desktop Citizen Briefing](assets/docs/desktop-cbd.png)
+![Desktop Citizen Briefing](assets/docs/citizen-briefing-desktop.png)
 </details>
 
 ### Main Navigation Grid
