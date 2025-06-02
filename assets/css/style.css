@@ -297,6 +297,47 @@ form label {
     background-color: var(--cta-text) !important;
 }
 
+/* ===== Nav Bar Styles ===== */
+
+/* Nav bar container */
+#navbar {
+    background-color: var(--page-bg) !important;   /* set bg-color */
+}
+
+.logo {
+    width: 4.8rem;
+    height: 4.8rem;
+    object-fit: contain;
+}
+
+/* Toggle button (hamburger for collapsed menu) */
+#navbar .navbar-toggler {
+    border-radius: 0;   /* remove Bootstraps default border-radius */
+    border: none;
+    background-color: transparent;
+    transition: color 0.3s ease-in-out;
+}
+
+/* Nav link styles */
+#navbar .nav-link {
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    transition: color 0.2s ease-in-out;
+    padding: 0.5rem 1rem;
+}
+
+#navbar .nav-link:hover, #navbar .nav-link:focus {
+    color: var(--ctas-highlights);
+}
+
+/* Active link styling */
+#navbar .active {
+    text-decoration: underline;
+}
+
+
+
+
 
 .section {
     background-color: var(--page-bg) !important;
@@ -310,30 +351,15 @@ form label {
 }
 
 /* Nav bar styles */
-#navbar {
-    background-color: var(--page-bg) !important;   /* set bg-color */
-}
 
-.logo {
-    width: 4.8rem;
-    height: 4.8rem;
-}
 
-#navbar .navbar-toggler {
-    border-radius: 0;   /* remove Bootstraps default border-radius */
-}
 
-#navbar .nav-link {
-    color: var(--primary-text);
-}
 
-#navbar .nav-link:hover {
-    color: var(--ctas-highlights);
-}
 
-#navbar .active {
-    text-decoration: underline;
-}
+
+
+
+
 
 /* Footer styles */
 #footer {
