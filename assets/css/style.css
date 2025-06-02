@@ -66,6 +66,55 @@ h2 { font-size: 2rem; }         /* 32px */
 h3 { font-size: 1.25rem; }      /* 20px */
 h4 { font-size: 1.125rem; }       /* 18px */
 
+/* ===== Button & CTA styles ===== */
+
+/* Primary CTA button (e.g., hero section, key actions) */
+.primary-cta {
+    display: inline-block;      /* Button acts, like a block but remain inline*/
+    background-color: var(--ctas-highlights);   /* Yellow */
+    color: var(--cta-text) !important;     /* Black text for contrast */
+    font-weight: 700;       /* Bold for visibility */
+    letter-spacing: 0.03em;     /* Slight spacing */
+    padding: 0.75rem 1.5rem;    /* Comfortable click target */
+    border: none;      /* Remove border */
+    border-radius: 0;   /* Square, minimal aesthetic */
+    transition: all 0.2s ease-in-out;       /* Smooth hover feedback */
+}
+
+/* Primary cta hover and focus states */
+.primary-cta:hover, .primary-cta:focus {
+    background-color: transparent;      /* Inverted colour scheme on hover */
+    color: var(--ctas-highlights) !important;  /* add important to force rule */
+    border: 1px solid var(--ctas-highlights);   
+}
+
+/* Secondary CTA (e.g., less prominent actions, cancel buttons, etc.) */
+.secondary-cta {
+    display: inline-block;
+    background-color: var(--cta-text);
+    color: var(--ctas-highlights);
+    font-weight: 600;
+    letter-spacing: 0.03em;
+    padding: 0.75rem 1.5rem;
+    border: 1px solid var(--ctas-highlights);
+    border-radius: 0;
+    transition: all 0.2s ease-in-out;
+}
+
+/* Secondary CTA hover and focus states */
+.secondary-cta:hover, .secondary-cta:focus {
+    background-color: var(--ctas-highlights);
+    color: var(--cta-text);
+}
+
+/* ===== Utility Classes ===== */
+
+/* Utility class to make buttons span full width on mobile */
+.btn-block {
+    width: 100%;
+    display: block;
+}
+
 .card-headings {
     font-family: var(--font-heading);
     font-size: 20px;
@@ -90,32 +139,6 @@ h4 { font-size: 1.125rem; }       /* 18px */
 .custom-card {
     background-color: var(--cta-text) !important;
     color: var(--primary-text);
-}
-
-/* Custom buttons */
-.primary-cta {
-    background-color: var(--ctas-highlights);
-    border-radius: 0;
-    color: var(--cta-text) !important; /* add important so it isnt overridden */
-    font-weight: 700;
-}
-
-.primary-cta:hover {
-    background-color: transparent;
-    color: var(--ctas-highlights) !important;  /* add important to force rule */
-    border: 1px solid var(--ctas-highlights);
-}
-
-.secondary-cta {
-    background-color: var(--cta-text);
-    border-radius: 0;
-    color: var(--ctas-highlights);
-    border: 1px solid var(--ctas-highlights);
-}
-
-.secondary-cta:hover {
-    background-color: var(--ctas-highlights);
-    color: var(--cta-text);
 }
 
 /* Nav bar styles */
