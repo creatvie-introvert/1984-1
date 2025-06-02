@@ -392,10 +392,6 @@ footer p {
     padding: 4rem 24px;
 }
 
-.custom-card {
-    background-color: var(--cta-text) !important;
-    color: var(--primary-text);
-}
 
 /* Nav bar styles */
 
