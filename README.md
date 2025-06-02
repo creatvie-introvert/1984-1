@@ -23,10 +23,11 @@ The site is designed for users who want a thought-provoking yet entertaining way
   - [Navigation](#navigation)
   - [Footer](#footer)
   - [Hero Section](#hero-section)
-  - [Webite Intro](#website-intro)
+  - [Webite Intro - Citizen Briefing Document](#website-intro---citizen-briefing-document)
   - [Main Navigation Grid](#main-navigation-grid)
   - [Testimonials Carousel](#testimonials-carousel)
   - [Newsletter Signup Form](#newsletter-signup-form)
+  - [Newsletter Signup Confirmation Page - Join the Broadcast Confirmation](#newsletter-signup-confirmation-page---join-the-broadcast-confirmation)
 - [Additional Pages](#additional-pages)
   - [Surveillance Page](#surveillance-page)
   - [Housing Page](#)
@@ -280,26 +281,25 @@ The site is designed for users who want a thought-provoking yet entertaining way
 ![Desktop Newsletter Signup Form](assets/docs/desktop-newsletter-signup.png)
 </details>
 
-### Mailing List Confirmation Modal
-- **Purpose**: Confirms successful newsletter signup with satirical flair.
-- **Trigger**: Activated when a user submits their email through the newsletter form.
-
-- **Design**:
-  - Dark Bootstrap modal matching the site's theme.
-  - Contains a parody "Ministry Notice" confirming the user's increased loyalty and subscription success.
-  - Reinforces brand tone with lines like "Please read with compliance and a hot beverage."
-
-- **Accessibility**:
-  - Includes aria-labelledby and aria-hidden for screen reader compatibility.
-  - Uses Bootstrap's accessible modal structure.
-
-- **Close Options**:
-  - Includes both a top-right dismiss (X) and a "Close" button with the site's CTA style.
+### Newsletter Signup Confirmation Page - Join the Broadcast Confirmation
+- Replaced the modal with a dedicated confirmation page for newsletter subscribers.
+- Confirms successful submission with a satiirical Ministry-themed message using bold headings and centrally aligned text.
+- Fully responsive layout built with Bootstrap utility classes and grid spacing for vertical balance.
+- Accessible and semantic structure ensures compatibility with screen readers and assitive technology.
+- Shares the same persistent navigation and footer components as the main site for a consistent user experience.
+- Styled to align with the homepage tone - blending humour, compliance and dystopian flair.
+- Reached via form.html > join-the-broadcast.html submission flow, avoiding JavaScript dependency.
 
 <details>
-<summary>Join the Broadcast Modal</summary>
+<summary>Mobile View</summary>
 
-![Join the Broadcast Modal](assets/docs/modal.png)
+![Mobile view - Join the Broadcast Page](assets/docs/join-the-broadcast-page-mobile.png)
+</details>
+
+<details>
+<summary>Desktop View</summary>
+
+![Desktop view - Join the Broadcast Page](assets/docs/join-the-broadcast-desktop.png)
 </details>
 
 ## Additional Pages
