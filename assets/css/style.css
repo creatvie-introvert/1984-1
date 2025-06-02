@@ -157,6 +157,9 @@ footer p {
     display: block;
     max-width: 100%;
     height: auto;
+    border: 1px solid var(--ctas-highlights);
+    box-shadow: 0 0 20px rgba(255, 221, 45, 0.25), 0 0 30px rgba(255, 221, 45, 0.15);
+    filter: grayscale(10%) contrast(1.1);
 }
 
 
@@ -476,6 +479,16 @@ form label {
     display: block;
 }
 
+/* Form confirmation page */
+#form-confirmation i {
+    color: var(--ctas-highlights);
+}
+
+.confirmation-meta {
+    background-color: var(--cta-text);
+    border: 1px solid var(--ctas-highlights);
+}
+
 /* Media Queries */
 
 @media (min-width: 577px) {
@@ -490,6 +503,11 @@ form label {
 @media (min-width: 768px) {
     .hero-image {
         width: 100%;
+    }
+
+    .hero .lead {
+        font-size: 1.25rem;
+        line-height: 1.6;
     }
 
     /* Page banners */
