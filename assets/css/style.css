@@ -1,51 +1,34 @@
 :root {
-    --primary-font: 'Inter', sans-serif;  /* use for main text */
-    --secondary-font: 'Unica One', sans-serif;  /* use for header text */
+    /* Typography */
+    --font-body: 'Inter', sans-serif;  /* use for main text */
+    --font-heading: 'Unica One', sans-serif;  /* use for headings text */
 
+    /* Core colours */
     --page-bg: #1E1E1E; 
     --primary-text: #EAEAEA;
+    --cta-text: #000;
+
+    /* Accent colours */
     --link-text: #5FAFFF;
     --alerts: #cf382a;
-    --cta-text: #000;
     --ctas-highlights: #FFDD2D;
 }
 
-/* General Styles */
+/* ===== Global Base Styles ===== */
 
 /* Font styles */
 body {
-    font-family: var(--primary-font);
+    font-family: var(--font-body);
     background-color: var(--page-bg);
+    color: var(--primary-text);
+    font-size: 1rem;
+    line-height: 1.6;
 }
 
-.text-colour {
-    color: var(--primary-text) !important;
+p {
+    margin-bottom: 1.25rem;
 }
 
-h1,
-h2,
-h3 {
-    font-family: var(--secondary-font);
-}
-
-h2 {
-    font-size: 2rem;
-}
-
-.card-headings {
-    font-family: var(--secondary-font);
-    font-size: 20px;
-}
-
-.card-title {
-    font-family: var(--secondary-font);
-}
-
-.card-text {
-    font-family: var(--primary-font);
-}
-
-/* Base a styles */
 a {
     color: var(--link-text);
     text-decoration: none;
@@ -57,7 +40,46 @@ a:hover {
 
 ul {
     padding-left: 0;
+    list-style: none;
 }
+
+small, .helper-text {
+    font-size: 0.875;
+    color: var(--alerts);
+    line-height: 1.4;
+}
+
+.text-colour {
+    color: var(--primary-text) !important;
+}
+
+h1, h2, h3, h4 {
+    font-family: var(--font-heading);
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    margin-bottom: 1rem;
+    font-weight: normal;
+}
+
+h1 { font-size: 2.25rem; }      /* 36px */
+h2 { font-size: 2rem; }         /* 32px */
+h3 { font-size: 1.25rem; }      /* 20px */
+h4 { font-size: 1.125rem; }       /* 18px */
+
+.card-headings {
+    font-family: var(--font-heading);
+    font-size: 20px;
+}
+
+.card-title {
+    font-family: var(--font-heading);
+}
+
+.card-text {
+    font-family: var(--font-body);
+}
+
+
 
 .section {
     background-color: var(--page-bg) !important;
@@ -221,7 +243,7 @@ footer p {
 
 /* Surveillance page styles */
 .heading-small {
-    font-family: var(--primary-font);
+    font-family: var(--font-body);
     font-size: 14px;
     color: var(--primary-text);
 }
@@ -501,6 +523,10 @@ form label {
 }
 
 @media (min-width: 768px) {
+    h1 { font-size: 3rem; }     /* 48px */
+    h2 { font-size: 2.25rem; }  /* 36px */
+    h3 { font-size: 1.5rem; }   /* 24px */
+
     .hero-image {
         width: 100%;
     }
