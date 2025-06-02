@@ -414,29 +414,6 @@ footer p {
 
 
 
-
-.border-black {
-    border-color: var(--cta-text) !important;
-}
-
-/* Hero styles */
-
-
-
-.card {
-    height: 100%;
-    min-height: 300px;
-}
-
-
-
-/* Nav tiles grid section */
-/* .card {
-    border-radius: 0;
-} */
-
-
-
 #nav-tiles i,
 #lost-community i {
     color: var(--ctas-highlights);
