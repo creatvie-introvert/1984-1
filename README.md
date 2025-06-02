@@ -248,13 +248,13 @@ The site is designed for users who want a thought-provoking yet entertaining way
 <details>
 <summary>Mobile Testimonial Carousel</summary>
 
-![Mobile Testimonial Carousel](assets/docs/mobile-testimonials.png)
+![Mobile Testimonial Carousel](assets/docs/testimonials-mobile.png)
 </details>
 
 <details>
 <summary>Desktop Testimonial Carousel</summary>
 
-![Desktop Testimonial Carousel](assets/docs/desktop-testimonials.png)
+![Desktop Testimonial Carousel](assets/docs/testimonials-desktop.png)
 </details>
 
 ### Newsletter Signup Form
