@@ -280,6 +280,24 @@ form label {
     border: 1px solid var(--ctas-highlights);
 }
 
+/* ===== Hero Section Styles ===== */
+
+/* Hero image base styling */
+.hero-image {
+    display: block;
+    width: 100%;
+    height: auto;
+    border: 1px solid var(--ctas-highlights);
+    box-shadow: 0 0 20px rgba(255, 221, 45, 0.25), 0 0 30px rgba(255, 221, 45, 0.15);
+    filter: grayscale(10%) contrast(1.1);
+}
+
+/* Hero background colour */
+#hero {
+    background-color: var(--cta-text) !important;
+}
+
+
 .section {
     background-color: var(--page-bg) !important;
     color: var(--primary-text) !important;
@@ -348,14 +366,7 @@ footer p {
 }
 
 /* Hero styles */
-.hero-image {
-    display: block;
-    max-width: 100%;
-    height: auto;
-    border: 1px solid var(--ctas-highlights);
-    box-shadow: 0 0 20px rgba(255, 221, 45, 0.25), 0 0 30px rgba(255, 221, 45, 0.15);
-    filter: grayscale(10%) contrast(1.1);
-}
+
 
 
 .card {
@@ -617,16 +628,10 @@ footer p {
     h1 { font-size: 3rem; }     /* 48px */
     h2 { font-size: 2.25rem; }  /* 36px */
     h3 { font-size: 1.5rem; }   /* 24px */
-
-    .hero-image {
-        width: 100%;
-    }
-
+   
     .hero .lead {
-        font-size: 1.25rem;
-        line-height: 1.6;
+        font-size: 1.25rem;     /* 20px */
     }
-
     /* Page banners */
     .banner-card-img {
         height: 380px;
@@ -641,7 +646,7 @@ footer p {
 @media (min-width: 992px) {
     .hero-image{
         width: 100%; 
-        min-height: 400px; 
+        min-height: 550px; 
     }
 
     /* Adjust card background image for desktop */
