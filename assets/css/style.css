@@ -397,15 +397,35 @@ footer p {
     color: var(--ctas-highlights);
 }
 
-/* ===== Newsletter Signup Section Styles */
+/* ===== Newsletter Signup Section Styles ===== */
 #newsletter-signup .card {
     border: 1px solid var(--ctas-highlights);
     color: var(--ctas-highlights);
 }
 
+/* ===== Themed Background Sections ===== */
 
+.bg-dystopian {
+    background-image: url(../images/citizen-briefing-dystopian-london.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 550px;
+    position: relative;
+}
 
+.bg-dystopian::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 0;
+}
 
+.bg-dystopian .card-img-overlay {
+    position: relative;
+    z-index: 1;
+}
 
 
 
@@ -422,17 +442,6 @@ footer p {
     height: 550px;
     object-fit: cover;
 }
-
-/* Footer Styles */
-
-
-
-
-
-
-
-
-
 
 #surveillance-intro {
     background: url(../images/cctv-room.webp) no-repeat center center fixed;
@@ -597,25 +606,6 @@ footer p {
     z-index: 2;
 }
 
-/* Report a violation styles */
-
-
-
-
-
-
-
-
-#report-a-violation-form .row {
-    min-height: 100%;
-}
-
-
-
-/* Form confirmation page */
-
-
-
 
 /* Media Queries */
 
@@ -652,10 +642,23 @@ footer p {
         min-height: 550px; 
     }
 
-    /* Adjust card background image for desktop */
-    .bg-card-img {
-        height: 300px;
+    .bg-dystopian {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        height: 100%;
+        padding: 0 6rem;
     }
+
+    .bg-dystopian p {
+        font-size: 1.125rem;
+    }
+
+    
+
+
 
     #everyday-surveillance img {
         height: 400px;
