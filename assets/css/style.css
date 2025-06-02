@@ -71,6 +71,13 @@ h4 { font-size: 1.125rem; }       /* 18px */
     padding: 2rem 24px;
 }
 
+/* Site Intro Banner */
+.site-intro-banner {
+    background-color: var(--cta-text);
+    font-size: 0.875rem;
+    letter-spacing: 0.03em;
+}
+
 /* ===== Button & CTA styles ===== */
 
 /* Primary CTA button (e.g., hero section, key actions) */
