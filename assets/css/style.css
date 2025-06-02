@@ -148,7 +148,7 @@ h4 { font-size: 1.125rem; }       /* 18px */
 /* Background image inside cards */
 .bg-card-img {
     width: 100%;
-    height: 430px;
+    height: 520px;
     object-fit: cover;      /* Ensure full image fill with cropping if needed */
 }
 
@@ -192,13 +192,92 @@ h4 { font-size: 1.125rem; }       /* 18px */
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);    /* Glow for visibility */
 }
 
-/* Remove default qutoe styling */
+/* Remove default quote styling */
 blockquote {
     position: relative;
 }
 
 blockquote::before {
     content: none;
+}
+
+/* ===== Form Styles ===== */
+
+/* Base form control, input/textare */
+.form-control {
+    display: block;
+    width: 100%;
+    background-color: var(--cta-text);
+    color: var(--primary-text);
+    border: 1px solid var(--ctas-highlights);
+    border-radius: 0;
+    padding: 0.5rem;
+}
+
+/* Form-control focused state */
+.form-control:focus {
+    background-color: var(--page-bg) !important;
+    color: var(--primary-text) !important;
+}
+
+/* Form placeholder styling */
+.form-control::placeholder {
+    color: var(--primary-text) !important;
+    opacity: 1 !important;
+}
+
+/* Helper text under inputs */
+.helper-text {
+    color: var(--alerts);
+    font-size: 0.875rem;    /* 14px */
+    line-height: 1.4;
+}
+
+/* Label display */
+form label {
+    display: block;
+    margin-top: 1.25rem;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+/* Specific signup form input override */
+#signup-form input.form-control {
+    border: 1px solid var(--ctas-highlights) !important;
+    border-radius: 0;
+    background-color: var(--cta-text) !important;
+}
+
+/* Email terms and conditions */
+#email-terms{
+    color: var(--ctas-highlights);
+}
+
+/* Form layout helper classes */
+.image-column {
+    display: flex;
+    align-items: stretch;
+}
+
+.image-column img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    max-width: none;
+}
+
+#report-a-violation-form .row {
+    min-height: 100%;
+}
+
+/* Confirmation page styling */
+#form-confirmation i {
+    color: var(--ctas-highlights);
+}
+
+.confirmation-meta {
+    background-color: var(--cta-text);
+    border: 1px solid var(--ctas-highlights);
 }
 
 .section {
@@ -309,25 +388,13 @@ footer p {
     color: var(--ctas-highlights);
 }
 
-#emailHelp {
-    color: var(--ctas-highlights);
-}
 
-#signup-form input.form-control {
-    border: 1px solid var(--ctas-highlights) !important;
-    border-radius: 0;
-    background-color: var(--cta-text) !important;
-}
 
-#signup-form input.form-control::placeholder {
-    color: var(--primary-text) !important;
-    opacity: 1 !important;
-}
 
-.form-control:focus {
-    background-color: var(--page-bg) !important;
-    color: var(--primary-text) !important;
-}
+
+
+
+
 
 /* Surveillance page styles */
 .heading-small {
@@ -517,48 +584,24 @@ footer p {
 }
 
 /* Report a violation styles */
-.helper-text {
-    color: var(--alerts);
-}
 
-.form-control {
-    display: block;
-    width: 100%;
-    background-color: var(--cta-text);
-    color: var(--primary-text);
-    border: 1px solid var(--ctas-highlights);
-    border-radius: 0;
-}
 
-.image-column {
-    display: flex;
-    align-items: stretch;
-}
 
-.image-column img {
-    object-fit: cover;
-    height: 100%;
-    width: 100%;
-    max-width: none;
-}
 
-#eport-a-violation-form .row {
+
+
+
+
+#report-a-violation-form .row {
     min-height: 100%;
 }
 
-form label {
-    display: block;
-}
+
 
 /* Form confirmation page */
-#form-confirmation i {
-    color: var(--ctas-highlights);
-}
 
-.confirmation-meta {
-    background-color: var(--cta-text);
-    border: 1px solid var(--ctas-highlights);
-}
+
+
 
 /* Media Queries */
 
