@@ -335,9 +335,56 @@ form label {
     text-decoration: underline;
 }
 
+/* ===== Footer Styles ===== */
 
+#footer {
+    background-color: var(--page-bg) !important;
+    padding: 3rem 1.5rem;
+    margin-bottom: 1rem;
+}
 
+/* Footer text */
+footer p {
+    color: var(--primary-text);
+    margin-bottom: 1rem;
+}
 
+/* Social media icons */
+.social-links {
+    margin-bottom: 1.5rem;
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.social-links a {
+    color: var(--alerts);
+    font-size: 2rem;
+    transition: color 0.2s ease-in-out;
+}
+
+.social-links a:hover, .social-links a:focus {
+    color: var(--link-text);
+}
+
+/* Footer navigation links */
+.footer-nav {
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.footer-nav li a {
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    transition: color 0.2s ease-in-out;
+}
+
+.footer-nav li a:hover, .footer-nav li a:focus {
+    color: var(--ctas-highlights);
+}
 
 .section {
     background-color: var(--page-bg) !important;
@@ -362,30 +409,14 @@ form label {
 
 
 /* Footer styles */
-#footer {
-    background-color: var(--page-bg) !important;
-}
-footer p {
-    color: var(--primary-text);
-}
 
-.social-links {
-    margin-bottom: 1rem;
-}
 
-.social-links a {
-    color: var(--alerts);
-    font-size: 2rem;
-    margin-right: 1rem;
-}
 
-.social-links a:hover {
-    color: var(--link-text);
-}
 
-.footer-nav li {
-    margin-bottom: 0.8rem;
-}
+
+
+
+
 
 .border-black {
     border-color: var(--cta-text) !important;
@@ -446,7 +477,7 @@ footer p {
     object-fit: cover;
 }
 
-
+/* Footer Styles */
 
 
 
