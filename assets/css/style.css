@@ -468,6 +468,15 @@ footer p {
 #surveillance-intro > * {
     position: relative;
     z-index: 2;
+    list-style: none;
+}
+
+#everyday-surveillance li {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-left: 0;
+    padding-left: 0;
 }
 
 #surveillance-close {
