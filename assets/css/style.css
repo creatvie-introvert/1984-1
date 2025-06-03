@@ -452,7 +452,7 @@ footer p {
 /* ===== Surveillance Page ===== */
 #surveillance-intro {
     position: relative;
-    background: url(../images/cctv-room.webp) no-repeat center center fixed;
+    background: url(../images/london-surveillance.webp) no-repeat center center fixed;
     background-size: cover;
 }
 
@@ -531,8 +531,6 @@ footer p {
     position: relative;
     background: url(../images/anxiety-room.webp) no-repeat center center fixed;
     background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
 }
 
 #room-101-intro > * {
@@ -562,72 +560,28 @@ footer p {
     z-index: 2;
 }
 
-
-/* Surveillance page styles */
-
-/* Housing page styles */
-
-/* Intro banner */
-
-
-/* #housing-intro::before {
-    content: "";
-    position: absolute;
-    inset: 0;
-    background-color: rgba(0, 0, 0, 0.6);
-    z-index: 1;
-} */
-
-/* Community page */
-
-/* #community-intro::before {
-    content: "";
-    position: absolute;
-    inset: 0;
-    background-color: rgba(0, 0, 0, 0.6);
-    z-index: 1;
-} */
-
-/* #community-close::before {
-    content: "";
-    position: absolute;
-    inset: 0;
-    background-color: rgba(0, 0, 0, 0.6);
-    z-index: 1;
-} */
-
-/* Room 101 page styles */
-
-/* #room-101-intro::before {
-    content: "";
-    position: absolute;
-    inset: 0;
-    background-color: rgba(0, 0, 0, 0.6);
-    z-index: 1;
-} */
-
-
-
-
-
-/* #room101-close::before {
-    content: "";
-    position: absolute;
-    inset: 0;
-    background-color: rgba(0, 0, 0, 0.6);
-    z-index: 1;
-} */
-
-
-
-
-/* Media Queries */
+/* ===== Media Queries ===== */
 
 @media (min-width: 577px) {
     /* Responsive image scaling on cards for small viewports */
     .bg-card-img {
         height: auto;
         aspect-ratio: 3 / 2;
+    }
+
+    #surveillance-intro {
+        min-height: 450px;
+        background-position: bottom center;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .surveillance-content {
+        text-align: center;
+        margin: 0 auto;
+        max-width: 800px;
     }
 }
 
@@ -669,10 +623,6 @@ footer p {
     .bg-dystopian p {
         font-size: 1.125rem;
     }
-
-    
-
-
 
     #everyday-surveillance img {
         height: 400px;
