@@ -304,42 +304,41 @@ The site is designed for users who want a thought-provoking yet entertaining way
 
 ## Additional Pages
 ### Surveillance Page
-The surveillance page explores the theme of digital monitoring in modern London, using satire to highlight the parrallels between 
-Orwell's 1984 and our everyday tech habits.
+The surveillance pgae introduces the theme of digital surveillance in modern-day London, blending satire and critical commentary.
 
-**Key Features**
+- **Intro Section (`#surveillance-intro`)**:
+  - Features a full-width banner image with dark overlay using the `.page-intro` class for reusability.
+  - Content is vertically and horizontally centred using Flexbox with a constrained max-width for readability.
+  - Overlay includes a satirical subheading, main heading, and descriptive paragraph styled reponsively.
+  - The background image is optimised and served via WebP format.
 
-- **Hero Section with Custom Background**
+- **Main Content**:
+  - Uses a combination of checkist-style lists, paragraphs, and images to highlight surveillance touchpoints in daily life.
+  - List-items are styled with text and font awesome graphics to, using flexbox to maintain consistency.
 
-  A full-width header built using custom CSS background styling wth a dark overlay for contrast and accessibility. Replaces the Bootstrap card used on the homepage intro for improved performance and Largest Contentful Paint (LCP) optimisation.
+- **Outro Section (`.page-outro`)**:
+  - A dramatic closing scene styled with a dark overlay and flex layout.
+  - The heading and paragraph are displayed side by side on tablet and desktop, and stacked on smaller screens.
+  - Includes a stylised message about *"community enagement"* and the illusion of freedom under constant observation.
 
-- **Responsive Content Blocks**
+- **Responsiveness**:
+  - Fully responsive layout with optimised typography, background positioning, and media query handling.
+  - Reusable utility classes (`.page-intro`, `.page-ouro`) reduce code duplication across similar pages.
 
-  A series of satirical content sections styled with Bootstrap's grid system. Each block features humourous observations on smart devices, location tracking, and voice assistants. Layout stacks on mobile and displays as two columns on tablet and desktop.
+- **Accessibility & Performance**:
+  - Uses semantic HTML, keyboard-accessible structure, alt-text, and appropiate colour contrast.
+  - Performance is enhanced with compressed images and efficient CSS.
 
-- **Custom Blockquote Styling**
-
-  Includes a citizen "quote" styled with `<blockquote>`, Font Awesome icons for oversized quotation marks, and custom CSS for drop shadows, colour, and position. Adds a layer of visual interest and brand tone.
-
-- **Closing Satirical Paragraph**
-
-  Ends the page with a paragraph styled over a CSS background image (street-level CCTV view) and high-contrast text. Delivered as a parody of official messaging, it reflects on public surveillance with humour and unease.
-
-- **Mobile-First Responsive Design**
-
-  The entire page adapts fluidly across devices. All elements follow semantic HTML, meet WCAG contrast guidelines, and are optimised for performance and accessibility.
-
-[View the Surveillance Page](https://creatvie-introvert.github.io/1984-1/surveillance.html)
 <details>
 <summary>Mobile View</summary>
 
-![Mobile view - Surveillance Page](assets/docs/surveillance-pg-mobile.png)
+![Mobile view - Surveillance Page](assets/docs/suveillance-mobile-page.html.png)
 </details>
 
 <details>
 <summary>Desktop View</summary>
 
-![Desktop view - Surveillance Page](assets/docs/surveillance-pg-desktop.png)
+![Mobile view - Surveillance Page](assets/docs/surveillance-desktop-page.png)
 </details>
 
 ### Housing Page
