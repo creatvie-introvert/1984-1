@@ -479,13 +479,26 @@ footer p {
     padding-left: 0;
 }
 
-#surveillance-close {
+#surveillance-outro {
     position: relative;
-    background: url(../images/surveillance-bg.webp) no-repeat center center fixed;
+    background: url(../images/london-street.webp) no-repeat center center fixed;
     background-size: cover;
     color: var(--primary-text);
     overflow: hidden;
     z-index: 0;
+}
+
+#surveillance-outro::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+#surveillance-outro > * {
+    position: relative;
+    z-index: 2;
 }
 
 /* ===== Housing Page ===== */
@@ -595,9 +608,9 @@ footer p {
 }
 
 @media (min-width: 768px) {
-    h1 { font-size: 3rem; }     /* 48px */
-    h2 { font-size: 2.25rem; }  /* 36px */
-    h3 { font-size: 1.5rem; }   /* 24px */
+    h1 { font-size: 3.5rem !important; }     /* 56px */
+    h2 { font-size: 2.5rem !important; }  /* 40px */
+    h3 { font-size: 1.5rem !important; }   /* 24px */
    
     .hero .lead {
         font-size: 1.25rem;     /* 20px */
@@ -610,6 +623,15 @@ footer p {
 
     .card-img-overlay {
         padding: 2rem;
+    }
+
+    #surveillance-outro .container {
+        display: flex;
+        flex-direction: row;
+    }
+
+    #surveillance-outro h2, #surveillance-outro p {
+        flex: 1;
     }
 }
 
