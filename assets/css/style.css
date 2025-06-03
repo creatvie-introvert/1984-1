@@ -517,7 +517,7 @@ footer p {
     padding-left: 0;
 }
 
-/* Styled bullet point layout  */
+/* Styled bullet point layout (used on page - Room 101) */
 .bullet-points {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
