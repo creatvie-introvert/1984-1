@@ -584,13 +584,16 @@ footer p {
 
 /* ===== Media Queries ===== */
 
+/* ===== Small Devices (≥577px) ===== */
+
 @media (min-width: 577px) {
-    /* Responsive image scaling on cards for small viewports */
+    /* Maintain image aspect ratio for better scaling on smaller screens */
     .bg-card-img {
         height: auto;
         aspect-ratio: 3 / 2;
     }
 
+    /* Set minimum height and centre content for the surveillance intro banner */
     #surveillance-intro {
         min-height: 450px;
         background-position: bottom center;
@@ -600,6 +603,8 @@ footer p {
         justify-content: center;
         align-items: center;
     }
+
+    /* Centre and constrain surveillance intro text block */
     .surveillance-content {
         text-align: center;
         margin: 0 auto;
@@ -607,40 +612,51 @@ footer p {
     }
 }
 
+/* ===== Mediumm Devices(≥768px) ===== */
+
 @media (min-width: 768px) {
+    /* Scale up heading fonts sizes for better visual hierachy on tablets */
     h1 { font-size: 3.5rem !important; }     /* 56px */
     h2 { font-size: 2.5rem !important; }  /* 40px */
     h3 { font-size: 1.5rem !important; }   /* 24px */
    
+    /* Adjust hero paragraph size for readability */
     .hero .lead {
         font-size: 1.25rem;     /* 20px */
     }
-    /* Page banners */
+
+    /* Resize banner images for better balance on medium screens */
     .banner-card-img {
         height: 380px;
         object-fit: cover;
     }
 
+    /* Increase overlay padding for visual breathing */
     .card-img-overlay {
         padding: 2rem;
     }
 
+    /* Display outro section content side by side */
     #surveillance-outro .container {
         display: flex;
         flex-direction: row;
     }
 
+    /* Allow both the heading and the paragraph to share horizontal space */
     #surveillance-outro h2, #surveillance-outro p {
         flex: 1;
     }
 }
 
+/* ===== Large Devices (≥992px) ===== */
 @media (min-width: 992px) {
+    /* Scale up hero image dimensions for full-width impact */
     .hero-image{
         width: 100%; 
         min-height: 550px; 
     }
 
+    /* Centre and pad Citizen Briefing overlay content */
     .bg-dystopian {
         display: flex;
         flex-direction: column;
@@ -651,33 +667,40 @@ footer p {
         padding: 0 6rem;
     }
 
+    /* Slightly increase paragraph text in dystopian sections */
     .bg-dystopian p {
         font-size: 1.125rem;
     }
 
+    /* Scale featured surveillance section image for desktop */
     #everyday-surveillance img {
         height: 400px;
         object-fit: cover;
     }
 
+    /* Centre and constrain images in the community section */
     .community-image-center {
         display: flex;
         margin: auto;
     }
 
+    /* Hide alternate imagery on desktop for a cleaner layout */
     .community-img-bottom {
         display: none;
     }
 
+    /* Align room 101 banner content side by side */
     header .room-101-intro {
         display: flex;
         justify-content: space-between;
     }
 
+    /* Display bullet points in two-column layout */
     .bullet-points {
         grid-template-columns: repeat(2, 1fr);
     }
 
+    /* Increase font size of bullet point text for readability  */
     .bullet-points small {
         font-size: 16px;
     }
