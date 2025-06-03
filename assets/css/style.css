@@ -436,30 +436,30 @@ footer p {
 
 /* ===== Page Specific Styles ===== */
 
-/* General heading and banner image styles */
+/* ===== Global Utilty Styles for Pages ===== */
+
+/* Small heading used in banner intros */
 .heading-small {
     font-family: var(--font-body);
     font-size: 14px;
     color: var(--primary-text);
 }
 
+/* Generic banner images used in introductory sections */
 .banner-card-img {
     width: 100%;
     height: 550px;
-    object-fit: cover;
+    object-fit: cover;      /* Ensures full image coverage whilst preserving aspect ratio */
 }
 
-/* ===== Surveillance Page ===== */
-#surveillance-intro {
-    position: relative;
-    background: url(../images/london-surveillance.webp) no-repeat center center fixed;
-    background-size: cover;
-}
+/* ===== Reusable Intro/Outro Section Layouts */
 
+/* Structural container for all page intro/outro banners */
 .page-intro, .page-outro {
     position: relative;     /* Ensure overlay is bound to the section */
 }
 
+/* Semi-transparent overlay used on all intro/outro sections */
 .page-intro::before, .page-outro::before {
     content: "";
     position: absolute;
@@ -468,36 +468,23 @@ footer p {
     z-index: 1;
 }
 
-/* #surveillance-intro::before, #housing-intro::before, #community-intro::before, #room-101-intro::before, #community-close::before, #room101-close::before
-{
-    content: "";
-    position: absolute;
-    inset: 0;
-    background-color: rgba(0, 0, 0, 0.6);
-    z-index: 1;
-} */
-
-.page-intro > * {
+/* Ensure foreground sits above the overlay */
+.page-intro > *, .page-outro > * {
     position: relative;
     z-index: 2;
-    list-style: none;
 }
 
-/* #surveillance-intro > * {
+/* ===== Page Specific backgrounds ===== */
+
+/* Surveillance page intro banner */
+#surveillance-intro {
     position: relative;
-    z-index: 2;
-    list-style: none;
-} */
-
-#everyday-surveillance li {
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    margin-left: 0;
-    padding-left: 0;
+    background: url(../images/london-surveillance.webp) no-repeat center center fixed;
+    background-size: cover;
 }
 
-.page-outro {
+/* Surveillance page outro banner */
+#surveillance-outro {
     position: relative;
     background: url(../images/london-street.webp) no-repeat center center fixed;
     background-size: cover;
@@ -506,99 +493,37 @@ footer p {
     z-index: 0;
 }
 
-/* .page-outro::before {
-    content: "";
-    position: absolute;
-    inset: 0;
-    background-color: rgba(0, 0, 0, 0.5);
-    z-index: 1;
-} */
+/* Housing page intro banner */
 
-.page-outro > * {
-    position: relative;
-    z-index: 2;
-}
+/* Housing page outro banner */
 
-/* ===== Housing Page ===== */
+/* Community page intro banner */
 
-/* #housing-intro {
-    position: relative;
-    background: url(../images/housing-bg.webp) no-repeat center center fixed;
-    background-size: cover;
-}
-
-#housing-intro > * {
-    position: relative;
-    z-index: 2;
-}
-
-#housing-close {
-    position: relative;
-    background: url(../images/crowded-flat.webp) no-repeat center center fixed;
-    background-size: cover;
-    color: var(--primary-text);
-    overflow: hidden;
-    z-index: 0;
-} */
-
-/* ===== Community Page ===== */
-
-/* #community-intro {
-    position: relative;
-    background: url(../images/single-living.webp) no-repeat center center fixed;
-    background-size: cover;
-}
-
-#community-intro > * {
-    position: relative;
-    z-index: 2;
-}
-
+/* Community page outro banner */
 #community-close {
     position: relative;
     background: url(assets/images/crowded-london.webp) no-repeat center center fixed;
     background-size: cover;
 }
 
-#community-close > * {
-    position: relative;
-    z-index: 2;
-} */
+/* ===== Components and Lists ===== */
 
-/* ===== Room 101 Page ===== */
-
-/* #room-101-intro {
-    position: relative;
-    background: url(../images/anxiety-room.webp) no-repeat center center fixed;
-    background-size: cover;
+/* Custom icon list for the #everyday-surveillance secion */
+#everyday-surveillance li {
+    display: flex;
+    align-items: center;
+    gap: 8px;       /* Space between icon and text */
+    margin-left: 0;
+    padding-left: 0;
 }
 
-#room-101-intro > * {
-    position: relative;
-    z-index: 2;
-}
-
-#room-101-intro h1 {
-    font-size: 5rem;
-} */
-
+/* Styled bullet point layout  */
 .bullet-points {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
     gap: 0.5rem 1rem;
     align-items: center;
 }
-
-/* #room101-close {
-    position: relative;
-    background: url(../images/dystopian-london.webp) no-repeat center center fixed;
-    background-size: cover;
-}
-
-#room101-close > * {
-    position: relative;
-    z-index: 2;
-} */
 
 /* ===== Media Queries ===== */
 
