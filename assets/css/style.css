@@ -456,8 +456,11 @@ footer p {
     background-size: cover;
 }
 
-#surveillance-intro::before, #housing-intro::before, #community-intro::before, #room-101-intro::before, #community-close::before, #room101-close::before
-{
+.page-intro, .page-outro {
+    position: relative;     /* Ensure overlay is bound to the section */
+}
+
+.page-intro::before, .page-outro::before {
     content: "";
     position: absolute;
     inset: 0;
@@ -465,11 +468,26 @@ footer p {
     z-index: 1;
 }
 
-#surveillance-intro > * {
+/* #surveillance-intro::before, #housing-intro::before, #community-intro::before, #room-101-intro::before, #community-close::before, #room101-close::before
+{
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 1;
+} */
+
+.page-intro > * {
     position: relative;
     z-index: 2;
     list-style: none;
 }
+
+/* #surveillance-intro > * {
+    position: relative;
+    z-index: 2;
+    list-style: none;
+} */
 
 #everyday-surveillance li {
     display: flex;
@@ -479,7 +497,7 @@ footer p {
     padding-left: 0;
 }
 
-#surveillance-outro {
+.page-outro {
     position: relative;
     background: url(../images/london-street.webp) no-repeat center center fixed;
     background-size: cover;
@@ -488,22 +506,22 @@ footer p {
     z-index: 0;
 }
 
-#surveillance-outro::before {
+/* .page-outro::before {
     content: "";
     position: absolute;
     inset: 0;
     background-color: rgba(0, 0, 0, 0.5);
     z-index: 1;
-}
+} */
 
-#surveillance-outro > * {
+.page-outro > * {
     position: relative;
     z-index: 2;
 }
 
 /* ===== Housing Page ===== */
 
-#housing-intro {
+/* #housing-intro {
     position: relative;
     background: url(../images/housing-bg.webp) no-repeat center center fixed;
     background-size: cover;
@@ -521,11 +539,11 @@ footer p {
     color: var(--primary-text);
     overflow: hidden;
     z-index: 0;
-}
+} */
 
 /* ===== Community Page ===== */
 
-#community-intro {
+/* #community-intro {
     position: relative;
     background: url(../images/single-living.webp) no-repeat center center fixed;
     background-size: cover;
@@ -545,11 +563,11 @@ footer p {
 #community-close > * {
     position: relative;
     z-index: 2;
-}
+} */
 
 /* ===== Room 101 Page ===== */
 
-#room-101-intro {
+/* #room-101-intro {
     position: relative;
     background: url(../images/anxiety-room.webp) no-repeat center center fixed;
     background-size: cover;
@@ -562,7 +580,7 @@ footer p {
 
 #room-101-intro h1 {
     font-size: 5rem;
-}
+} */
 
 .bullet-points {
     display: grid;
@@ -571,7 +589,7 @@ footer p {
     align-items: center;
 }
 
-#room101-close {
+/* #room101-close {
     position: relative;
     background: url(../images/dystopian-london.webp) no-repeat center center fixed;
     background-size: cover;
@@ -580,7 +598,7 @@ footer p {
 #room101-close > * {
     position: relative;
     z-index: 2;
-}
+} */
 
 /* ===== Media Queries ===== */
 
@@ -594,7 +612,7 @@ footer p {
     }
 
     /* Set minimum height and centre content for the surveillance intro banner */
-    #surveillance-intro {
+    .page-intro {
         min-height: 450px;
         background-position: bottom center;
 
@@ -637,13 +655,13 @@ footer p {
     }
 
     /* Display outro section content side by side */
-    #surveillance-outro .container {
+    .page-outro .container {
         display: flex;
         flex-direction: row;
     }
 
     /* Allow both the heading and the paragraph to share horizontal space */
-    #surveillance-outro h2, #surveillance-outro p {
+    .page-outro h2, .page-outro p {
         flex: 1;
     }
 }
