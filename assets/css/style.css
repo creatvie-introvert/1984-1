@@ -509,11 +509,16 @@ footer p {
 }
 
 /* Community page intro banner */
+#community-intro {
+    position: relative;
+    background: url(../images/community-spirit.webp) no-repeat center bottom fixed;
+    background-size: cover;
+}
 
 /* Community page outro banner */
 #community-close {
     position: relative;
-    background: url(assets/images/crowded-london.webp) no-repeat center center fixed;
+    background: url(../images/anti-social.webp) no-repeat center center fixed;
     background-size: cover;
 }
 
@@ -558,8 +563,8 @@ footer p {
         align-items: center;
     }
 
-    /* Centre and constrain surveillance intro text block */
-    .surveillance-content, .housing-content {
+    /* Centre and constrain page-intro text blocks */
+    .surveillance-content, .housing-content, .community-content {
         text-align: center;
         margin: 0 auto;
         max-width: 800px;
@@ -633,15 +638,15 @@ footer p {
     }
 
     /* Centre and constrain images in the community section */
-    .community-image-center {
+    /* .community-image-center {
         display: flex;
         margin: auto;
-    }
+    } */
 
     /* Hide alternate imagery on desktop for a cleaner layout */
-    .community-img-bottom {
+    /* .community-img-bottom {
         display: none;
-    }
+    } */
 
     /* Align room 101 banner content side by side */
     header .room-101-intro {
