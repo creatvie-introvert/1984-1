@@ -606,9 +606,6 @@ footer p {
         flex: 1;
     }
 
-    .lost-community-card-container {
-        /* gap: 8px; */
-    }
     .lost-community-card {
         min-height: 322px;
     }
@@ -642,6 +639,26 @@ footer p {
     #everyday-surveillance img {
         height: 400px;
         object-fit: cover;
+    }
+
+    .lost-community-card-container {
+        display: grid;
+        grid-template-areas: 
+            "card1 image card3"
+            "card2 image card4";
+        grid-template-columns: 1fr auto 1fr;
+        gap: 2rem;
+        align-items: stretch;
+    }
+
+    .lost-community-card-container > div:nth-child(1) { grid-area: card1; }
+    .lost-community-card-container > div:nth-child(2) { grid-area: card2; }
+    .lost-community-card-container > div:nth-child(3) { grid-area: card3; }
+    .lost-community-card-container > div:nth-child(4) { grid-area: card4; }
+    .lost-community-card-container > div:nth-child(5) { 
+        grid-area: image;
+        display: flex;
+        align-items: center;
     }
 
     /* Centre and constrain images in the community section */
