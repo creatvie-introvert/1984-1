@@ -494,8 +494,19 @@ footer p {
 }
 
 /* Housing page intro banner */
+#housing-intro {
+    position: relative;
+    background: url(../images/housing-contrast.webp) no-repeat center top fixed;
+    background-size: cover;
+}
 
 /* Housing page outro banner */
+#housing-outro {
+    position: relative;
+    background: url(../images/no-dss.webp) no-repeat fixed;
+    background-size: cover;
+    background-position: 30% center;    /* Pushes the image 30% from left */
+}
 
 /* Community page intro banner */
 
@@ -536,7 +547,7 @@ footer p {
         aspect-ratio: 3 / 2;
     }
 
-    /* Set minimum height and centre content for the surveillance intro banner */
+    /* Set minimum height and centre content for the intro banners */
     .page-intro {
         min-height: 450px;
         background-position: bottom center;
@@ -548,7 +559,7 @@ footer p {
     }
 
     /* Centre and constrain surveillance intro text block */
-    .surveillance-content {
+    .surveillance-content, .housing-content {
         text-align: center;
         margin: 0 auto;
         max-width: 800px;
