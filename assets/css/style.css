@@ -605,6 +605,13 @@ footer p {
     .page-outro h2, .page-outro p {
         flex: 1;
     }
+
+    .lost-community-card-container {
+        /* gap: 8px; */
+    }
+    .lost-community-card {
+        min-height: 322px;
+    }
 }
 
 /* ===== Large Devices (≥992px) ===== */
