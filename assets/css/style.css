@@ -542,6 +542,19 @@ footer p {
     box-shadow: 0 0 10px rgba(255, 221, 45, 0.25);
 }
 
+/* Room 101 Styles */
+.room-101-intro {
+    position: relative;
+    background: url(../images/room101.webp) no-repeat center center fixed;
+    background-size: cover;
+}
+
+#room-101-outro {
+    position: relative;
+    background: url(../images/no-exit.webp) no-repeat center center fixed;
+    background-size: cover;
+}
+
 /* ===== Components and Lists ===== */
 
 /* Custom icon list for the #everyday-surveillance secion */
@@ -701,7 +714,9 @@ footer p {
     /* Align room 101 banner content side by side */
     header .room-101-intro {
         display: flex;
-        justify-content: space-between;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 
     /* Display bullet points in two-column layout */
