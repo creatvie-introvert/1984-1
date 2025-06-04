@@ -522,6 +522,26 @@ footer p {
     background-size: cover;
 }
 
+/* ===== Lost Community Section Styles ===== */
+
+.lost-community-card-container {
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns: 1fr;     /* Single column on mobile*/
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.lost-community-image img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border: 1px solid var(--ctas-highlights);
+    border-radius: 0 !important;
+    box-shadow: 0 0 10px rgba(255, 221, 45, 0.25);
+}
+
 /* ===== Components and Lists ===== */
 
 /* Custom icon list for the #everyday-surveillance secion */
@@ -569,6 +589,10 @@ footer p {
         margin: 0 auto;
         max-width: 800px;
     }
+
+    .lost-community-card {
+        padding: 1.5rem;
+    }
 }
 
 /* ===== Mediumm Devices(≥768px) ===== */
@@ -606,8 +630,20 @@ footer p {
         flex: 1;
     }
 
-    .lost-community-card {
-        min-height: 322px;
+    .lost-community-card-container {
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: center;
+    }
+
+    .lost-community-image {
+        grid-column: 1 / -1;
+        display: flex;
+        justify-content: center;
+    }
+
+    .lost-community-image img {
+        width: 70%;
+        max-width: 600px;
     }
 }
 
@@ -642,35 +678,25 @@ footer p {
     }
 
     .lost-community-card-container {
-        display: grid;
-        grid-template-areas: 
-            "card1 image card3"
-            "card2 image card4";
-        grid-template-columns: 1fr auto 1fr;
-        gap: 2rem;
-        align-items: stretch;
+        grid-template-columns: 1fr 2fr 1fr;
+        gap: 8px;
+        align-items: start;
     }
 
-    .lost-community-card-container > div:nth-child(1) { grid-area: card1; }
-    .lost-community-card-container > div:nth-child(2) { grid-area: card2; }
-    .lost-community-card-container > div:nth-child(3) { grid-area: card3; }
-    .lost-community-card-container > div:nth-child(4) { grid-area: card4; }
-    .lost-community-card-container > div:nth-child(5) { 
-        grid-area: image;
+    .lost-community-image {
+        grid-column: 2;
+        grid-row: 1 / 3;
         display: flex;
-        align-items: center;
+        align-self: center;
+        justify-content: center;
     }
 
-    /* Centre and constrain images in the community section */
-    /* .community-image-center {
-        display: flex;
-        margin: auto;
-    } */
-
-    /* Hide alternate imagery on desktop for a cleaner layout */
-    /* .community-img-bottom {
-        display: none;
-    } */
+    .lost-community-image img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+        max-height: 100%;
+    }
 
     /* Align room 101 banner content side by side */
     header .room-101-intro {
