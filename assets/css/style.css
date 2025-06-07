@@ -287,6 +287,10 @@ form label {
     border: 1px solid var(--ctas-highlights);
 }
 
+.ministry-seal {
+    width: 200px;
+}
+
 /* ===== Hero Section Styles ===== */
 
 /* Hero image base styling */
@@ -664,6 +668,10 @@ footer p {
         width: 70%;
         max-width: 600px;
     }
+
+    .ministry-seal {
+        width: 300px;
+    }
 }
 
 /* ===== Large Devices (≥992px) ===== */
@@ -733,5 +741,9 @@ footer p {
     /* Increase font size of bullet point text for readability  */
     .bullet-points small {
         font-size: 16px;
+    }
+
+    .ministry-seal {
+        width: 450px;
     }
 }
