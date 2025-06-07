@@ -481,6 +481,7 @@ footer p {
     position: relative;
     background: url(../images/london-surveillance.webp) no-repeat center center fixed;
     background-size: cover;
+    scroll-margin-top: 80px;
 }
 
 /* Surveillance page outro banner */
