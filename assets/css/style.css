@@ -405,6 +405,10 @@ footer p {
 
 /* ===== Themed Background Sections ===== */
 
+#intro {
+    scroll-margin-top: 120px;
+}
+
 .bg-dystopian {
     background-image: url(../images/citizen-briefing-dystopian-london.webp);
     background-size: cover;
