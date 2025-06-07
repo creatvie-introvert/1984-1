@@ -419,6 +419,11 @@ footer p {
     background-repeat: no-repeat;
     min-height: 550px;
     position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 .bg-dystopian::before {
