@@ -269,6 +269,10 @@ form label {
     max-width: none;
 }
 
+#report-a-violation-form {
+    scroll-margin-top: 120px;
+}
+
 #report-a-violation-form .row {
     min-height: 100%;
 }
@@ -444,12 +448,10 @@ footer p {
 
 /* ===== Reusable Intro/Outro Section Layouts */
 
-/* Structural container for all page intro/outro banners */
 .page-intro, .page-outro {
-    position: relative;     /* Ensure overlay is bound to the section */
+    position: relative;     
 }
 
-/* Semi-transparent overlay used on all intro/outro sections */
 .page-intro::before, .page-outro::before {
     content: "";
     position: absolute;
@@ -458,7 +460,6 @@ footer p {
     z-index: 1;
 }
 
-/* Ensure foreground sits above the overlay */
 .page-intro > *, .page-outro > * {
     position: relative;
     z-index: 2;
@@ -466,15 +467,13 @@ footer p {
 
 /* ===== Page Specific backgrounds ===== */
 
-/* Surveillance page intro banner */
 #surveillance-intro {
     position: relative;
     background: url(../images/london-surveillance.webp) no-repeat center center fixed;
     background-size: cover;
-    scroll-margin-top: 80px;
+    scroll-margin-top: 120px;
 }
 
-/* Surveillance page outro banner */
 #surveillance-outro {
     position: relative;
     background: url(../images/london-street.webp) no-repeat center center fixed;
@@ -484,30 +483,27 @@ footer p {
     z-index: 0;
 }
 
-/* Housing page intro banner */
 #housing-intro {
     position: relative;
     background: url(../images/housing-contrast.webp) no-repeat center top fixed;
     background-size: cover;
-    scroll-margin-top: 80px;
+    scroll-margin-top: 120px;
 }
 
-/* Housing page outro banner */
 #housing-outro {
     position: relative;
     background: url(../images/no-dss.webp) no-repeat fixed;
     background-size: cover;
-    background-position: 30% center;    /* Pushes the image 30% from left */
+    background-position: 30% center;   
 }
 
-/* Community page intro banner */
 #community-intro {
     position: relative;
     background: url(../images/community-spirit.webp) no-repeat center bottom fixed;
     background-size: cover;
+    scroll-margin-top: 120px;
 }
 
-/* Community page outro banner */
 #community-close {
     position: relative;
     background: url(../images/anti-social.webp) no-repeat center center fixed;
@@ -535,6 +531,10 @@ footer p {
 }
 
 /* Room 101 Styles */
+#room-101-intro {
+    scroll-margin-top: 120px;
+}
+
 .room-101-intro {
     position: relative;
     background: url(../images/room101.webp) no-repeat center center fixed;
@@ -564,7 +564,6 @@ footer p {
 
 /* ===== Components and Lists ===== */
 
-/* Custom icon list for the #everyday-surveillance secion */
 #everyday-surveillance li {
     display: flex;
     align-items: center;
