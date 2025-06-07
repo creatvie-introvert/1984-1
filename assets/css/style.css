@@ -604,7 +604,7 @@ footer p {
     }
 
     /* Centre and constrain page-intro text blocks */
-    .surveillance-content, .housing-content, .community-content {
+    .surveillance-content, .housing-content, .community-content, .room-101-content {
         text-align: center;
         margin: 0 auto;
         max-width: 800px;
