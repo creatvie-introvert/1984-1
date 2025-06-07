@@ -499,6 +499,7 @@ footer p {
     position: relative;
     background: url(../images/housing-contrast.webp) no-repeat center top fixed;
     background-size: cover;
+    scroll-margin-top: 80px;
 }
 
 /* Housing page outro banner */
