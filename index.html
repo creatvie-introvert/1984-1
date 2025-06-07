@@ -763,7 +763,7 @@
         <!-- Room 101 intro section/banner -->
         <section id="room-101-intro" class="section text-light py-5 page-intro mt-5">
             <div class="container room-101-intro">
-                <h1 class="h4 fw-bold">Room 101</h1>
+                <h2 class="h4 fw-bold">Room 101</h2>
                 <p class="card-text col-lg-6 text-center">
                     This is it, Citizen.<br>
                     You’ve been watched in public, rinsed in private, and ghosted by your entire postcode.<br>
@@ -806,6 +806,100 @@
                     You’ve made it this far.<br>
                     Might as well share the site with a mate before they get evicted.
                 </p>
+            </div>
+        </section>
+
+        <!-- Form section inro -->
+        <section id="form-intro" class="section text-light py-2 text-center mt-5">
+            <h2>
+                Report a Violation<br> of the Urban Experience
+            </h2>
+            <p>
+                Let the Ministry know what fresh hell you’ve endured — from landlord sins and ghosted flat viewings to emotional damage inflicted by Pret queues and Northern Line heatstroke.
+            </p>
+        </section>
+
+        <section id="report-a-violation-form" class="section">
+            <div class="container">
+                <div class="row align-items-stretch">
+                    <div class="col-12 col-lg-6">
+                        <form action="#">
+                            <label for="violation">
+                                Describe the violation:
+                            </label>
+                            <textarea name="violation" id="violation" aria-describedby="violation-help" class="form-control mb-1" required></textarea>
+                            <small id="violation-help" class="form-text helper-text mb-3">
+                                A short but emotionally charged summary of what happened.
+                            </small>
+
+                            <label for="location">
+                                Where did it occur?
+                            </label>
+                            <input type="text" name="location" id="location" aria-describedby="location-helper" class="form-control mb-1" required>
+                            <small id="location-helper" class="form-text helper-text">
+                                Be as specific or vague as the trauma demands.
+                            </small>
+
+                            <label for="offenders">
+                                Offender(s):
+                            </label>
+                            <input type="text" name="offenders" id="offenders" aria-describedby="offenders-helper" class="form-control mb-1" required>
+                            <small id="offenders-helper" class="form-text helper-text">
+                                Name the individual, corporation, or abstract concept responsible.
+                            </small>
+
+                            <fieldset aria-describedby="impact-helper" class="mb-3">
+                                <legend class="mb-2">
+                                    Impact Level:
+                                </legend>
+                                <div class="form-check form-check-inline">
+                                    <input type="radio" name="impact-level" id="low" value="Low" class="form-check-input" required>
+                                    <label for="low" class="form-check-label">
+                                        Low
+                                    </label>
+                                </div>
+
+                                <div class="form-check form-check-inline">
+                                    <input type="radio" name="impact-level" id="medium" value="Medium" class="form-check-input" required>
+                                    <label for="medium" class="form-check-label">
+                                        Medium
+                                    </label>
+                                </div>
+
+                                <div class="form-check form-check-inline">
+                                    <input type="radio" name="impact-level" id="high" value="High" class="form-check-input" required>
+                                    <label for="high" class="form-check-label">
+                                        High
+                                    </label>
+                                </div>
+                                <p>
+                                    <small id="impact-helper" class="form-text helper-text mt-2">
+                                        Select level of disruption to your mental, social, or financial wellbeing.
+                                    </small>
+                                </p>
+                            </fieldset>
+                            <label for="email">
+                                Email (optional):
+                            </label>
+                            <input type="email" name="email" id="email" aria-describedby="email-helper" class="form-control mb-1">
+                            <small id="email-helper" class="form-text helper-text">
+                                Optional. Used only if we decide to retaliate - we mean, follow up.
+                            </small>
+                            <div class="form-btns mt-3">
+                                <button type="submit" class="btn primary-cta">
+                                    Report Now
+                                </button>
+                                <button type="reset" class="btn secondary-cta">
+                                    Clear Form
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+
+                    <div class="col-12 col-lg-6 mb-4 mb-lg-0 px-0">
+                        <img src="assets/images/report.webp" alt="Maskd figures submitting reports under surveillance signs and drones" class="img-fluid image-column" style="max-width: 100%;height: auto;">
+                    </div>
+                </div>
             </div>
         </section>
     </main>
