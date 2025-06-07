@@ -562,6 +562,21 @@ footer p {
     background-size: cover;
 }
 
+.metrics-container {
+    background-color: var(--cta-text);
+    padding-top: 2rem;
+}
+
+.metrics-container h3 {
+    color: var(--ctas-highlights);
+}
+
+.metrics-container p {
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 /* ===== Components and Lists ===== */
 
 /* Custom icon list for the #everyday-surveillance secion */
