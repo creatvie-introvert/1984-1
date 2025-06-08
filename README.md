@@ -89,16 +89,18 @@ The site is designed for users who want a thought-provoking yet entertaining way
   ## Wireframes
   To plan the structure and layout of the site, I created fow-fidelity wireframes using **Figma**. My process began with a **mobile-first design**, ensuring responsiveness and usability on smaller screeens before scaling up. I then adapted the layouts for **tablet** and finally for **laptop/desktop** viewports, making design choices that preserve visual hierachy and accessibility across all devices.
 
-  [Mobile wireframes](assets/docs/mobile-wf.png)
+  [Mobile wireframes](docs/mobile-wf.png)
 
-  [Tablet wireframes](assets/docs/tablet-wf.png)
+  [Tablet wireframes](docs/tablet-wf.png)
 
-  [Laptop wireframes](assets/docs/desktop-wf.png)
+  [Laptop wireframes](docs/desktop-wf.png)
 
   ## Design Choices
-  The design 1984.1 was guided by the project's satirica tone and its central theme: a modern dystopia rooted in everyday London. Each visual choice - from colours and typography to layout and imagery - was made to reinforce the atmosphere of institutional control, passive surveillance, and curated obedience, while ensuring readability and responsive ness across aall devices.
+  The design of 1984.1 was guided by the project's satirical tone and its central theme: a modern dystopia rooted in everyday London. Each visual choice - from colours and typography to layout and imagery - was made to reinforce the atmosphere of institutional control, passive surveillance, and curated obedience, while ensuring readability and responsiveness across all devices.
 
-  These choices reflect the design intent at the start of development and may be refined further based on how they perform on the live site.
+  During the development, some initial design elements - particularly images - were changed to better align with the final tone and layout of the site. These updated visuals more effectively support the storytelling and aesthetic goals of the project.
+
+  This section reflects the design decisions currently implemented on the live site and may contiue to evolve through user feedback and ongoing post-launch improvements.
 
   ### Typography
   **Headings:** *Unioca One* - chosen for its rigid, institutional feel, evoking the aesthetic of public notices and government-issued warnings.
