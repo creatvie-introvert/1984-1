@@ -1,14 +1,13 @@
-:root {
-    /* Typography */
-    --font-body: 'Inter', sans-serif;  /* use for main text */
-    --font-heading: 'Unica One', sans-serif;  /* use for headings text */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Unica+One&display=swap');
 
-    /* Core colours */
+:root {
+    --font-body: 'Inter', sans-serif;  
+    --font-heading: 'Unica One', sans-serif;  
+
     --page-bg: #1E1E1E; 
     --primary-text: #EAEAEA;
     --cta-text: #000;
 
-    /* Accent colours */
     --link-text: #5FAFFF;
     --alerts: #cf382a;
     --ctas-highlights: #FFDD2D;
@@ -18,7 +17,7 @@
 
 /* Font styles */
 body {
-    font-family: var(--font-body);
+    font-family: var(--font-body) !important;
     background-color: var(--page-bg);
     color: var(--primary-text);
     font-size: 1rem;
@@ -54,7 +53,7 @@ small, .helper-text {
 }
 
 h1, h2, h3, h4 {
-    font-family: var(--font-heading);
+    font-family: var(--font-heading) !important;
     text-transform: uppercase;
     letter-spacing: 0.03em;
     margin-bottom: 1rem;
