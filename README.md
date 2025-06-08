@@ -322,8 +322,32 @@ Accessibiity testing was performed using [Lighthouse](https://developer.chrome.c
 Performance testing was carried out using Lighthouse in Chrome DevTools.
 
 #### Browser Testing
-### Deployment
-#### How to Deploy the Project
-#### How to Fork the Project
-#### How to clone the Project
+
+## Deployment
+### How to Deploy the Project
+1984.1 was deployed early in the process to GitHub pages via the following steps:
+  - Navigate to the repository on GitHub and click on **Settings**.
+  - In the side navigation, select **Pages**.
+  - In the **None** dropdown,choose **Main**.
+  - Click o nthe **Save** button.
+  - The website is now live at https://creatvie-introvert.github.io/1984-1/index.html.
+
+*Any changes required to the website, can be made, commited, and pushed to GitHub.* 
+
+### How to Fork the Project
+Forking the GitHub repository allows you to create a duplicate of a local repository. This is done so that modifications to the copy can be performed without compromising the original repository.
+  - Log in to GitHub
+  - Locate the repository
+  - Click to open it
+  - The fork button is located on the right side of the repository menu. Click fork to copy the repository to your GitHub account.
+
+### How to clone the Project
+To clone the project:
+  - Log in to GitHub
+  - Navigate to the main page of the repository and click Code.
+  - Copy the URL for the repository
+  - Open your local IDE
+  - Change the current working directory to the location where you want to clone the directory
+  - Type git clone, and paste the URL you copied earlier
+  - Press Enter to create your local clone/copy.
 ## Credits
