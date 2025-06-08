@@ -205,32 +205,15 @@ The "Citizen Briefing Document" introduces the site's core satire by delivering 
 ![Citizen Briefing on Desktop Screens](docs/desktop-citizen-briefing.png)
 </details>
 
-### Main Navigation Grid
-- A responsive 4-card grid built with Bootstrap's grid system.
-- Displays satirical content categories: **Surveillance, Housing, Community,** and **Room 101** - each with themed icons, humour-infused descriptions, and custom call-to-action links.
-- Layout adjusts based on screen size:
-  - Full width on mobile
-  - Two-column on tablets
-  - Four-column on desktops
-- Cards are styled with high-contrast black/yellow colour palette and consistent typefaces to reflect the Orwellian theme.
-- Fully keyboard navigable, with accessible colour contrast and sematic heading structure.
+### Main Navigation Grid - Indoctrination Tiles
+The Indoctrination Tiles section fatures a responsive 4-card grid biult using Bootstrap's grid system, showcasing satirical content categories - Sureveillance, Housing, Community, and Room 101. Each card pairs a themed icon with a darkly humorous summary and a custom call-to-action link that directs users to the corresponding sections. The layout adapts fluidly: stacking vertically on mobile, forming 2 columns on tablet, and dispklaying as a four-column layout on desktop. Styled with a bold black and yellow palette and consistent typography, the cards reinforce the site's Orwellian theme. The section maintains semantic structure, keyboard accessibility, and contrast compliance for a a fully inclusive user experience. 
 
 <details>
-<summary>Mobile Indoctrination Tiles Grid</summary>
+<summary>Indoctrination Tiles - Responsive Grid (Mobile, Tablet, Desktop)</summary>
 
-![Mobile Indoctrination Tiles Grid](assets/docs/mobile-nav-tiles.png)
-</details>
-
-<details>
-<summary>Tablet Indoctrination Tiles Grid</summary>
-
-![Tablet Indoctrination Tiles Grid](assets/docs/tablet-nav-tiles.png)
-</details>
-
-<details>
-<summary>Desktop Indoctrination Tiles Grid</summary>
-
-![Desktop Indoctrination Tiles Grid](assets/docs/desktop-nav-tiles.png)
+![Indoctrination Tiles on Mobile](docs/mobile-nav-tiles.png)
+![Indoctrination Tiles on Tablet](docs/tablet-nav-tiles.png)
+![Indoctrination Tiles on Desktop](docs/desktop-nav-tiles.png)
 </details>
 
 ### Testimonials Carousel
