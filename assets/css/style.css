@@ -48,6 +48,7 @@ ul {
 
 small, .helper-text {
     font-size: 1.4rem;
+    color: var(--primary-text) !important;
     line-height: 1.4;
 }
 
