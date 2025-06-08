@@ -47,7 +47,7 @@ ul {
 }
 
 small, .helper-text {
-    font-size: 0.875rem;
+    font-size: 1.4rem;
     color: var(--alerts);
     line-height: 1.4;
 }

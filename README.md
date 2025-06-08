@@ -103,18 +103,25 @@ The site is designed for users who want a thought-provoking yet entertaining way
   This section reflects the design decisions currently implemented on the live site and may contiue to evolve through user feedback and ongoing post-launch improvements.
 
   ### Typography
-  **Headings:** *Unioca One* - chosen for its rigid, institutional feel, evoking the aesthetic of public notices and government-issued warnings.
+  **Headings - *Unioca One*** 
 
-  **Body Text:** *Inter* - selected for its clean, modern readability and versatility across devices, supporting long-form critical copy without distraction.
+  Chosen for its bold, rigid style that echoes the cisual tone of public notices, government signage, and institutional messageing. It reinforces the satirical undertone by mimicking the cold authority of bureaucratic communication.
 
-  The typography aims to reflect the visual language of public sector communication, reinforcing the site's satirical tone.
+  **Body Text - *Inter***
 
-  To optimise performance:
-  - Fonts are loaded using a `<link>` in the HTML `<head>` instead of `@import`, which improves page rendering speed.
-  - Added `rel="Preconnect"` directives for Google Fonts domains to reduce DNS lookup time and latency during font loading.
+  Selected for its clean, modern readability, modern design, and clean geometry. Inter supports the site's long-form content and adapts well across screen sizes, maintaining clarity without visual clutter.
 
-  ![Typography Styles](assets/docs/typography.png)
+  **Purpose & Performance**
 
+  The combination of Unica One and Inter reflecrs the visual language of public sector materials, aligning with the site's parodty of controlled communication. To ensure performance and reduce load times, fonts are imported using `@import` from \Google Fonts.
+
+  ![Typography Styles](docs/typography.png)
+
+  #### Font Usage Table
+  |CSS Name|Font Name|Use Case Description|
+  |--------|---------|--------------------|
+  |--font-body|Inter|Used for paragraphs, buttons, forms, and navigation links to ensure clarity and consistency.|
+  |--font-heading|Unica One|Used for all main headings to evoke insitutional/public signage.|
 
   ### Colour Scheme
   A limited 5-colour palette was used to create a stark, modernist aesthetic. The colours were chosen to reflect both the physical urban environment of London and the emotional tone of passive control. I used [Coolers](https://coolors.co/) to explore combinations and define a cohesive colour palette.
