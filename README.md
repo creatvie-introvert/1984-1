@@ -154,41 +154,37 @@ The site is designed for users who want a thought-provoking yet entertaining way
   This approach ensures the visual content doesn't just decorate the site - it deepens the narrative and experience.
 
 ## Features
-### Navigation
-- Designed a responsive dark mode navigation bar using Bootstrap.
-- Navigation bar includes, site logo, navigation links, and a CTA button.
-- Uses keyboard-friendly markup for accessibility (`tab` and `enter` supported).
-- Full link functionality will be completed during development.
+The **1984.2** website includes a range of features designed to support its satirical tone, reinforce its dystopian narrative, and ensure accessibility across all devices. Each section was deliberately styled to reflect the aesthetic of institutional messaging, urban surveillance, and controlled user experience.
 
+### Responsive Layout
+This site uses a responsive grid system powered by Bootstrap 5, with custom media queries to handle layout transitions across mobile, tablet, and desktop breakpoints. Elements stack or align as needed for seamless user navigation.
 <details>
-<summary>Mobile Navigation Bar</summary>
+<summary>Responsive layout on Mobile, Tablet, and Desktop</summary>
 
-![Mobile Navigation Bar](assets/docs/mobile-navbar.png)
+![Mobile Site](docs/mobile-site.png)
+![Tablet Site](docs/tablet-site.png)
+![Desktop Site](docs/desktop-site.png)
 </details>
 
+### Navigation
+A sticky top navigation bar ensures users can quickly jump between site sections. It is fully responsive and collapses into a hamburger menu on smaller screens.
 <details>
-<summary>Desktop Navigation Bar</summary>
+<summary>Sticky responsive navigation bar</summary>
 
-![Desktop Navigation Bar](assets/docs/desktop-navbar.png)
+![Mobile Navigation Bar Closed](docs/mobile-navbar.png)
+
+![Mobile Navigation Bar Open](docs/mobile-navbar-open.png)
+
+![Desktop Navigation Bar Open](docs/desktop-navbar.png)
 </details>
 
 ### Footer
-- A fully responsive dark footer was designed using Bootstrap to adapt seamlessly across mobile, tablet, and desktop devices.
-- The footer includes key site element: the 1984.1 logo, a compliance themed message, accessible social media links, and main navigation links.
-- Leagal links(Terms of Obedience, Data Surrender Policy, Cookie Notice) are presented inline on larger screens for ease of access and staack vertically on smaller devices for clarity.
-- The layout transitions from a single-column structure on mobile to a two-column grid on desktop, maintaining readability and alignment.
-- All elements follow accessibility best practices, including sematic HTML, keyboard navigation, and compliant colour contrast ratios.
-
+The footer is informative nd functional. It incldes key navigation links, social media icons, legal dislaimers, and a satirical compliance message. Designed to remain visually balanced witht he rest of the layout, it adapts to various screen sizes.
 <details>
-<summary>Mobile Footer</summary>
+<summary>Custom responsive footer with compliance message</summary>
 
-![Mobile Footer](assets/docs/mobile-footer.png)
-</details>
-
-<details>
-<summary>Desktop Footer</summary>
-
-![Desktop Footer](assets/docs/desktop-footer.png)
+![Mobile Footer](docs/mobile-footer.png)
+![Desktop Footer](docs/desktop-footer.png)
 </details>
 
 ### Hero Section
