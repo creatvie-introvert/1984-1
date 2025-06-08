@@ -207,7 +207,6 @@ The "Citizen Briefing Document" introduces the site's core satire by delivering 
 
 ### Main Navigation Grid - Indoctrination Tiles
 The Indoctrination Tiles section fatures a responsive 4-card grid biult using Bootstrap's grid system, showcasing satirical content categories - Sureveillance, Housing, Community, and Room 101. Each card pairs a themed icon with a darkly humorous summary and a custom call-to-action link that directs users to the corresponding sections. The layout adapts fluidly: stacking vertically on mobile, forming 2 columns on tablet, and dispklaying as a four-column layout on desktop. Styled with a bold black and yellow palette and consistent typography, the cards reinforce the site's Orwellian theme. The section maintains semantic structure, keyboard accessibility, and contrast compliance for a a fully inclusive user experience. 
-
 <details>
 <summary>Indoctrination Tiles - Responsive Grid (Mobile, Tablet, Desktop)</summary>
 
@@ -217,66 +216,32 @@ The Indoctrination Tiles section fatures a responsive 4-card grid biult using Bo
 </details>
 
 ### Testimonials Carousel
-- A satirical testimonial section built using the **Bootstrap 5 carousel component**.
-- Displays rotating citizen "quotes" that reflect the tone of **state-approved praise**, parodying dystopian propaganda.
-- Carousel include **three rotating testimonials**, each housed in a centred `<blockquote>` with contrasting styling.
-- The responsive design adapts the carousel layout and spacing across screen izes using Bootstrap's grid classes and utility spacing.
-- Typography and colours align with the dystopian branding, and testimonial metadata is styled as a **mock citizen ID**
-
+The testimonial carousel features a rotating set of fictional citizen quotes built using the Bootstrap 5 carousel component, parodying state-approved propaganda with over-the-top priase for surveillance culture. Each testimonial is housed in a centred `<blockquote>` styled for contrast and emphasis, accompanied by a mock citizen ID as metadata. The section maintains visual cohesion with the site's dystopian branding trough consistent typography and colour use. The layout is fully responsive, with spacing and alignment adapting smoothly across devices via Bootstrap's grid and utility classes, delivering dynamic satire iin a format that mimics official endorsement.
 <details>
-<summary>Mobile Testimonial Carousel</summary>
+<summary>Indoctrination Tiles - Responsive Grid (Mobile, Tablet, Desktop)</summary>
 
-![Mobile Testimonial Carousel](assets/docs/testimonials-mobile.png)
+![Testimonials Carousel on Mobile](docs/mobile-testimonials.png)
+![Testimonials Carousel on Desktop](docs/desktop-testimonials.png)
 </details>
 
+### Forms - Join the Broadcast (newsletter) & Report a Violation
+The site features two custom-built forms that parody civic participation: a newsletter subscription card and a "Report a Violation" complaint portal. The **Newsletter Signup** form is styled in a dystopian black/yellow palette and include satirical prompts like "we promise not to sell your data to *more* corporations than necessary." Built with a Bootstrap structure and enhanced with semantic HTML, it includes accessible labels, aria-describedby helper texr, and responsive spacing. The **Report a Violation** form mimics government reporting tools, complete with stylised radio buttons, required fields, and themed helper coopy. Both forms are frontend-only, keyboard accessible, visually consistent with the site's Orwellian tone, and fully responsive across screen sizes. 
 <details>
-<summary>Desktop Testimonial Carousel</summary>
+<summary>Forms- Join the Broadcast & Report a Violation</summary>
 
-![Desktop Testimonial Carousel](assets/docs/testimonials-desktop.png)
-</details>
-
-### Newsletter Signup Form
-- A custom **newsletter subscription card** styled to match the site's dystopian theme using a high-contrast black and yellow palette.
-- Includes a satirical prompt reminding users that "we promise not to sell your data to *more* corporations than necessary."
-- Uses a standard **Bootstrap form** layout with accessibility enhancements:
-  - Hidden `<label>` for screen readers
-  - Custom `aria-describedby` help text
-  - Responsive spacing and full-width layout on mobile
-- Placeholder text and instructional copy reinforce the site's theme of compliance and indoctrination.
-- Input field, help text, and submit button are custom-styled for brand consistency.
-- The form is currently frontend-only (no backend integration) and serves as a design element rather than a functioning data collector.
-
-<details>
-<summary>Mobile Newsletter Signup Form</summary>
-
-![Mobile Newsletter Signup Form](assets/docs/mobile-newsletter-signup.png)
-</details>
-
-<details>
-<summary>Desktop Newsletter Signup Form</summary>
-
-![Desktop Newsletter Signup Form](assets/docs/desktop-newsletter-signup.png)
+![Join the Broadcast on Mobile](docs/mobile-newsletter-signup.png)
+![Join the Broadcast on Desktop](docs/desktop-newsletter-signup.png)
+![Report a Violation on Mobile](docs/mobile-report-a-violation.png)
+![Report a Violation on Desktop](docs/desktop-report-a-violation.png)
 </details>
 
 ### Newsletter Signup Confirmation Page - Join the Broadcast Confirmation
-- Replaced the modal with a dedicated confirmation page for newsletter subscribers.
-- Confirms successful submission with a satiirical Ministry-themed message using bold headings and centrally aligned text.
-- Fully responsive layout built with Bootstrap utility classes and grid spacing for vertical balance.
-- Accessible and semantic structure ensures compatibility with screen readers and assitive technology.
-- Shares the same persistent navigation and footer components as the main site for a consistent user experience.
-- Styled to align with the homepage tone - blending humour, compliance and dystopian flair.
-- Reached via form.html > join-the-broadcast.html submission flow, avoiding JavaScript dependency.
-
+Instead of using a modal, a standalone conformation page reinforces the site's dystopian rheme with a formal Ministry-style announcement. Upon subscribing, users are redirected to a responsive layout built with Bootstrap's grid and utility classes, where bold headings and satirical phrases mock automated state messaging. The page maintains accessibility via semantic HTML and ARIA attributes, and includes a persistent navigation bar and footer components for visual continuity. Styled with the same dark, high-contrast palette, it continues the tone of dark humour and institutional parody.
 <details>
-<summary>Mobile View</summary>
+<summary>Broadcast Confirmation - Subscription Complete</summary>
 
-![Mobile view - Join the Broadcast Page](assets/docs/join-the-broadcast-page-mobile.png)
-</details>
-
-<details>
-<summary>Desktop View</summary>
-
-![Desktop view - Join the Broadcast Page](assets/docs/join-the-broadcast-desktop.png)
+![Broadcast Confirmation Page on Mobile](docs/mobile-broadcast-confirmation.png)
+![Broadcast Confirmation Page on Desktop](docs/mobile-broadcast-confirmation.png)
 </details>
 
 ## Additional Pages
