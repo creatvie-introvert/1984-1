@@ -188,26 +188,12 @@ The footer is informative nd functional. It incldes key navigation links, social
 </details>
 
 ### Hero Section
-- The hero section introduces the site's satirical tone and central theme with a bold multi-line dark humour subheading, and lead paragraph followed by a prominent call-to-action (CTA).
-- Designed using Bootstrap's grid system with a mobile-first layout that stacks content vertically, and transitions to a two-column layout (lg and up) with text on the left and imagery on the right.
-- The CTA bullon is full-width on mobile, and auto-width on larger screens for responsiveness and accessibility.
-- The featured image (London skyline) is diplayed responsively using `.img-fluid` and has been optimised in both file format and resolution:
-  - Converted to WebP to reduce load time
-  - Served at 2x the display size to ensure sharp rendering on retina/high DPI displays
-  - Styled with a subtle grayscale and contrast filter, plus a soft yellow glow (box-shadow) to create a graphic novel aesthetic.
-- All elements are semantically structured, fully keyboard-accessible, and pass Lighthouse's contrast and responsive image checks.
-- HTML and CSS has been refactored for claritty, maintainability, and visual cohesion with the rest of the site.
-
+The hero section serves as the site's bold introduction, immediately establishing its satirical tone and dystopian theme. It features a prominent, multi-line heading with a subheading styled as a smaller `<small>` tag, delivering dark humour through phases like *"Now With Targeted Ads!"* Below this, a lead paragraph reinforces the parody with references to modern surveillance culture, setting the stage for the site's narrative. A clear call-to-action button (*"Welcome to London"*) is places beneath the text, styled as a large Bootstrap button that spans the full width on smaller screens `w-100` and adjusts to auto width on larger ones `w-md-auto` for responsiveness and accessibility. Structurally, the section is built using Bootstrap's grid system: a singlerow aligns the content vertically on mobile and transitions to a two-column ;ayout on larger viewports `col-12` and `col-ld-6`. The right-hand column contains an optimised `.img-fluid` image of a comic-style illustration of London's skyline, in .webp format for responsiveness and performance. The entire hero section is enclosed in a `<header>` element with `bg-dark` and `text-light` classes for high contrast, along with `py-5` padding and `section` for spacing and structural consistency.
 <details>
-<summary>Mobile Hero Section</summary>
+<summary>Hero Section - Mobile & Desktop Screen</summary>
 
-![Mobile Hero Section](assets/docs/hero-mobile.png)
-</details>
-
-<details>
-<summary>Desktop Hero Section</summary>
-
-![Desktop Hero Section](assets/docs/hero-desktop.png)
+![Hero Section on Mobile Screens](docs/mobile-hero.png)
+![Hero Section on Desktop Screens](docs/desktop-hero.png)
 </details>
 
 ### Website Intro - Citizen Briefing Document
