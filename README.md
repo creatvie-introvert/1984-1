@@ -137,14 +137,21 @@ The site is designed for users who want a thought-provoking yet entertaining way
   |`--alerts`|`CF382A` |Used for warning or error messages and helper text|
   |`--ctas-highlight`|`FFDD2D`|Button background, highlight accents, and hover states for interactive elements|
 
-
   ### Responsiveness
   To ensure the site worked effectively across all devices, I followed a **mobile-first approach**, starting with wireframes for small screens and scaling up to tablet and desktop.
 
   I used **Relume's layout library for inspiration** for designing my wireframes. All layouts were custom built and adapted to fit the tone, content, and style of 1984.1
 
   ### Images
-  > _add image design choices_
+  The imagery in 1984.1 plays a critical role in reinforcing the site's satirical tone and dystopian message. All images were selected or generated to resemble propaganda posters, government-issued warnings, and comic-style artwork that exaggerates modern anxieties.
+
+  **Design Intent**:
+  - **Style**: Stylised, high-contrast illustrations with bold lines and muted or limited colour palettes to evoke feelings of control, surveillance, and psychological strain.
+  - **Themes**: Each image aligns with a core theme - such as housing inequality, social isolation, or mass surveillance - and often includes exaggerated or surreal elements to heightn the satire.
+  - **Accessibility**: All images include descriptive `alt` text that communicates both the visual content and the satirical intent for screen reader users.
+  - **Optimisation**: Images are served in .webp format to balance visual quality and performance, keeping load times minimal across devices.
+
+  This approach ensures the visual content doesn't just decorate the site - it deepens the narrative and experience.
 
 ## Features
 ### Navigation
