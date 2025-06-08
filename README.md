@@ -276,12 +276,22 @@ Accessibiity testing was performed using [Lighthouse](https://developer.chrome.c
 
 ## Technologies Used
 ### Languages
+- HTML5
+- CSS3
+
 ### Libraries & Frameworks
+- Bootstrap
+- Font Awesome 6
+- Google Fonts
+
 ### Tools
-- Visual Studio: deveopment
-- Sora: for image generation
-- ChatGPT: for content creation
-- Squoosh: for image optimisation
+- Visual Studio Code
+- Git
+- GitHub
+- Lighthouse
+- [Sora](https://sora.chatgpt.com/explore): for image generation
+- [Squoosh](https://squoosh.app): for image optimisation
+- [Tailwind Image Alt Text Generator](https://www.tailwindapp.com/marketing/tools/image-alt-text-generator)
 
 ## Testing
 ### Bugs Fixed
