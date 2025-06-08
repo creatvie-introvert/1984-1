@@ -476,14 +476,14 @@ footer p {
 
 #surveillance-intro {
     position: relative;
-    background: url(../images/london-surveillance.webp) no-repeat center center fixed;
+    background: url(../images/london-surveillance.webp) no-repeat center center;
     background-size: cover;
     scroll-margin-top: 120px;
 }
 
 #surveillance-outro {
     position: relative;
-    background: url(../images/london-street.webp) no-repeat center center fixed;
+    background: url(../images/london-street.webp) no-repeat center center;
     background-size: cover;
     color: var(--primary-text);
     overflow: hidden;
@@ -492,28 +492,28 @@ footer p {
 
 #housing-intro {
     position: relative;
-    background: url(../images/housing-contrast.webp) no-repeat center top fixed;
+    background: url(../images/housing-contrast.webp) no-repeat center top;
     background-size: cover;
     scroll-margin-top: 120px;
 }
 
 #housing-outro {
     position: relative;
-    background: url(../images/no-dss.webp) no-repeat fixed;
+    background: url(../images/no-dss.webp) no-repeat;
     background-size: cover;
     background-position: 30% center;   
 }
 
 #community-intro {
     position: relative;
-    background: url(../images/community-spirit.webp) no-repeat center bottom fixed;
+    background: url(../images/community-spirit.webp) no-repeat center bottom;
     background-size: cover;
     scroll-margin-top: 120px;
 }
 
 #community-close {
     position: relative;
-    background: url(../images/anti-social.webp) no-repeat center center fixed;
+    background: url(../images/anti-social.webp) no-repeat center center;
     background-size: cover;
 }
 
@@ -544,13 +544,13 @@ footer p {
 
 .room-101-intro {
     position: relative;
-    background: url(../images/room101.webp) no-repeat center center fixed;
+    background: url(../images/room101.webp) no-repeat center center;
     background-size: cover;
 }
 
 #room-101-outro {
     position: relative;
-    background: url(../images/no-exit.webp) no-repeat center center fixed;
+    background: url(../images/no-exit.webp) no-repeat center center;
     background-size: cover;
 }
 
