@@ -64,10 +64,21 @@ h1, h2, h3, h4 {
     font-weight: normal;
 }
 
-h1 { font-size: 3.6rem; }      /* 36px */
-h2 { font-size: 3.2rem; }         /* 32px */
-h3 { font-size: 2rem; }      /* 20px */
-h4 { font-size: 1.8rem; }       /* 18px */
+h1 { 
+    font-size: 3.6rem; 
+}
+
+h2 { 
+    font-size: 3.2rem; 
+}         
+
+h3 { 
+    font-size: 2rem; 
+}      
+
+h4 { 
+    font-size: 1.8rem; 
+}      
 
 .section {
     padding: 3.2rem 2.4rem;
@@ -187,12 +198,10 @@ h4 { font-size: 1.8rem; }       /* 18px */
 .quote-mark i {
     font-size: 6.4rem;
     color: var(--ctas-highlights);
-    text-shadow: 0.2rem 0.2rem 0.4rem rgba(0, 0, 0, 0.3);    /* Glow for visibility */
+    text-shadow: 0.2rem 0.2rem 0.4rem rgba(0, 0, 0, 0.3); 
 }
 
-/* Section specific icon styles */
-#nav-tiles i,
-#lost-community i {
+#nav-tiles i, #lost-community i {
     color: var(--ctas-highlights);
 }
 
@@ -232,14 +241,12 @@ blockquote::before {
     opacity: 1 !important;
 }
 
-/* Helper text under inputs */
 .helper-text {
     color: var(--alerts);
-    font-size: 1.4rem;    /* 14px */
+    font-size: 1.4rem;    
     line-height: 1.4;
 }
 
-/* Label display */
 form label {
     display: block;
     margin-top: 2rem;
@@ -247,19 +254,16 @@ form label {
     font-weight: bold;
 }
 
-/* Specific signup form input override */
 #signup-form input.form-control {
     border: 0.1rem solid var(--ctas-highlights) !important;
     border-radius: 0;
     background-color: var(--cta-text) !important;
 }
 
-/* Email terms and conditions */
 #email-terms{
     color: var(--ctas-highlights);
 }
 
-/* Form layout helper classes */
 .image-column {
     display: flex;
     align-items: stretch;
@@ -280,7 +284,6 @@ form label {
     min-height: 100%;
 }
 
-/* Confirmation page styling */
 #form-confirmation i {
     color: var(--ctas-highlights);
 }
@@ -296,7 +299,6 @@ form label {
 
 /* ===== Hero Section Styles ===== */
 
-/* Hero image base styling */
 .hero-image {
     display: block;
     width: 100%;
@@ -306,16 +308,14 @@ form label {
     filter: grayscale(10%) contrast(1.1);
 }
 
-/* Hero background colour */
 #hero {
     background-color: var(--cta-text) !important;
 }
 
 /* ===== Nav Bar Styles ===== */
 
-/* Nav bar container */
 #navbar {
-    background-color: var(--page-bg) !important;   /* set bg-color */
+    background-color: var(--page-bg) !important; 
 }
 
 .logo {
@@ -324,15 +324,13 @@ form label {
     object-fit: contain;
 }
 
-/* Toggle button (hamburger for collapsed menu) */
-#navbar .navbar-toggler {
-    border-radius: 0;   /* remove Bootstraps default border-radius */
+.navbar-toggler {
+    border-radius: 0;  
     border: none;
     background-color: transparent;
     transition: color 0.3s ease-in-out;
 }
 
-/* Nav link styles */
 #navbar .nav-link {
     text-transform: uppercase;
     letter-spacing: 0.05rem;
@@ -344,7 +342,6 @@ form label {
     color: var(--ctas-highlights);
 }
 
-/* Active link styling */
 #navbar .active {
     text-decoration: underline;
 }
@@ -357,13 +354,11 @@ form label {
     margin-bottom: 1.6rem;
 }
 
-/* Footer text */
 footer p {
     color: var(--primary-text);
     margin-bottom: 1.6rem;
 }
 
-/* Social media icons */
 .social-links {
     margin-bottom: 2.4rem;
     display: flex;
@@ -381,7 +376,6 @@ footer p {
     color: var(--link-text);
 }
 
-/* Footer navigation links */
 .footer-nav {
     padding: 0;
     display: flex;
@@ -401,6 +395,7 @@ footer p {
 }
 
 /* ===== Newsletter Signup Section Styles ===== */
+
 #newsletter-signup .card {
     border: 0.1rem solid var(--ctas-highlights);
     color: var(--ctas-highlights);
@@ -441,18 +436,16 @@ footer p {
 
 /* ===== Global Utilty Styles for Pages ===== */
 
-/* Small heading used in banner intros */
 .heading-small {
     font-family: var(--font-body);
     font-size: 1.4rem;
     color: var(--primary-text);
 }
 
-/* Generic banner images used in introductory sections */
 .banner-card-img {
     width: 100%;
     height: 55rem;
-    object-fit: cover;      /* Ensures full image coverage whilst preserving aspect ratio */
+    object-fit: cover;      
 }
 
 /* ===== Reusable Intro/Outro Section Layouts */
@@ -524,7 +517,7 @@ footer p {
 .lost-community-card-container {
     display: grid;
     gap: 2.4rem;
-    grid-template-columns: 1fr;     /* Single column on mobile*/
+    grid-template-columns: 1fr;     
     justify-content: center;
     margin: 0 auto;
     max-width: 120rem;
@@ -539,7 +532,6 @@ footer p {
     box-shadow: 0 0 1rem rgba(255, 221, 45, 0.25);
 }
 
-/* Room 101 Styles */
 #room-101-intro {
     scroll-margin-top: 12rem;
 }
@@ -576,12 +568,11 @@ footer p {
 #everyday-surveillance li {
     display: flex;
     align-items: center;
-    gap: 0.8rem;       /* Space between icon and text */
+    gap: 0.8rem;       
     margin-left: 0;
     padding-left: 0;
 }
 
-/* Styled bullet point layout (used on page - Room 101) */
 .bullet-points {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr));
@@ -601,13 +592,11 @@ footer p {
 /* ===== Small Devices (≥577px) ===== */
 
 @media (min-width: 577px) {
-    /* Maintain image aspect ratio for better scaling on smaller screens */
     .bg-card-img {
         height: auto;
         aspect-ratio: 3 / 2;
     }
 
-    /* Set minimum height and centre content for the intro banners */
     .page-intro {
         min-height: 45rem;
         background-position: bottom center;
@@ -618,7 +607,6 @@ footer p {
         align-items: center;
     }
 
-    /* Centre and constrain page-intro text blocks */
     .surveillance-content, .housing-content, .community-content, .room-101-content {
         text-align: center;
         margin: 0 auto;
@@ -633,34 +621,36 @@ footer p {
 /* ===== Mediumm Devices(≥768px) ===== */
 
 @media (min-width: 768px) {
-    /* Scale up heading fonts sizes for better visual hierachy on tablets */
-    h1 { font-size: 5.6rem !important; }     /* 56px */
-    h2 { font-size: 4rem !important; }  /* 40px */
-    h3 { font-size: 2.4rem !important; }   /* 24px */
+    h1 { 
+        font-size: 5.6rem !important; 
+    }     
+    
+    h2 { 
+        font-size: 4rem !important; 
+    }  
+    
+    h3 { 
+        font-size: 2.4rem !important; 
+    }   
    
-    /* Adjust hero paragraph size for readability */
     .hero .lead {
-        font-size: 2rem;     /* 20px */
+        font-size: 2rem;     
     }
 
-    /* Resize banner images for better balance on medium screens */
     .banner-card-img {
         height: 38rem;
         object-fit: cover;
     }
 
-    /* Increase overlay padding for visual breathing */
     .card-img-overlay {
         padding: 3.2rem;
     }
 
-    /* Display outro section content side by side */
     .page-outro .container {
         display: flex;
         flex-direction: row;
     }
 
-    /* Allow both the heading and the paragraph to share horizontal space */
     .page-outro h2, .page-outro p {
         flex: 1;
     }
@@ -688,13 +678,11 @@ footer p {
 
 /* ===== Large Devices (≥992px) ===== */
 @media (min-width: 992px) {
-    /* Scale up hero image dimensions for full-width impact */
     .hero-image{
         width: 100%; 
         min-height: 55rem; 
     }
 
-    /* Centre and pad Citizen Briefing overlay content */
     .bg-dystopian {
         display: flex;
         flex-direction: column;
@@ -705,12 +693,10 @@ footer p {
         padding: 0 9.6rem;
     }
 
-    /* Slightly increase paragraph text in dystopian sections */
     .bg-dystopian p {
         font-size: 1.8rem;
     }
 
-    /* Scale featured surveillance section image for desktop */
     #everyday-surveillance img {
         height: 40rem;
         object-fit: cover;
@@ -737,7 +723,6 @@ footer p {
         max-height: 100%;
     }
 
-    /* Align room 101 banner content side by side */
     header .room-101-intro {
         display: flex;
         flex-direction: column;
@@ -745,12 +730,10 @@ footer p {
         align-items: center;
     }
 
-    /* Display bullet points in two-column layout */
     .bullet-points {
         grid-template-columns: repeat(2, 1fr);
     }
 
-    /* Increase font size of bullet point text for readability  */
     .bullet-points small {
         font-size: 1.6rem;
     }
