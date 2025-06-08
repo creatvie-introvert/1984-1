@@ -188,7 +188,7 @@ The footer is informative nd functional. It incldes key navigation links, social
 </details>
 
 ### Hero Section
-The hero section serves as the site's bold introduction, immediately establishing its satirical tone and dystopian theme. It features a prominent, multi-line heading with a subheading styled as a smaller `<small>` tag, delivering dark humour through phases like *"Now With Targeted Ads!"* Below this, a lead paragraph reinforces the parody with references to modern surveillance culture, setting the stage for the site's narrative. A clear call-to-action button (*"Welcome to London"*) is places beneath the text, styled as a large Bootstrap button that spans the full width on smaller screens `w-100` and adjusts to auto width on larger ones `w-md-auto` for responsiveness and accessibility. Structurally, the section is built using Bootstrap's grid system: a singlerow aligns the content vertically on mobile and transitions to a two-column ;ayout on larger viewports `col-12` and `col-ld-6`. The right-hand column contains an optimised `.img-fluid` image of a comic-style illustration of London's skyline, in .webp format for responsiveness and performance. The entire hero section is enclosed in a `<header>` element with `bg-dark` and `text-light` classes for high contrast, along with `py-5` padding and `section` for spacing and structural consistency.
+The hero section serves as the site's bold introduction, immediately establishing its satirical tone and dystopian theme. It features a prominent, multi-line heading with a subheading styled as a smaller `<small>` tag, delivering dark humour through phases like *"Now With Targeted Ads!"* Below this, a lead paragraph reinforces the parody with references to modern surveillance culture, setting the stage for the site's narrative. A clear call-to-action button (*"Welcome to London"*) is places beneath the text, styled as a large Bootstrap button that spans the full-width on smaller screens `w-100` and adjusts to auto width on larger ones `w-md-auto` for responsiveness and accessibility. Structurally, the section is built using Bootstrap's grid system: a singlerow aligns the content vertically on mobile and transitions to a two-column ;ayout on larger viewports `col-12` and `col-ld-6`. The right-hand column contains an optimised `.img-fluid` image of a comic-style illustration of London's skyline, in .webp format for responsiveness and performance. The entire hero section is enclosed in a `<header>` element with `bg-dark` and `text-light` classes for high contrast, along with `py-5` padding and `section` for spacing and structural consistency.
 <details>
 <summary>Hero Section - Mobile & Desktop Screen</summary>
 
@@ -197,25 +197,12 @@ The hero section serves as the site's bold introduction, immediately establishin
 </details>
 
 ### Website Intro - Citizen Briefing Document
-- Presents the website'z satirical premise with a strong narrative hook and dystopian visual.
-- Built with a full-width **Bootstrap card** and a `.card-img-overlay` layout.
-- Features a stylised heading, structured prargraphs, and a strong closing message - all centrally aligned using Flexbox.
-- Background image (WebP) is in a graphic novel style, and fully responsive using `object-fit: cover;` - scales appropiately via media queries.
-- Padding and text alignment are optimised across breakpoints for readability and emphasis.
-- Semantic HTML structure enhances accessibility, with descriptive aria-label set on the card for screen readers.
-- Visual and typographic consistency maintained with the rest of the homepage to preseve tone.
-- Designed to retail both legibility and narrative impact across devices without introducing layout shifts.
-
+The "Citizen Briefing Document" introduces the site's core satire by delivering a bold narratve hook wrapped in a visually dystopian aesthetic. Built using a full-width Bootstrap card with a `.card-img-overlay`, it overlays centrally aligned content atop a responsive WebP background styled to resemble comic book art. The layout is powered by Flexbox for vertical centring, with structured paragraphs and a stylised heading that escalates in tone toward a strong closing alignment statement. Responsive padding and alignment ensure readability across screen sizes, while `aria-label` enhances accessibility for screen readers. The section maintains consistency with the site's visual language, using sematic HTML and typographics cohesion to deliver a memorable, legible, and technically sound introduction.
 <details>
-<summary>Mobile Citizen Briefing Document</summary>
+<summary>Citizen Briefing Document - Introduction Section</summary>
 
-![Mobile Citizen Briefing](assets/docs/citizen-briefing-mobile.png)
-</details>
-
-<details>
-<summary>Desktop Citizen Briefing Document</summary>
-
-![Desktop Citizen Briefing](assets/docs/citizen-briefing-desktop.png)
+![Citizen Briefing on Mobile Screens](docs/mobile-citizen-briefing.png)
+![Citizen Briefing on Desktop Screens](docs/desktop-citizen-briefing.png)
 </details>
 
 ### Main Navigation Grid
