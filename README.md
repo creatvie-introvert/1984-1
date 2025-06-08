@@ -247,89 +247,32 @@ Instead of using a modal, a standalone conformation page reinforces the site's d
 ### Report a Violation - Confirmation Page
 After submitting a violation, users are redirected to a Ministry-branded confirmation page that continues the site's satirical voice with mock government language and absurd acknoledgements such as "Silently judged" and "Used in a future training presentation." Built using Bootstrap's grid and utility classes, the layout is fully responsive and ensures a seamless visual and structural transition from the main form page. Custom icons, accessible structure, and dark humour combine to deliver a memorable UX. The page includes semantically structured HTML, a consitent footer and navigation, and high-contrast styling for compliance with accessibility standards - all designed to reinforce the parody of civic surveillance culture.
 <details>
-<summary>Broadcast Confirmation - Subscription Complete</summary>
+<summary>Report a Violation - Form Sent Confirmation</summary>
 
 ![Report a Violation Confirmation Page on Mobile](docs/mobile-report-a-violation-confirmation.png)
 ![Report a Violation Confirmation Page on Desktop](docs/desktop-report-a-violation-confirmation.png)
 </details>
 
-## Additional Pages
-### Surveillance Page
-The surveillance pgae introduces the theme of digital surveillance in modern-day London, blending satire and critical commentary.
-
-- **Intro Section (`#surveillance-intro`)**:
-  - Features a full-width banner image with dark overlay using the `.page-intro` class for reusability.
-  - Content is vertically and horizontally centred using Flexbox with a constrained max-width for readability.
-  - Overlay includes a satirical subheading, main heading, and descriptive paragraph styled reponsively.
-  - The background image is optimised and served via WebP format.
-
-- **Main Content**:
-  - Uses a combination of checkist-style lists, paragraphs, and images to highlight surveillance touchpoints in daily life.
-  - List-items are styled with text and font awesome graphics to, using flexbox to maintain consistency.
-
-- **Outro Section (`.page-outro`)**:
-  - A dramatic closing scene styled with a dark overlay and flex layout.
-  - The heading and paragraph are displayed side by side on tablet and desktop, and stacked on smaller screens.
-  - Includes a stylised message about *"community enagement"* and the illusion of freedom under constant observation.
-
-- **Responsiveness**:
-  - Fully responsive layout with optimised typography, background positioning, and media query handling.
-  - Reusable utility classes (`.page-intro`, `.page-ouro`) reduce code duplication across similar pages.
-
-- **Accessibility & Performance**:
-  - Uses semantic HTML, keyboard-accessible structure, alt-text, and appropiate colour contrast.
-  - Performance is enhanced with compressed images and efficient CSS.
-
+### 404 Error Page
+The 404 error page delivers a satirical response to navigation failure, styled to resemble a government denial. A full-width graphic of static-filled monitors anchors the visual theme, with a bold red "404" message and comic-styling. The layout is fully responsive using Bootstrap's grid and spacing utilities, ensuring a consistent experience across devices. Clear headings and dual call-to-action buttons invite the user to either return to the homepage or report the missing content as a violation - reinforcing the site's ongoing narrative of bureaucratic contel. The page includes semantic HTML, accessible markup, and reuses shared navigation and footer components to maintain continuity with the rest of the site.
 <details>
-<summary>Mobile View</summary>
+<summary>404 Page - Page Not Found</summary>
 
-![Mobile view - Surveillance Page](assets/docs/suveillance-mobile-page.html.png)
+![404 Error Page on Mobile](docs/mobile-404-page.png)
+![404 Error Page on Desktop](docs/desktop-404-page.png)
 </details>
 
-<details>
-<summary>Desktop View</summary>
+### Accessibility
+The 1984.1 website was developed with accessibility in mind to ensure it remains inclusive and usable for all visitors, including those relying on assistive technologies. Key considerations include:
+- **Semantic HTML**: All sections use meaningful tags`<header>`, `<main>`, `<section>`, `<nav>`, etc. to enhance document structure and screen reader navigation.
+- **ARIA attributes**: `aria-label`, `aria-describedby`, and `aria-labeledby` have been used where appropiate to provide additional context to assistive technologies, especially in interactive and image-based areas.
+- **Keyboard Navigation**: All interactive elements - including buttons, navigation links, and forms - are fully operable via keyboard alone, supporting tabbing and focus states.
+- **Colour Contrast**: The site uses a high-contrast colour scheme (yellow on black or light grey on dark backgrounds) to meet or exceed WCAG AA contrast ratios for text and interactive elements.
+- **Focus Styles**: Custom focus styles have been implemented to ensure users can clearly identify which element is in focus during navigation.
+- **Responsive Layouts**: Content adjusts appropiatey across screen sizes without requiring horizontal scrolling or loss of functionality.
+- **Alt Text and Descriptions**: All images include descriptive `alt` text or `aria-labels`, particularly important for satire-based graphics that communicate key meaning.
 
-![Mobile view - Surveillance Page](assets/docs/surveillance-desktop-page.png)
-</details>
-
-### Housing Page
-The Housing page exposes the satirical horros of Londonn's rental market, parodying the bleak realities of overpriced, under-maintained living conditions with an Orwellian twist.
-
-**Key Features**:
-
-- **Hero Section with Custom Background**
-
-  Background image added via custom CSS with a dark overlay to maintain contrast and focus on the text. This section introduces the tone with: "Where Rent Is High and Morals Are Low."
-
-- **"Comfort, Cost, and Dignity Don't Coexist" Section**
-
-  This section features a centred heading and subheading, highlighting the impossible trade-offs of renting in London. This is followed by a **4-card grid** satirising various housing struggles:
-    - *Your Landlord Is Not You Friend*
-    - *Ownership? Good One*
-    - *Living Conditions: Rustic Misery*
-    - *Renting: A Subscription to Exist*
-  Each card includes a humourous image in sepia-toned graphic style with accompanying text and alt attributes for accessibility. The grid layout adapts resposively for mobile, tablet, and desktop using Bootstrap's grid system.
-
-- **Closing Statement**
-
-  A styised concluding paragraph with dry wit, and a background image with dark overlay, styled with custom CSS.
-
-- **Accessibility & Responsiveness**
-  - Fully mobile-first responsive, created using Bootstrap.
-  - Semantic HTML, ARIA attributes, and descriptive `alt` text included.
-  - Colour contrast and image scaling test acrss screen sizes.
-
-<details>
-<summary>Mobile View</summary>
-
-![Mobile view - Housing Page](assets/docs/housing-pg-mobile.png)
-</details>
-
-<details>
-<summary>Desktop View</summary>
-
-![Desktop view - Housing Page](assets/docs/housing-pg-desktop.png)
-</details>
+Accessibiity testing was performed using [Lighthouse](https://developer.chrome.com/docs/lighthouse/overview/), keyboard-only navigation, and screen reader checks to verify usability across various user needs.
 
 ## Technologies Used
 ### Languages
