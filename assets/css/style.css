@@ -48,7 +48,7 @@ ul {
 
 small, .helper-text {
     font-size: 1.4rem;
-    color: var(--alerts);
+    color: var(--primary-text);
     line-height: 1.4;
 }
 
@@ -450,7 +450,7 @@ footer p {
 .heading-small {
     font-family: var(--font-body);
     font-size: 1.4rem;
-    color: var(--primary-text);
+    color: var(--primary-text) !important;
 }
 
 .banner-card-img {
