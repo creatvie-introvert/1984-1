@@ -244,6 +244,15 @@ Instead of using a modal, a standalone conformation page reinforces the site's d
 ![Broadcast Confirmation Page on Desktop](docs/mobile-broadcast-confirmation.png)
 </details>
 
+### Report a Violation - Confirmation Page
+After submitting a violation, users are redirected to a Ministry-branded confirmation page that continues the site's satirical voice with mock government language and absurd acknoledgements such as "Silently judged" and "Used in a future training presentation." Built using Bootstrap's grid and utility classes, the layout is fully responsive and ensures a seamless visual and structural transition from the main form page. Custom icons, accessible structure, and dark humour combine to deliver a memorable UX. The page includes semantically structured HTML, a consitent footer and navigation, and high-contrast styling for compliance with accessibility standards - all designed to reinforce the parody of civic surveillance culture.
+<details>
+<summary>Broadcast Confirmation - Subscription Complete</summary>
+
+![Report a Violation Confirmation Page on Mobile](docs/mobile-report-a-violation-confirmation.png)
+![Report a Violation Confirmation Page on Desktop](docs/desktop-report-a-violation-confirmation.png)
+</details>
+
 ## Additional Pages
 ### Surveillance Page
 The surveillance pgae introduces the theme of digital surveillance in modern-day London, blending satire and critical commentary.
