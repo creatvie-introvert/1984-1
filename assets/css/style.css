@@ -134,6 +134,12 @@ h4 {
     display: block;
 }
 
+.container-xl {
+    max-width: 144rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 /* ===== Card Styles ===== */
 
 .card {
