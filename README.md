@@ -126,7 +126,16 @@ The site is designed for users who want a thought-provoking yet entertaining way
   ### Colour Scheme
   A limited 5-colour palette was used to create a stark, modernist aesthetic. The colours were chosen to reflect both the physical urban environment of London and the emotional tone of passive control. I used [Coolers](https://coolors.co/) to explore combinations and define a cohesive colour palette.
 
-  ![Colour Scheme](assets/docs/colours.png)
+  ![Colour Scheme](docs/1984-1-colours.png)
+
+  |CSS Variable|Hex Code|Usage Description|
+  |------------|--------|-----------------|
+  |`--page-bg` |`1E1E1E`  |Background colour of the page|
+  |`--primary-text`|`EAEAEA`|Default body text colour|
+  |`--cta-text`|`000000`  |Call-to-action text colour; used in buttons and highlighted UI elements|
+  |`--link-text`|`5FAFFF` |Standard link colour|
+  |`--alerts`|`CF382A` |Used for warning or error messages and helper text|
+  |`--ctas-highlight`|`FFDD2D`|Button background, highlight accents, and hover states for interactive elements|
 
 
   ### Responsiveness
