@@ -15,6 +15,10 @@
 
 /* ===== Global Base Styles ===== */
 
+html {
+    scroll-behavior: smooth;
+}
+
 /* Font styles */
 body {
     font-family: var(--font-body) !important;
