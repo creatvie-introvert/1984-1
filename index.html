@@ -847,9 +847,14 @@
 
                 <!-- Image -->
                 <div class="lost-community-image">
-                    <img src="assets/images/lost-community.webp"
-                        alt="Comic-style panels of a lonely man navigating city life—working late, scrolling alone, and surrounded by others but isolated—highlighting urban disconnection."
-                        class="img-fluid rounded shadow community-img">
+                    <picture>
+                        <source
+                            srcset="assets/images/lost-community-400.webp 400w, assets/images/lost-community-500.webp 500w, assets/images/lost-community-600.webp 600w, assets/images/lost-community-800.webp 800w"
+                            type="image/webp">
+                            <img src="assets/images/lost-community.webp"
+                            alt="Comic-style panels of a lonely man navigating city life—working late, scrolling alone, and surrounded by others but isolated—highlighting urban disconnection."
+                            class="img-fluid rounded shadow community-img">
+                    </picture>
                 </div>
             </div>
         </section>
