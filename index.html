@@ -536,9 +536,17 @@
 
                     <!-- Image column -->
                     <div class="col-12 col-md-6 px-0">
-                        <img src="assets/images/digital-overload.webp"
-                            alt="Person sitting on a bed in a dark room, looking anxiously at their phone. Behind them, a showdy figure with a clipboard looms. Floating screens show words like anxiety, depression, loneliness, a meme, and food orders, creating a sense of digital overwhelm."
-                            class="img-fluid w-100">
+                        <picture>
+                            <source 
+                                srcset="assets/images/digital-overload-400.webp 400w, assets/images/digital-overload-600.webp 600 w, assets/images/digital-overload-800.webp 800w"
+                                sizes="(max-width: 600px) 100vw, 50vw"
+                                type="image/webp">
+                            <img srcset="assets/images/digital-overload.webp"
+                                alt="Person sitting on a bed in a dark room, looking anxiously at their phone. Behind them, a showdy figure with a clipboard looms. Floating screens show words like anxiety, depression, loneliness, a meme, and food orders, creating a sense of digital overwhelm."
+                                class="img-fluid w-100"
+                                loading="lazy"
+                                decoding="async">
+                        </picture>
                     </div>
                 </div>
 
