@@ -296,19 +296,15 @@ Accessibiity testing was performed using [Lighthouse](https://developer.chrome.c
 ## Testing
 ### Bugs Fixed
 
-| Bug Description                                  | Solution Implemented                                                                 |
-|--------------------------------------------------|----------------------------------------------------------------------------------------|
-| Logo displayed twice in navbar                  | Removed duplicate markup causing the second logo to appear.                          |
-| Mobile navigation layout broken                 | Adjusted Bootstrap grid and spacing to stack elements correctly on small screens.    |
-| Improper image aspect ratio (Lighthouse error)  | Added `aspect-ratio` and `object-fit` via media queries to maintain proportions.     |
-| Low-resolution image served                     | Re-exported hero image in WebP format at a higher resolution (1200x800).             |
-| Footer links misaligned on medium screens       | Used responsive columns and alignment utilities to correct layout.                   |
-| Social icons stacked vertically                 | Implemented flex layout with gap to align social icons horizontally.                 |
-| Font import blocking render                     | Replaced CSS `@import` with HTML `<link>` and added `preconnect` hints.              |
-| Contrast accessibility issues                   | Changed text and link colors to meet WCAG 2.1 contrast ratio standards.              |
-|Eliminate render-blocking resources|Optimised Google Fonts Loading, defer all script loading, preload Bootstrap CSS file and custom CSS file|
-|Properly size images|Applied `img-fluid w-100`, and updated sizes, width, and height attributes to allow responsive scaling|
-|Carousel buttons not scrolling|Updated the `data-bs-target` on the button to ensure they matched the `id`|
+|Bug ID|Issue|Location|Status|Solution|
+|------|-----|--------|------|--------|
+|001|"Report a Violation" link on scrolling to the correct section|Navigation Button|Fixed|Checked the href value and corrected the target ID.|
+|002|All navbar and footer links on "Join the Broadcast" page|`join-the-broadcast.html`|Fixed|Updated all anchor links to match correct section IDs.|
+|003|"Submit Another Report" button links to homepage instead of the form|Confirmation Page|Fixed|Update button path ot point to the correct section.|
+|004|Multiple `<h1>` tags on homepage|index.html|Fixed| Changed extra `<h1>` elements to `<h2>` for proper hierachy.|
+|005|Low contrast on small yellow and red text|Throughout the site|Fixed|Updated colour classes to use body text colour for better accessibility.|
+|006|Image performance issues flagged by Lighthouse|Hero and section images|Fixed|Resized images, used srcset, and `<picture>` with WebP + preload optimisations.|
+|007|Broken url|index.html footer|Fixed|Updated href values to point to the correct section IDs.|
  
 
 ### Responsiveness Tests
