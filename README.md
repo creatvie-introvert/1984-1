@@ -405,6 +405,24 @@ The table below outlines the features tested, along with a description and the s
 |Back to Top Functionality|Return to top when navigating long pages|Use anchor links or scroll manually|Focus returns to top smoothly|
 
 #### Accessibility Testing
+This project was tested using [WAVE - Web Accessibility Evaluation Tool](https://wave.webaim.org/)
+
+**Summary:**
+- 0 accessibility errors
+- 2 alerts noted (see below)
+
+<details>
+<summary>WAVE Report</summary>
+
+![WAVE report showing 0 errors and 2 alert](docs/wave.png)
+<details>
+
+**Alert Details**
+1. **Redundant Link**
+A logo and a navigation link both lead to the homepage. This is intentional for user clarity and branding.
+2. **Noscript Element**
+`<noscript>` tag present for when JavaSCript is disabled, including intentionally.
+
 #### Lighthouse Testing
 Performance testing was carried out using Lighthouse in Chrome DevTools.
 
