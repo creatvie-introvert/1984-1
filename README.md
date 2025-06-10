@@ -368,7 +368,7 @@ As part of the final checks for this project, both HTML and CSS files were valid
 
 ![style.css](docs/css-checker.png)
 </details>
-
+<br>
 **Note**: The following *warnings* were flagged by the CSS calidator:
 - **Line 1**: Imported style sheets are not checked in direct input and file upload modes.
 - **Lines 24, 60, 162, 170, 455**: "Due to their dynamic nature, CSS variables are not currently statically checked."
@@ -376,6 +376,18 @@ As part of the final checks for this project, both HTML and CSS files were valid
 These warnings are for **reference only**, and **do not indicate errors**. All core CSS was validated.
 
 ### User Story Testing
+|User Story|Result|
+|----------|------|
+|As a user, I want to navigate the site with ease so that I can find content without friction or confusion.|Navigation bar is sticky, links scroll smoothly to sections, intuitive button renaming.|
+|As a user, I want the background to be clean and minimal so I can focus on the content without distractions.|Background is a dark, neutral colour with high contrast text and minimal visual clutter, ensuring content remans the focal point.|
+|As a user, I want to understand how Orwell’s themes relate to today’s society so I can make meaningful connections between fiction and reality.|Satirical copy throughout the site connects Orwellian ideas to modern life, especially in surveillance and housing sections.|
+|As a user, I want to explore Orwell’s themes in a humorous and engaging way so that learning feels enjoyable.|Satirical tone maintained across al copy, icons, labels, and CTAs.|
+|As a user, I want the site to prompt reflection on my relationship with technology and authority so I can analyse my own reliance from a new perspective in a light-hearted way.|Infographics and examples in Surveillance section highlight tech overreach in a humorous way.|
+|As a user, I want use the site as a creative teaching or research tool so I can explain or explore 1984 in a different format.|Site is structured into digestible secions, accessible language, and responsive design for presentation.|
+|As a user, I want the design to include thoughtful visuals so I can see how design enhances storytelling and concept delivery.|Each section is paired with a stylised illustration, matching the theme and tone of the content.| 
+
+ 
+
 #### Feature Testing
 #### Accessibility Testing
 #### Lighthouse Testing
