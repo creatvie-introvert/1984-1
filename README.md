@@ -386,9 +386,24 @@ These warnings are for **reference only**, and **do not indicate errors**. All c
 |As a user, I want use the site as a creative teaching or research tool so I can explain or explore 1984 in a different format.|Site is structured into digestible secions, accessible language, and responsive design for presentation.|
 |As a user, I want the design to include thoughtful visuals so I can see how design enhances storytelling and concept delivery.|Each section is paired with a stylised illustration, matching the theme and tone of the content.| 
 
- 
-
 #### Feature Testing
+To ensure that all core interactive and visual features of the website function as intended, I conducted manual testing across devices, screen sizes, and user interaction paths. Each feature was tested for expected behaviou, responsiveness, and accessibility.
+
+The table below outlines the features tested, along with a description and the steps taken to verify their functionality.
+
+|Feature|Description|Steps|Expected Outcome|
+|-------|-----------|-----|----------------|
+|Navigation Bar Toggle|Hamburger menu toggles navigation links on smaller screens|Click hamburger icon on mobile viewport|Menu opens/closes correctly, links visible|
+|Hero Button|Scrolls to main intro section|Click "Welcome to London" CTA|Page scrolls smmothly ro #intro-section|
+|Indoctrination Tiles|Each card links to a relevant section|Click on tile links|Page scrolls smoothly to relevant content section|
+|Testimonial Carousel|Slides through citizen testimonials|Click arrows or wait for autoplay|Slides rotate with animations and accessible controls|
+|Newsletter Signup|Email form collects user input and redirects to confirmation page|Enter email, click "Join the Broadcast"|Redirects to confirmation page|
+|Report a Violation Form|User submits form to simulate reporting a violation|Fill out all form fields and submit|Confirmation page loads with mock case ID and message|
+|Responsive Layout|Site layout adapts to different screen sizes|View site on various devices or use browser dev tools|Layout adjusts appropiately across breakpoints|
+|Dark Theme and Colour Contrast|Text and UI elements have sufficient contrast on dark background|Visually inspect site across sctions| All text meets WCAG contrast standards|
+|Image Responsiveness|Images change size and resolution based on screen| Resize browser or inspect image sources|Appropiate image resolution loaded, layout maintained|
+|Back to Top Functionality|Return to top when navigating long pages|Use anchor links or scroll manually|Focus returns to top smoothly|
+
 #### Accessibility Testing
 #### Lighthouse Testing
 Performance testing was carried out using Lighthouse in Chrome DevTools.
