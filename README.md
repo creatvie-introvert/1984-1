@@ -306,7 +306,7 @@ Accessibiity testing was performed using [Lighthouse](https://developer.chrome.c
 |006|Image performance issues flagged by Lighthouse|Hero and section images|Fixed|Resized images, used srcset, and `<picture>` with WebP + preload optimisations.|
 |007|Broken url|index.html footer|Fixed|Updated href values to point to the correct section IDs.|
 |008|Missing `preload` for hero image|`<head>` in `index.html`|Fixed|Added `<link rel="preload">` for the hero image|
-|009|Render-blocking Google Fonts|`<head>` in index|Fixed|
+|009|Render-blocking Google Fonts|`<head>`|Fixed|Moved Google fonts from `<link>` in `<head> to `@import` in CSS|
  
 
 ### Responsiveness Tests
