@@ -337,8 +337,44 @@ All breakpoints were assessed for smooth layout flow, clear typography, and unin
 xl|Desktop Monito (1440px)|Good|Good|Good|Good|All layout sections scale correctly without overflow or distortion|
 
 ### Code Validation
+As part of the final checks for this project, both HTML and CSS files were validated using W3C's online validation tools.The following results were recorded:
+
 #### HTML
+
+|File|Tool Used|Outcome|
+|----|---------|-------|
+|`index.html`|[W3C Markup Validator](https://validator.w3.org)|Pass|
+|`404.html`|[W3C Markup Validator](https://validator.w3.org)|Pass|
+|`form-confirmation.html`|[W3C Markup Validator](https://validator.w3.org)|Pass|
+|`join-the-broadcast-confirmation.html`|[W3C Markup Validator](https://validator.w3.org)|Pass|
+
+<details>
+<summary>HTML Validation Reports (All Pages)</summary>
+
+![index.html](docs/index-html-checker.png)
+![404.html](docs/404-html-checker.png)
+![form-confirmation.html](docs/form-confirmation-html-checker.png)
+![join-the-broadcast-confirmation.html](docs/join-the-broadcast-confirmation-html-checker.png)
+</details>
+
 #### CSS
+
+|File|Tool Used|Outcome|
+|----|---------|-------|
+|style.css|[W3C css validator](https://jigsaw.w3.org/css-validator/)|Pass|
+
+<details>
+<summary>CSS Validation Report</summary>
+
+![style.css](docs/css-checker.png)
+</details>
+
+**Note**: The following *warnings* were flagged by the CSS calidator:
+- **Line 1**: Imported style sheets are not checked in direct input and file upload modes.
+- **Lines 24, 60, 162, 170, 455**: "Due to their dynamic nature, CSS variables are not currently statically checked."
+
+These warnings are for **reference only**, and **do not indicate errors**. All core CSS was validated.
+
 ### User Story Testing
 #### Feature Testing
 #### Accessibility Testing
