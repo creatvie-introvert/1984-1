@@ -285,6 +285,7 @@ Accessibiity testing was performed using [Lighthouse](https://developer.chrome.c
 - Google Fonts
 
 ### Tools
+- Figma
 - Visual Studio Code
 - Git
 - GitHub
@@ -292,6 +293,8 @@ Accessibiity testing was performed using [Lighthouse](https://developer.chrome.c
 - [Sora](https://sora.chatgpt.com/explore): for image generation
 - [Squoosh](https://squoosh.app): for image optimisation
 - [Tailwind Image Alt Text Generator](https://www.tailwindapp.com/marketing/tools/image-alt-text-generator)
+- [Am I Responsive](https://ui.dev/amiresponsive)
+- [Responsive Design Checker](https://responsivedesignchecker.com)
 
 ## Testing
 ### Bugs Fixed
@@ -307,9 +310,32 @@ Accessibiity testing was performed using [Lighthouse](https://developer.chrome.c
 |007|Broken url|index.html footer|Fixed|Updated href values to point to the correct section IDs.|
 |008|Missing `preload` for hero image|`<head>` in `index.html`|Fixed|Added `<link rel="preload">` for the hero image|
 |009|Render-blocking Google Fonts|`<head>`|Fixed|Moved Google fonts from `<link>` in `<head> to `@import` in CSS|
- 
 
 ### Responsiveness Tests
+To ensure optimal performance and usablitlity  across devices, i tested the 1984.1 website using a **mobile-first approach**. Tests were performed in Google' Chrome's DevTools and Safari, and Firefox and Edge using simulated devices. I also verified responsiveness using **Am I Responsive**, **Responsive Design Checker**, and **actual mobile devices** when possible.
+
+Throughout testing, I checked for consistency in:
+- Navigation functionality and placement
+- Text readability and layout alignment
+- Image responsiveness and scaling
+- Section spacing and stacking behaviour
+- Interactive elements and scroll links
+
+All breakpoints were assessed for smooth layout flow, clear typography, and uninterrupted user experience. Key layout adjustments and bug fixes were applied where necessary.
+
+**Responsive Design Test Results**
+|Screen Size|Device Tested|Navigation|Element Alignment|Content Layout|Functionality|Notes|
+|-----------|-------------|----------|-----------------|--------------|-------------|-----|
+|sm|iPhone SE (375px)|Good|Good|Good|Good|Adjusted hero font size and CTA spacing|
+|sm|Pixel 5 (393px)|Good|Good|Good|Good| |
+|sm|iPhone 13 Mini (390px)|Good|Good|Good|Good| |
+|md|iPad Mini (768px)|Good|Good|Good|Good| |
+|md|Galaxy Tab S7(800px)|Good|Good|Good|Good| |
+|md|iPad Air (820px)|Good|Good|Good|Good| |
+|lg|iPad Pro (1024px)|Good|Good|Good|Good|Header spacing verified|
+|xl|Macbook Air (1280px)|Good|Good|Good|Good| |
+xl|Desktop Monito (1440px)|Good|Good|Good|Good|All layout sections scale correctly without overflow or distortion|
+
 ### Code Validation
 #### HTML
 #### CSS
