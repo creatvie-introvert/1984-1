@@ -415,7 +415,7 @@ This project was tested using [WAVE - Web Accessibility Evaluation Tool](https:/
 <summary>WAVE Report</summary>
 
 ![WAVE report showing 0 errors and 2 alerts](docs/wave.png)
-<details>
+</details>
 
 **Alert Details**
 1. **Redundant Link**
@@ -441,12 +441,42 @@ Additionally, all website colour combinations were tested for WCAG 2.1 AA comlia
 ![#5FAFFF on #000000 – 9.06:1](docs/contrast-5fafff-000000.png)
 ![#EAEAEA on #000000 – 17.45:1](docs/contrast-eaeaea-000000.png)
 ![#FFDD2D on #000000 – 15.63:1](docs/contrast-ffdd2d-000000.png)
-<details>
+</details>
 
 #### Lighthouse Testing
-Performance testing was carried out using Lighthouse in Chrome DevTools.
+The site was tested using [Chrome Dev Tools Lighthouse](https://developer.chrome.com/docs/devtools/) to evaluate the overall quality and performance of the site. The report evaluates:
+  - **Performance** - how quickly the site loads and responds
+  - **Accessibility** - how usable the site is for people using assistive technologies
+  - **Best Practices** - adherence to modern development standards
+  - **SEO** - whether the site is optimised for search engines
+
+<details>
+<summary>View Lighthouse Reports</summary>
+
+![Mobile Report](docs/lighthouse-report-mobile.png)
+![Desktop Report](docs/lighthouse-report-desktop.png)
+</details>
 
 #### Browser Testing
+The site was tested for browser compatibity and performance across a variety of platform using both [BrowserStack](https://www.browserstack.com/live) and manually.
+
+Manual Testing:<br>
+The site was manually tested on the following real devices:
+- Chrome (Desktop - macOS)
+- Safari (Desktop - macOS)
+- Safari (iPad - iPadOS)
+- Safari (iPhone iOS)
+No layout shifts, functionality errors, or rendering issues were observed on any tested device.
+
+BrowserStack Testing:<br>
+Using BrowserTestig, the site was tested on Mozilla Firefox and Microsoft Edge.
+  Summary of Resuts:
+  - All layouts rendered consistently across browsers.
+  - Navigation, buttons, and form elements all behaved as expected.
+  - No display or functionality issues were encountered.
+  - Fonts, spacing, and responsive behavour remained consistent.
+
+The website passed visual and functional checks across all major modern browsers.
 
 ## Deployment
 ### How to Deploy the Project
