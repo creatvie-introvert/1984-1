@@ -134,7 +134,7 @@ The site is designed for users who want a thought-provoking yet entertaining way
   |`--primary-text`|`EAEAEA`|Default body text colour|
   |`--cta-text`|`000000`  |Call-to-action text colour; used in buttons and highlighted UI elements|
   |`--link-text`|`5FAFFF` |Standard link colour|
-  |`--alerts`|`CF382A` |Used for warning or error messages and helper text|
+  |`--alerts`|`DC5C50` |Used for warning or error messages and helper text|
   |`--ctas-highlight`|`FFDD2D`|Button background, highlight accents, and hover states for interactive elements|
 
   ### Responsiveness
@@ -414,7 +414,7 @@ This project was tested using [WAVE - Web Accessibility Evaluation Tool](https:/
 <details>
 <summary>WAVE Report</summary>
 
-![WAVE report showing 0 errors and 2 alert](docs/wave.png)
+![WAVE report showing 0 errors and 2 alerts](docs/wave.png)
 <details>
 
 **Alert Details**
@@ -422,6 +422,26 @@ This project was tested using [WAVE - Web Accessibility Evaluation Tool](https:/
 A logo and a navigation link both lead to the homepage. This is intentional for user clarity and branding.
 2. **Noscript Element**
 `<noscript>` tag present for when JavaSCript is disabled, including intentionally.
+
+Additionally, all website colour combinations were tested for WCAG 2.1 AA comliance using [WebAIM's Contrast Checker](https://webaim.org/resources/contrastchecker/). The following combinations were used throughout the site and all passed for normal text, large text, and non-text elements.
+
+|Combination|Foreground|Backgroud|Ratio|Result|
+|-----------|----------|---------|-----|------|
+|#FFFFFF on #1E1E1E|White|Dark Grey|16.67:1|Pass|
+|#EAEAEA on #1E1E1E|Pale Grey|Dark Grey|13.85:1|Pass|
+|#5FAFFF on #000000|Sky Blue|Black|9.06:1|Pass|
+|#EAEAEA on #000000|Pale Grey|Black|17.45:1|Pass|
+|#FFDD2d on #000000|Yellow|Black|15.63:1|
+
+<details>
+<summary>View Screenshots</summary>
+
+![#FFFFFF on #1E1E1E -16.67:1](docs/contrast-eaeaea-1e1e1e.png)
+![#EAEAEA on #1E1E1E – 13.85:1](docs/contrast-ffffff-1e1e1e.png)
+![#5FAFFF on #000000 – 9.06:1](docs/contrast-5fafff-000000.png)
+![#EAEAEA on #000000 – 17.45:1](docs/contrast-eaeaea-000000.png)
+![#FFDD2D on #000000 – 15.63:1](docs/contrast-ffdd2d-000000.png)
+<details>
 
 #### Lighthouse Testing
 Performance testing was carried out using Lighthouse in Chrome DevTools.
