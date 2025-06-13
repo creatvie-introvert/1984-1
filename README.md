@@ -508,4 +508,25 @@ To clone the project:
   - Change the current working directory to the location where you want to clone the directory
   - Type git clone, and paste the URL you copied earlier
   - Press Enter to create your local clone/copy.
+
 ## Credits
+
+- **Design, develvopment and content:**
+  - Designed and built independently by Leanne Bedeau-Rogers
+- **Code inspiration and learning sources:**
+  - [Bootstrap Documentation](https://getbootstrap.com/docs/5.3/getting-started/introduction/) - For responsive grid layout and UI components
+  - [W3Schools](https://www.w3schools.com) and [MDN Web Docs](https://developer.mozilla.org/en-US/) - Syntac references and HTML/CSS best practices
+  - [StackOverflow](https://stackoverflow.com/questions) - Solutions for specific implementation issues
+- **Design references and tools:**
+  - [Coolors](https://coolors.co) - Used to generate the site's colour palette
+  - [Google Fonts](https://fonts.google.com) - For *Unica One* and *Inter* typefaces
+  - [Font Awesome](https://fontawesome.com) - Icon library used throughout the site
+  - Figma - For layout, typography planning, and contrast testing
+  - [WebAIM Color Contrast Checker](https://webaim.org) - To ensure WCAG-compliant contrast ratios
+- Testing tools:
+  - [WAVE by WebAIM](https://wave.webaim.org) - Accessibility validation
+  - [Lighthouse](https://developer.chrome.com/docs/lighthouse/overview) - Performance, SEO and best bractices
+  - [BrowserStack](https://www.browserstack.com) - Cross-browser testing
+  - [Am I Responsive?](https://ui.dev/amiresponsive) - For generating responsive device mockup
+- **Visual content:**
+  - All images were generated using [Sora](https://sora.chatgpt.com/), OpenAI's image model
