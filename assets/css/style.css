@@ -59,9 +59,9 @@ small, .helper-text {
 h1, h2, h3, h4 {
     font-family: var(--font-heading) !important;
     text-transform: uppercase;
-    letter-spacing: 0.05rem;
+    letter-spacing: 1px;
     margin-bottom: 1.6rem;
-    font-weight: normal;
+    font-weight: 500;
 }
 
 h1 { 
@@ -87,7 +87,6 @@ h4 {
 .site-intro-banner {
     background-color: var(--cta-text);
     font-size: 1.4rem;
-    letter-spacing: 0.05rem;
 }
 
 /* ===== Button & CTA styles ===== */
@@ -97,7 +96,7 @@ h4 {
     background-color: var(--ctas-highlights);   
     color: var(--cta-text) !important;    
     font-weight: 700;       
-    letter-spacing: 0.05rem;     
+    letter-spacing: 1px;     
     padding: 1.2rem 2.4rem;   
     border: none;     
     border-radius: 0;  
@@ -115,7 +114,7 @@ h4 {
     background-color: var(--cta-text);
     color: var(--ctas-highlights);
     font-weight: 600;
-    letter-spacing: 0.05rem;
+    letter-spacing: 1px;
     padding: 1.2rem 2.4rem;
     border: 0.1rem solid var(--ctas-highlights);
     border-radius: 0;
@@ -275,7 +274,7 @@ form label {
     display: block;
     margin-top: 2rem;
     margin-bottom: 0.8rem;
-    font-weight: bold;
+    font-weight: 700;
 }
 
 #signup-form input.form-control {
@@ -357,7 +356,7 @@ form label {
 
 #navbar .nav-link {
     text-transform: uppercase;
-    letter-spacing: 0.05rem;
+    letter-spacing: 1px;
     transition: color 0.2s ease-in-out;
     padding: 0.8rem 1.6rem;
 }
@@ -411,7 +410,7 @@ footer p {
 
 .footer-nav li a {
     font-size: 1.8rem;
-    letter-spacing: 0.05rem;
+    letter-spacing: 1px;
     text-transform: uppercase;
     transition: color 0.2s ease-in-out;
 }
