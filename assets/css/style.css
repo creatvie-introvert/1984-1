@@ -106,7 +106,7 @@ h4 {
 .primary-cta:hover, .primary-cta:focus {
     background-color: transparent;   
     color: var(--ctas-highlights) !important;  
-    border: 0.1rem solid var(--ctas-highlights);   
+    border: 1px solid var(--ctas-highlights);   
 }
 
 .secondary-cta {
@@ -116,7 +116,7 @@ h4 {
     font-weight: 600;
     letter-spacing: 1px;
     padding: 1.2rem 2.4rem;
-    border: 0.1rem solid var(--ctas-highlights);
+    border: 1px solid var(--ctas-highlights);
     border-radius: 0;
     transition: all 0.2s ease-in-out;
 }
@@ -145,9 +145,9 @@ h4 {
 
 .visually-hidden {
     position: absolute;
-    width: 0.1rem;
-    height: 0.1rem;
-    margin: -0.1rem;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
     overflow: hidden;
     clip: rect(0 0 0 0);
     white-space: nowrap;
@@ -165,7 +165,7 @@ h4 {
 }
 
 #nav-tiles .card, #housing-crisis .card, #lost-community .card, .quote-card, figure {
-    border: 0.1rem solid var(--ctas-highlights);
+    border: 1px solid var(--ctas-highlights);
 }
 
 .card-headings, .card-title {
@@ -222,7 +222,7 @@ h4 {
 .quote-mark i {
     font-size: 6.4rem;
     color: var(--ctas-highlights);
-    text-shadow: 0.2rem 0.2rem 0.4rem rgba(0, 0, 0, 0.3); 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); 
 }
 
 #nav-tiles i, #lost-community i {
@@ -244,7 +244,7 @@ blockquote::before {
     width: 100%;
     background-color: var(--cta-text);
     color: var(--primary-text);
-    border: 0.1rem solid var(--ctas-highlights);
+    border: 1px solid var(--ctas-highlights);
     border-radius: 0;
     padding: 0.8rem;
 }
@@ -278,7 +278,7 @@ form label {
 }
 
 #signup-form input.form-control {
-    border: 0.1rem solid var(--ctas-highlights) !important;
+    border: 1px solid var(--ctas-highlights) !important;
     border-radius: 0;
     background-color: var(--cta-text) !important;
 }
@@ -313,7 +313,7 @@ form label {
 
 .confirmation-meta {
     background-color: var(--cta-text);
-    border: 0.1rem solid var(--ctas-highlights);
+    border: 1px solid var(--ctas-highlights);
 }
 
 .ministry-seal {
@@ -422,7 +422,7 @@ footer p {
 /* ===== Newsletter Signup Section Styles ===== */
 
 #newsletter-signup .card {
-    border: 0.1rem solid var(--ctas-highlights);
+    border: 1px solid var(--ctas-highlights);
     color: var(--ctas-highlights);
 }
 
@@ -556,7 +556,7 @@ footer p {
     width: 100%;
     height: auto;
     object-fit: cover;
-    border: 0.1rem solid var(--ctas-highlights);
+    border: 1px solid var(--ctas-highlights);
     border-radius: 0 !important;
     box-shadow: 0 0 1rem rgba(255, 221, 45, 0.25);
 }
