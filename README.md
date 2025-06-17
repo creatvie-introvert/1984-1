@@ -9,7 +9,7 @@
 
 The site is designed for users who want a thought-provoking yet entertaining way to reflect on how dystopian concepts have been repackaged as everyday conveniences in the digital age. It encourages critical thinking about technology, privacy, and media - without taking itself too seriously.
 
-### 🖼️ Site Preview
+### Site Preview
 ![Mockup](docs/1984-1-mockup.png)
 
 ### [Contents](#)
@@ -279,20 +279,20 @@ Accessibiity testing was performed using [Lighthouse](https://developer.chrome.c
 
 ## Technologies Used
 ### Languages
-- HTML5
-- CSS3
+- [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
+- [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
 
 ### Libraries & Frameworks
-- Bootstrap
-- Font Awesome 6
-- Google Fonts
+- [Bootstrap](https://getbootstrap.com)
+- [Font Awesome](https://fontawesome.com)
+- [Google Fonts](https://fonts.google.com)
 
 ### Tools
-- Figma
-- Visual Studio Code
-- Git
-- GitHub
-- Lighthouse
+- [Figma](https://www.figma.com)
+- [Visual Studio Code](https://code.visualstudio.com)
+- [Git](https://git-scm.com/doc)
+- [GitHub](https://github.com)
+- [Lighthouse](https://developer.chrome.com/docs/lighthouse/overview)
 - [Sora](https://sora.chatgpt.com/explore): for image generation
 - [Squoosh](https://squoosh.app): for image optimisation
 - [Tailwind Image Alt Text Generator](https://www.tailwindapp.com/marketing/tools/image-alt-text-generator)
