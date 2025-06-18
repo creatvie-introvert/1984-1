@@ -333,6 +333,7 @@ form label {
 
 #hero {
     background-color: var(--cta-text) !important;
+    scroll-margin-top: 12rem;
 }
 
 /* ===== Nav Bar Styles ===== */
