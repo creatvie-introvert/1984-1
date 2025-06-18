@@ -21,9 +21,9 @@ html {
 }
 
 body {
-    font-family: var(--font-body) !important;
     background-color: var(--page-bg);
     color: var(--primary-text);
+    font-family: var(--font-body) !important;    
     font-size: 1.6rem;
     line-height: 1.6;
 }
@@ -42,8 +42,8 @@ a:hover, a:focus {
 }
 
 ul {
-    padding-left: 0;
     list-style: none;
+    padding-left: 0;
 }
 
 small, .helper-text {
@@ -480,7 +480,8 @@ footer p {
 /* ===== Reusable Intro/Outro Section Layouts */
 
 .page-intro, .page-outro {
-    position: relative;     
+    position: relative; 
+    background-size: cover;    
 }
 
 .page-intro::before, .page-outro::before {
@@ -499,46 +500,34 @@ footer p {
 /* ===== Page Specific backgrounds ===== */
 
 #surveillance-intro {
-    position: relative;
     background: url(../images/london-surveillance.webp) no-repeat center center;
-    background-size: cover;
     scroll-margin-top: 12rem;
 }
 
 #surveillance-outro {
-    position: relative;
     background: url(../images/london-street.webp) no-repeat center center;
-    background-size: cover;
     color: var(--primary-text);
     overflow: hidden;
     z-index: 0;
 }
 
 #housing-intro {
-    position: relative;
     background: url(../images/housing-contrast.webp) no-repeat center top;
-    background-size: cover;
     scroll-margin-top: 12rem;
 }
 
 #housing-outro {
-    position: relative;
     background: url(../images/no-dss.webp) no-repeat;
-    background-size: cover;
     background-position: 30% center;   
 }
 
 #community-intro {
-    position: relative;
     background: url(../images/community-spirit.webp) no-repeat center bottom;
-    background-size: cover;
     scroll-margin-top: 12rem;
 }
 
-#community-close {
-    position: relative;
+#community-outro {
     background: url(../images/anti-social.webp) no-repeat center center;
-    background-size: cover;
 }
 
 /* ===== Lost Community Section Styles ===== */
